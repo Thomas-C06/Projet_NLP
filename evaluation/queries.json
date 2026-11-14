@@ -1,0 +1,322 @@
+[
+  {
+    "query_id": "v01",
+    "split": "validation",
+    "preferences": {
+      "description": "I would like an emotional science-fiction story about people trying to understand an unfamiliar intelligence.",
+      "themes": "communication and human connection",
+      "mood": "thoughtful and moving",
+      "preferred_genres": [
+        "Science Fiction"
+      ]
+    }
+  },
+  {
+    "query_id": "v02",
+    "split": "validation",
+    "preferences": {
+      "description": "I am looking for a light comedy about friendship and getting a new start in life.",
+      "mood": "warm and optimistic",
+      "max_runtime": 120
+    }
+  },
+  {
+    "query_id": "v03",
+    "split": "validation",
+    "preferences": {
+      "description": "I want a tense investigation in which a detective faces difficult moral choices.",
+      "themes": "justice and moral responsibility",
+      "narrative_style": "a mystery with gradual revelations"
+    }
+  },
+  {
+    "query_id": "v04",
+    "split": "validation",
+    "preferences": {
+      "description": "I would like an animated adventure about a young person discovering a strange world.",
+      "preferred_genres": [
+        "Animation"
+      ],
+      "mood": "imaginative and hopeful"
+    }
+  },
+  {
+    "query_id": "v05",
+    "split": "validation",
+    "preferences": {
+      "description": "I want a quiet drama about family members learning to forgive each other.",
+      "themes": "family and reconciliation",
+      "narrative_style": "slow and character-driven"
+    }
+  },
+  {
+    "query_id": "v06",
+    "split": "validation",
+    "preferences": {
+      "description": "I am looking for an exciting journey through space with a strong sense of discovery.",
+      "setting": "outer space",
+      "preferred_genres": [
+        "Science Fiction"
+      ]
+    }
+  },
+  {
+    "query_id": "v07",
+    "split": "validation",
+    "preferences": {
+      "description": "I would like a romantic story set in a city with a playful atmosphere.",
+      "preferred_genres": [
+        "Romance"
+      ],
+      "mood": "charming and light",
+      "max_runtime": 130
+    }
+  },
+  {
+    "query_id": "v08",
+    "split": "validation",
+    "preferences": {
+      "description": "I want a historical story about ambition and the personal cost of power.",
+      "setting": "a historical period",
+      "themes": "ambition and power"
+    }
+  },
+  {
+    "query_id": "v09",
+    "split": "validation",
+    "preferences": {
+      "description": "I would like an adventure where ordinary people must cooperate to survive.",
+      "themes": "cooperation and survival",
+      "excluded_genres": [
+        "Horror"
+      ]
+    }
+  },
+  {
+    "query_id": "v10",
+    "split": "validation",
+    "preferences": {
+      "description": "I am looking for a psychological story with an unusual narrative and uncertain memories.",
+      "narrative_style": "nonlinear storytelling and unreliable perspective",
+      "themes": "memory and identity"
+    }
+  },
+  {
+    "query_id": "t01",
+    "split": "test",
+    "preferences": {
+      "description": "I want a moving story about a machine and a human forming a meaningful relationship.",
+      "themes": "technology and loneliness",
+      "preferred_genres": [
+        "Science Fiction"
+      ]
+    }
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "preferences": {
+      "description": "I would like a reflective film about humans making contact with beings they cannot easily understand.",
+      "themes": "language and communication",
+      "mood": "contemplative"
+    }
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "preferences": {
+      "description": "I am looking for a funny and hopeful story about unlikely friends changing each other's lives.",
+      "themes": "friendship",
+      "mood": "uplifting"
+    }
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "preferences": {
+      "description": "I want to watch a dark crime story about the consequences of revenge.",
+      "preferred_genres": [
+        "Crime"
+      ],
+      "themes": "revenge and consequences"
+    }
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "preferences": {
+      "description": "I would like a gentle animated story about belonging and growing up.",
+      "preferred_genres": [
+        "Animation"
+      ],
+      "mood": "gentle and comforting",
+      "max_runtime": 120
+    }
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "preferences": {
+      "description": "I want a film that follows a family dealing with grief and finding a way forward.",
+      "themes": "grief and family",
+      "mood": "emotional but hopeful"
+    }
+  },
+  {
+    "query_id": "t07",
+    "split": "test",
+    "preferences": {
+      "description": "I am looking for a fast-paced action adventure involving a dangerous escape.",
+      "preferred_genres": [
+        "Action"
+      ],
+      "narrative_style": "fast-paced and tense",
+      "max_runtime": 120
+    }
+  },
+  {
+    "query_id": "t08",
+    "split": "test",
+    "preferences": {
+      "description": "I would like a story set in the countryside about a person changing their way of life.",
+      "setting": "rural countryside",
+      "narrative_style": "character-driven"
+    }
+  },
+  {
+    "query_id": "t09",
+    "split": "test",
+    "preferences": {
+      "description": "I want an imaginative fantasy with a journey and a close group of companions.",
+      "preferred_genres": [
+        "Fantasy"
+      ],
+      "themes": "loyalty and friendship"
+    }
+  },
+  {
+    "query_id": "t10",
+    "split": "test",
+    "preferences": {
+      "description": "I am looking for a suspenseful film where the truth changes as the story progresses.",
+      "narrative_style": "mystery and unexpected revelations",
+      "excluded_genres": [
+        "Horror"
+      ]
+    }
+  },
+  {
+    "query_id": "t11",
+    "split": "test",
+    "preferences": {
+      "description": "I would like a romantic comedy about two people learning to understand each other.",
+      "preferred_genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "mood": "lighthearted",
+      "max_runtime": 120
+    }
+  },
+  {
+    "query_id": "t12",
+    "split": "test",
+    "preferences": {
+      "description": "I want a film about an artist whose ambition creates conflict in their personal life.",
+      "themes": "artistic ambition and sacrifice",
+      "mood": "intense"
+    }
+  },
+  {
+    "query_id": "t13",
+    "split": "test",
+    "preferences": {
+      "description": "I am looking for a historical drama about ordinary people living through a major conflict.",
+      "setting": "a historical conflict",
+      "preferred_genres": [
+        "Drama"
+      ]
+    }
+  },
+  {
+    "query_id": "t14",
+    "split": "test",
+    "preferences": {
+      "description": "I would like a science-fiction story questioning what makes a person human.",
+      "themes": "identity and consciousness",
+      "preferred_genres": [
+        "Science Fiction"
+      ]
+    }
+  },
+  {
+    "query_id": "t15",
+    "split": "test",
+    "preferences": {
+      "description": "I want a warm film about a community coming together to help someone.",
+      "themes": "community and solidarity",
+      "excluded_genres": [
+        "Horror"
+      ],
+      "max_runtime": 120
+    }
+  },
+  {
+    "query_id": "t16",
+    "split": "test",
+    "preferences": {
+      "description": "I would like a challenging story with several connected timelines and perspectives.",
+      "narrative_style": "nonlinear and multiple viewpoints",
+      "themes": "fate and personal choices"
+    }
+  },
+  {
+    "query_id": "t17",
+    "split": "test",
+    "preferences": {
+      "description": "I am looking for a very short adventure with a hopeful ending.",
+      "preferred_genres": [
+        "Adventure"
+      ],
+      "mood": "hopeful",
+      "max_runtime": 60
+    }
+  },
+  {
+    "query_id": "t18",
+    "split": "test",
+    "preferences": {
+      "description": "I want an intense survival story in an isolated place, with very few characters.",
+      "setting": "an isolated environment",
+      "themes": "survival",
+      "excluded_genres": [
+        "Comedy"
+      ]
+    }
+  },
+  {
+    "query_id": "t19",
+    "split": "test",
+    "preferences": {
+      "description": "I would like a funny family story that feels positive and easy to follow.",
+      "preferred_genres": [
+        "Comedy",
+        "Family"
+      ],
+      "narrative_style": "linear and accessible",
+      "max_runtime": 100
+    }
+  },
+  {
+    "query_id": "t20",
+    "split": "test",
+    "preferences": {
+      "description": "I want a serious story about the relationship between personal freedom and social rules.",
+      "themes": "freedom and social pressure",
+      "mood": "thought-provoking",
+      "excluded_genres": [
+        "Horror"
+      ]
+    }
+  }
+]

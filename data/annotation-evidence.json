@@ -1,0 +1,3897 @@
+[
+  {
+    "tmdb_id": 27205,
+    "source_keywords": [
+      "loss of lover",
+      "dream",
+      "kidnapping",
+      "sleep",
+      "subconsciousness",
+      "heist",
+      "redemption",
+      "female hero"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.27898597717285156,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.29283785820007324,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 157336,
+    "source_keywords": [
+      "saving the world",
+      "artificial intelligence",
+      "father son relationship",
+      "single parent",
+      "nasa",
+      "expedition",
+      "wormhole",
+      "space travel",
+      "famine",
+      "black hole",
+      "dystopia",
+      "race against time",
+      "quantum mechanics",
+      "spaceship",
+      "space",
+      "rescue",
+      "family relationships",
+      "farmhouse",
+      "robot",
+      "astronaut",
+      "scientist",
+      "father daughter relationship",
+      "single father",
+      "farmer",
+      "space station",
+      "imax",
+      "astrophysics",
+      "zero gravity",
+      "courage",
+      "time paradox",
+      "relativity"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.30875861644744873,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.38286909461021423,
+    "setting_evidence": [
+      "space travel",
+      "dystopia",
+      "spaceship"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 550,
+    "source_keywords": [
+      "support group",
+      "dual identity",
+      "nihilism",
+      "rage and hate",
+      "insomnia",
+      "dystopia",
+      "violence"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.34860384464263916,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3475262522697449,
+    "setting_evidence": [
+      "dystopia"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 120,
+    "source_keywords": [
+      "elves",
+      "dwarves",
+      "orcs",
+      "middle-earth (tolkien)",
+      "hobbit",
+      "based on novel",
+      "mountains",
+      "fireworks",
+      "castle",
+      "volcano",
+      "password",
+      "death of a friend",
+      "uncle",
+      "mirror",
+      "wizard",
+      "sword and sorcery"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.25259169936180115,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.18291297554969788,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 13,
+    "source_keywords": [
+      "vietnam veteran",
+      "hippie",
+      "mentally disabled",
+      "running",
+      "based on novel",
+      "vietnam",
+      "vietnam war",
+      "friendship",
+      "love",
+      "family relationships",
+      "bully",
+      "mother son relationship",
+      "military",
+      "hugging",
+      "shrimping",
+      "wounded soldier",
+      "flashback",
+      "park bench",
+      "amputee"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.24854084849357605,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.34306854009628296,
+    "setting_evidence": [
+      "vietnam veteran",
+      "vietnam",
+      "vietnam war"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 105,
+    "source_keywords": [
+      "clock tower",
+      "car race",
+      "terrorist",
+      "delorean",
+      "lightning",
+      "guitar",
+      "plutonium",
+      "sports car",
+      "inventor",
+      "journey in the past",
+      "time travel",
+      "race against time",
+      "partner",
+      "misfit",
+      "mad scientist",
+      "fish out of water",
+      "teenage love",
+      "destiny",
+      "hidden identity",
+      "odd couple",
+      "escapade",
+      "disorder",
+      "chases and races",
+      "love and romance",
+      "teenage life",
+      "misfit partners",
+      "changing the past or future",
+      "getting home",
+      "inventions and discoveries"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.23720458149909973,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2768760323524475,
+    "setting_evidence": [
+      "changing the past or future"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 862,
+    "source_keywords": [
+      "jealousy",
+      "toy",
+      "boy",
+      "friendship",
+      "friends",
+      "rivalry",
+      "boy next door",
+      "new toy",
+      "toy comes to life"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2756355106830597,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.22492370009422302,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 264660,
+    "source_keywords": [
+      "dancing",
+      "artificial intelligence",
+      "distrust",
+      "isolation",
+      "technology",
+      "manipulation",
+      "friendship",
+      "deception",
+      "laboratory",
+      "robot",
+      "power outage",
+      "surveillance camera",
+      "consciousness",
+      "existentialism",
+      "lockdown",
+      "philosophical",
+      "robot human relationship",
+      "turing test",
+      "cybernetics"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.34287989139556885,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.32914072275161743,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 244786,
+    "source_keywords": [
+      "jazz",
+      "obsession",
+      "conservatory",
+      "music teacher",
+      "new york city",
+      "violence",
+      "montage",
+      "drummer",
+      "public humiliation",
+      "jazz band",
+      "young adult",
+      "music school"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.22231361269950867,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.1987946331501007,
+    "setting_evidence": [
+      "new york city"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 152601,
+    "source_keywords": [
+      "artificial intelligence",
+      "computer",
+      "love",
+      "loneliness",
+      "transhumanism",
+      "heartbreak",
+      "near future",
+      "singularity",
+      "bittersweet"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.35619381070137024,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.4263381063938141,
+    "setting_evidence": [
+      "near future"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 129,
+    "source_keywords": [
+      "witch",
+      "parents kids relationship",
+      "magic",
+      "twilight",
+      "darkness",
+      "village and town",
+      "bath house",
+      "pig",
+      "ghost world",
+      "biology",
+      "train",
+      "amusement park",
+      "yokai",
+      "japanese mythology",
+      "anime"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.31685662269592285,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.32882577180862427,
+    "setting_evidence": [
+      "village and town"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 194,
+    "source_keywords": [
+      "paris",
+      "love triangle",
+      "ghost train",
+      "sex-shop",
+      "shyness",
+      "montmartre",
+      "daughter",
+      "garden gnome",
+      "journey round the world",
+      "photography"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.28608059883117676,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3814195990562439,
+    "setting_evidence": [
+      "paris"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 346,
+    "source_keywords": [
+      "japan",
+      "samurai",
+      "peasant",
+      "looting",
+      "rice",
+      "fencing",
+      "village",
+      "moral ambiguity",
+      "battle",
+      "practice",
+      "16th century"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.18353068828582764,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.31857720017433167,
+    "setting_evidence": [
+      "japan",
+      "village",
+      "16th century"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 658,
+    "source_keywords": [
+      "secret organization",
+      "secret intelligence service",
+      "nuclear radiation",
+      "fort knox",
+      "aston martin",
+      "secret lab",
+      "kentucky",
+      "gas attack",
+      "airplane",
+      "british secret service",
+      "duringcreditsstinger"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.16251152753829956,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.22157061100006104,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 11,
+    "source_keywords": [
+      "android",
+      "galaxy",
+      "hermit",
+      "death star",
+      "lightsaber",
+      "jedi",
+      "rescue mission",
+      "empire",
+      "rebellion",
+      "planet",
+      "smuggler",
+      "the force",
+      "space opera",
+      "galactic war",
+      "stormtrooper",
+      "totalitarianism"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.16977950930595398,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.18497851490974426,
+    "setting_evidence": [
+      "planet"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 1891,
+    "source_keywords": [
+      "rebel",
+      "android",
+      "asteroid",
+      "space battle",
+      "snow storm",
+      "space colony",
+      "spaceship",
+      "lightsaber",
+      "jedi",
+      "good vs evil",
+      "rebellion",
+      "the force",
+      "space opera",
+      "stormtrooper",
+      "wookie",
+      "jedi master",
+      "jedi training",
+      "droid"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1498715877532959,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.1923062801361084,
+    "setting_evidence": [
+      "spaceship"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 603,
+    "source_keywords": [
+      "saving the world",
+      "artificial intelligence",
+      "man vs machine",
+      "philosophy",
+      "prophecy",
+      "martial arts",
+      "self sacrifice",
+      "fight",
+      "insurgence",
+      "virtual reality",
+      "dystopia",
+      "truth",
+      "cyberpunk",
+      "woman director",
+      "messiah",
+      "gnosticism"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2631787061691284,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3344908356666565,
+    "setting_evidence": [
+      "dystopia"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 155,
+    "source_keywords": [
+      "dc comics",
+      "crime fighter",
+      "secret identity",
+      "scarecrow",
+      "sadism",
+      "chaos",
+      "gotham city",
+      "vigilante",
+      "joker",
+      "superhero",
+      "based on comic book",
+      "tragic hero",
+      "organized crime",
+      "criminal mastermind",
+      "district attorney",
+      "imax",
+      "super villain",
+      "super powers",
+      "batman"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.23264259099960327,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2879529595375061,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 630,
+    "source_keywords": [
+      "witch",
+      "adolescence",
+      "based on novel",
+      "secret identity",
+      "clock",
+      "dream",
+      "lion",
+      "tornado",
+      "scarecrow",
+      "musical",
+      "crow",
+      "music",
+      "kansas",
+      "classic",
+      "imaginary land",
+      "cowardliness",
+      "sepia color"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3701373338699341,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.32109108567237854,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 173,
+    "source_keywords": [
+      "diving",
+      "ocean",
+      "submarine",
+      "jules verne",
+      "captain",
+      "atlantis",
+      "deep sea",
+      "war ship",
+      "diving suit",
+      "harpoon",
+      "ship",
+      "war",
+      "scuba diving",
+      "underwater",
+      "scuba",
+      "captain nemo",
+      "giant  squid"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3220570683479309,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2805294692516327,
+    "setting_evidence": [
+      "ocean",
+      "underwater"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 62,
+    "source_keywords": [
+      "moon",
+      "jupiter",
+      "artificial intelligence",
+      "man vs machine",
+      "technology",
+      "super computer",
+      "human being",
+      "space travel",
+      "space mission",
+      "moon base",
+      "astronaut",
+      "evolution",
+      "monolith",
+      "space station"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3463609218597412,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.25375592708587646,
+    "setting_evidence": [
+      "space travel"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 329,
+    "source_keywords": [
+      "exotic island",
+      "dna",
+      "paleontology",
+      "tyrannosaurus rex",
+      "triceratops",
+      "brontosaurus",
+      "electric fence",
+      "island",
+      "dinosaur",
+      "amusement park",
+      "theme park",
+      "jurassic park"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3427242040634155,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.31976431608200073,
+    "setting_evidence": [
+      "exotic island",
+      "island"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 19995,
+    "source_keywords": [
+      "culture clash",
+      "future",
+      "space war",
+      "space colony",
+      "society",
+      "space travel",
+      "futuristic",
+      "romance",
+      "space",
+      "alien",
+      "tribe",
+      "alien planet",
+      "cgi",
+      "marine",
+      "soldier",
+      "battle",
+      "love affair",
+      "anti war",
+      "power relations",
+      "mind and soul",
+      "3d"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.37576723098754883,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.32366132736206055,
+    "setting_evidence": [
+      "future",
+      "space travel",
+      "alien planet"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 408,
+    "source_keywords": [
+      "poison",
+      "witch",
+      "becoming an adult",
+      "sadness",
+      "queen",
+      "attempted murder",
+      "dying and death",
+      "appearance",
+      "princess",
+      "candlelight vigil",
+      "snow white"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.30063575506210327,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.23050004243850708,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 3170,
+    "source_keywords": [
+      "forest",
+      "coming of age",
+      "best friend",
+      "loss of loved one"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3669321537017822,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.39047473669052124,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 13187,
+    "source_keywords": [
+      "holiday",
+      "christmas"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.16849979758262634,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.19516730308532715,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 149,
+    "source_keywords": [
+      "saving the world",
+      "total destruction",
+      "megacity",
+      "street gang",
+      "underground",
+      "general",
+      "stadium",
+      "experiment",
+      "atomic bomb",
+      "mutation",
+      "dystopia",
+      "army",
+      "cyberpunk",
+      "anime",
+      "motorcycle gangs"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1680241972208023,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2645709812641144,
+    "setting_evidence": [
+      "dystopia"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 8587,
+    "source_keywords": [
+      "loss of parents",
+      "wild boar",
+      "uncle",
+      "shaman",
+      "redemption",
+      "king",
+      "scar",
+      "hyena",
+      "meerkat"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.24486830830574036,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.19969025254249573,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 14160,
+    "source_keywords": [
+      "age difference",
+      "central and south america",
+      "balloon",
+      "animation",
+      "floating in the air",
+      "duringcreditsstinger",
+      "exploring"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3829694390296936,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.35344958305358887,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 150540,
+    "source_keywords": [
+      "dream",
+      "cartoon",
+      "imaginary friend",
+      "animation",
+      "family",
+      "moving",
+      "kids",
+      "unicorn",
+      "duringcreditsstinger",
+      "3d",
+      "emotions"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.4561929702758789,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.45129090547561646,
+    "setting_evidence": [
+      "Growing up can be a bumpy road, and it's no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 3078,
+    "source_keywords": [
+      "miami",
+      "reference to the big bad wolf",
+      "reporter"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.28474682569503784,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2480931282043457,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 239,
+    "source_keywords": [
+      "chicago",
+      "witness",
+      "musician",
+      "mafia",
+      "cross dressing",
+      "band",
+      "spats",
+      "all girl band",
+      "st. valentine's day massacre",
+      "sugar",
+      "valentine's day",
+      "dressing"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.21710330247879028,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.27228039503097534,
+    "setting_evidence": [
+      "chicago"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 935,
+    "source_keywords": [
+      "usa president",
+      "general",
+      "cold war",
+      "strategic air command",
+      "nuclear missile",
+      "war room",
+      "bomber pilot",
+      "nuclear weapons",
+      "ex nazi",
+      "doomsday device",
+      "absurdism"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.19590716063976288,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.1281193196773529,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 762,
+    "source_keywords": [
+      "holy grail",
+      "monk",
+      "scotland yard",
+      "swordplay",
+      "camelot",
+      "round table",
+      "chapter",
+      "aggression by animal",
+      "knight",
+      "king arthur",
+      "wedding reception",
+      "midnight movie",
+      "monty python",
+      "knights of the round table",
+      "anarchic comedy"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.17685653269290924,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.21961915493011475,
+    "setting_evidence": [
+      "scotland yard"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 293660,
+    "source_keywords": [
+      "anti hero",
+      "mercenary",
+      "marvel comic",
+      "superhero",
+      "based on comic book",
+      "breaking the fourth wall",
+      "aftercreditsstinger",
+      "duringcreditsstinger",
+      "self healing"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1671060025691986,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3196854889392853,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 654,
+    "source_keywords": [
+      "murder",
+      "suspense",
+      "union",
+      "dock",
+      "longshoreman",
+      "pigeon"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.23085233569145203,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.19767659902572632,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 595,
+    "source_keywords": [
+      "black people",
+      "based on novel",
+      "brother sister relationship",
+      "becoming an adult",
+      "isolation",
+      "arbitrary law",
+      "socially deprived family",
+      "tree house",
+      "wrong accusal",
+      "farm worker",
+      "intolerance",
+      "exclusion",
+      "court case",
+      "defence",
+      "right and justice",
+      "court",
+      "child"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.20053863525390625,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.31662052869796753,
+    "setting_evidence": [
+      "In a small Alabama town in the 1930s, scrupulously honest and highly respected lawyer, Atticus Finch puts his career on the line when he agrees to represent Tom Robinson, a black man accused of rape."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 238,
+    "source_keywords": [
+      "italy",
+      "love at first sight",
+      "loss of father",
+      "patriarch",
+      "organized crime",
+      "mafia",
+      "lawyer",
+      "italian american",
+      "crime family",
+      "rise to power",
+      "mob boss",
+      "1940s"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.21890398859977722,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3261975049972534,
+    "setting_evidence": [
+      "1940s"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 111,
+    "source_keywords": [
+      "miami",
+      "corruption",
+      "capitalism",
+      "cuba",
+      "prohibition",
+      "brother sister relationship",
+      "loss of sister",
+      "cocaine",
+      "cult film",
+      "bitterness"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1315736472606659,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.18351203203201294,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 680,
+    "source_keywords": [
+      "transporter",
+      "brothel",
+      "drug dealer",
+      "boxer",
+      "massage",
+      "stolen money",
+      "crime boss",
+      "dance contest",
+      "junkyard",
+      "kamikaze",
+      "ambiguous ending",
+      "briefcase",
+      "redemption",
+      "heirloom",
+      "pulp fiction",
+      "reference to al green",
+      "theft",
+      "brutality"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.275462806224823,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.34671491384506226,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 49026,
+    "source_keywords": [
+      "dc comics",
+      "crime fighter",
+      "terrorist",
+      "secret identity",
+      "burglar",
+      "hostage drama",
+      "time bomb",
+      "gotham city",
+      "vigilante",
+      "cover-up",
+      "superhero",
+      "villainess",
+      "tragic hero",
+      "terrorism",
+      "destruction",
+      "catwoman",
+      "cat burglar",
+      "imax",
+      "flood",
+      "criminal underworld",
+      "batman"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2847277522087097,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2635589838027954,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 9372,
+    "source_keywords": [
+      "experiment",
+      "health",
+      "junk food",
+      "food industry",
+      "fast food",
+      "mcdonald's restaurant"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.07437898963689804,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.1722218096256256,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 16290,
+    "source_keywords": [
+      "pain",
+      "stunts",
+      "stuntman",
+      "stupidity",
+      "comedy",
+      "duringcreditsstinger",
+      "3d"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1614229679107666,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.10893573611974716,
+    "setting_evidence": [
+      "The movie marks the 10th anniversary of the franchise, started in 2000."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 19,
+    "source_keywords": [
+      "man vs machine",
+      "underground world",
+      "inventor",
+      "metropolis",
+      "worker",
+      "future",
+      "machine town",
+      "work",
+      "class society",
+      "dystopia",
+      "tower of babel",
+      "delirium",
+      "chase scene",
+      "mad scientist",
+      "prophet",
+      "robot",
+      "destruction",
+      "silent film",
+      "depravity",
+      "masterpiece",
+      "downtrodden",
+      "saviour"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2779233157634735,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.34777623414993286,
+    "setting_evidence": [
+      "future",
+      "dystopia"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 770,
+    "source_keywords": [
+      "life and death",
+      "civil war",
+      "southern usa",
+      "loss of child",
+      "marriage proposal",
+      "atlanta",
+      "luxury",
+      "plantation",
+      "typhus",
+      "business woman",
+      "marriage crisis"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.38327786326408386,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.48232781887054443,
+    "setting_evidence": [
+      "civil war"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 389,
+    "source_keywords": [
+      "judge",
+      "jurors",
+      "sultriness",
+      "death penalty",
+      "father murder",
+      "puerto rican",
+      "anonymity",
+      "court case",
+      "heat",
+      "group",
+      "class",
+      "innocence",
+      "court",
+      "courtroom"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3589699864387512,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3025193214416504,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 539,
+    "source_keywords": [
+      "hotel",
+      "clerk",
+      "arizona",
+      "shower",
+      "rain",
+      "motel",
+      "money",
+      "secretary",
+      "corpse",
+      "murderer",
+      "theft",
+      "private detective",
+      "proto-slasher"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2479463517665863,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.24707713723182678,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 78,
+    "source_keywords": [
+      "artificial intelligence",
+      "man vs machine",
+      "cyborg",
+      "bounty hunter",
+      "android",
+      "dystopia",
+      "genetics",
+      "fugitive",
+      "cyberpunk",
+      "los angeles",
+      "tech noir",
+      "neo-noir"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.23373565077781677,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2169460952281952,
+    "setting_evidence": [
+      "dystopia",
+      "los angeles"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 433,
+    "source_keywords": [
+      "london england",
+      "dancing",
+      "parents kids relationship",
+      "bank",
+      "brother sister relationship",
+      "famous score",
+      "confidence",
+      "nanny",
+      "laughing",
+      "magic",
+      "chimney sweeper",
+      "musical",
+      "live action and animation"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.34355628490448,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.19966071844100952,
+    "setting_evidence": [
+      "london england"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 252,
+    "source_keywords": [
+      "chocolate",
+      "factory worker",
+      "based on novel",
+      "candy",
+      "tv addicted person",
+      "overweight child",
+      "grandfather grandson relationship",
+      "factory",
+      "musical",
+      "single",
+      "teacher"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.23224563896656036,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.21530747413635254,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 671,
+    "source_keywords": [
+      "witch",
+      "christmas party",
+      "magic",
+      "cutting the cord",
+      "halloween",
+      "child hero",
+      "broom",
+      "chosen one",
+      "frog",
+      "fantasy world",
+      "based on young adult novel"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.25271734595298767,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.24298299849033356,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 1585,
+    "source_keywords": [
+      "holiday",
+      "angel",
+      "based on novel",
+      "bank",
+      "suicide attempt",
+      "small town",
+      "christmas tree",
+      "great depression",
+      "christmas eve",
+      "feel-good ending",
+      "guardian angel",
+      "christmas"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2328203022480011,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.15694063901901245,
+    "setting_evidence": [
+      "small town"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 601,
+    "source_keywords": [
+      "farewell",
+      "homesickness",
+      "nasa",
+      "extraterrestrial technology",
+      "operation",
+      "space marine",
+      "loss of father",
+      "hiding place",
+      "riding a bicycle",
+      "flying saucer",
+      "prosecution",
+      "halloween",
+      "flowerpot",
+      "finger",
+      "single"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.26095807552337646,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.1879526674747467,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 497,
+    "source_keywords": [
+      "southern usa",
+      "black people",
+      "mentally disabled",
+      "based on novel",
+      "heal",
+      "death row",
+      "jail guard",
+      "great depression",
+      "prison guard",
+      "electric chair",
+      "magic realism",
+      "healing",
+      "death row inmate",
+      "1930s"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2915987968444824,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3589758276939392,
+    "setting_evidence": [
+      "prison guard",
+      "1930s"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 70160,
+    "source_keywords": [
+      "hallucination",
+      "dystopia",
+      "female protagonist",
+      "bow and arrow",
+      "knife throwing",
+      "knife fight",
+      "game",
+      "archery",
+      "blindness",
+      "glamour",
+      "roasted pig",
+      "sponsor",
+      "chariot",
+      "fictional tv show",
+      "mine explosion",
+      "based on young adult novel"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3311757445335388,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3772708475589752,
+    "setting_evidence": [
+      "dystopia"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 887,
+    "source_keywords": [
+      "usa",
+      "post traumatic stress  disorder",
+      "war veteran",
+      "world war ii",
+      "rehabilitation",
+      "bodily disabled person"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.42321833968162537,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.34155693650245667,
+    "setting_evidence": [
+      "world war ii"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 826,
+    "source_keywords": [
+      "japan",
+      "resistance",
+      "japanese",
+      "river",
+      "prisoners of war",
+      "thailand",
+      "bridge",
+      "officer"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1585613489151001,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.38691768050193787,
+    "setting_evidence": [
+      "japan"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 947,
+    "source_keywords": [
+      "cairo",
+      "arabian",
+      "world war i",
+      "horse",
+      "jerusalem",
+      "british army",
+      "british empire",
+      "damascus",
+      "camel",
+      "war",
+      "desert",
+      "arab",
+      "ottoman empire"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2754875421524048,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3901134133338928,
+    "setting_evidence": [
+      "world war i",
+      "desert"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 11202,
+    "source_keywords": [
+      "general",
+      "world war ii",
+      "normandy",
+      "biography",
+      "historical figure",
+      "d-day",
+      "dead soldier",
+      "tank",
+      "steel helmet",
+      "destiny",
+      "allies"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2221265733242035,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3381558060646057,
+    "setting_evidence": [
+      "world war ii"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 117,
+    "source_keywords": [
+      "white suit",
+      "al capone",
+      "tough cop",
+      "treasury agent",
+      "untouchable",
+      "tax evasion",
+      "jury tampering",
+      "rule of law",
+      "rooftop chase",
+      "cutting face while shaving",
+      "1930s"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.12916556000709534,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.11781936138868332,
+    "setting_evidence": [
+      "1930s"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 857,
+    "source_keywords": [
+      "war crimes",
+      "self sacrifice",
+      "war veteran",
+      "world war ii",
+      "war ship",
+      "airplane",
+      "bravery",
+      "normandy",
+      "parachute",
+      "troops",
+      "waffen ss",
+      "omaha beach",
+      "army",
+      "cowardice",
+      "american flag",
+      "war memorial",
+      "deserted town",
+      "military",
+      "1940s"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2809229791164398,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.39814409613609314,
+    "setting_evidence": [
+      "world war ii",
+      "1940s"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 3131,
+    "source_keywords": [
+      "fire",
+      "irish-american",
+      "immigrant",
+      "gang war",
+      "pickpocket",
+      "ship",
+      "gang of thieves",
+      "butcher",
+      "pig",
+      "army",
+      "rescue",
+      "gang"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.19572708010673523,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3310340344905853,
+    "setting_evidence": [
+      "It's 1863."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 205596,
+    "source_keywords": [
+      "gay",
+      "england",
+      "world war ii",
+      "mathematician",
+      "biography",
+      "logician",
+      "cryptography"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.23819559812545776,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3231651186943054,
+    "setting_evidence": [
+      "england",
+      "world war ii"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 348,
+    "source_keywords": [
+      "android",
+      "countdown",
+      "space marine",
+      "space suit",
+      "beheading",
+      "dystopia",
+      "biology",
+      "cowardice",
+      "spaceship",
+      "space",
+      "alien",
+      "female protagonist",
+      "outer space",
+      "parasite",
+      "h. r. giger",
+      "xenomorph"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3471899628639221,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2509240508079529,
+    "setting_evidence": [
+      "dystopia",
+      "spaceship",
+      "outer space"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 694,
+    "source_keywords": [
+      "hotel",
+      "isolation",
+      "hotelier",
+      "colorado",
+      "maze",
+      "bartender",
+      "ax",
+      "delusion",
+      "loneliness",
+      "caretaker",
+      "vision",
+      "snow",
+      "writer",
+      "alcoholic",
+      "snowed in",
+      "off season"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2954963743686676,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3890325129032135,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 36647,
+    "source_keywords": [
+      "suicide",
+      "hero",
+      "vampire",
+      "bite",
+      "fistfight",
+      "supernatural",
+      "vampire hunter",
+      "superhero",
+      "rivalry",
+      "tragic hero",
+      "good vs evil",
+      "one man army",
+      "extreme violence",
+      "martial arts master",
+      "scientist",
+      "violence",
+      "disarming someone",
+      "blade",
+      "machine gun",
+      "english subtitles in original",
+      "hypodermic needle",
+      "microscope",
+      "secret headquarters",
+      "bullet dodging",
+      "bullet time",
+      "kicked in the groin",
+      "x rayed skeleton",
+      "mouth guard",
+      "escapade",
+      "imaginary",
+      "deadly",
+      "master warrior",
+      "supernatural ability",
+      "fang vamp"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.22372739017009735,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.23802050948143005,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 6479,
+    "source_keywords": [
+      "saving the world",
+      "lost civilisation",
+      "post-apocalyptic",
+      "dystopia",
+      "matter of life and death",
+      "alone",
+      "helplessness",
+      "virus",
+      "pandemic"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.21395185589790344,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2938035726547241,
+    "setting_evidence": [
+      "dystopia"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 72190,
+    "source_keywords": [
+      "dystopia",
+      "apocalypse",
+      "zombie",
+      "nuclear weapons",
+      "multiple perspectives",
+      "zombie apocalypse"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3108840584754944,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3943113088607788,
+    "setting_evidence": [
+      "dystopia"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 756,
+    "source_keywords": [
+      "orchestra",
+      "classical music",
+      "musical segments"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.30084460973739624,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.28171390295028687,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 872,
+    "source_keywords": [
+      "fan",
+      "morning",
+      "musical",
+      "talkie",
+      "partner",
+      "movie in movie",
+      "broadway",
+      "audience",
+      "chorus girl",
+      "diction coach",
+      "pearl necklace",
+      "flapper"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2655448913574219,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.27749714255332947,
+    "setting_evidence": [
+      "In 1927 Hollywood, Don Lockwood and Lina Lamont are a famous on-screen romantic pair in silent movies, but Lina mistakes the on-screen romance for real love."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 15121,
+    "source_keywords": [
+      "resistance",
+      "austria",
+      "world war ii",
+      "musical",
+      "music competition",
+      "salzburg",
+      "based on play",
+      "classic",
+      "alps",
+      "governess",
+      "convent",
+      "music contest",
+      "novice",
+      "puppet show",
+      "nun in love",
+      "nazi occupation",
+      "1930s"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.14670051634311676,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.18029265105724335,
+    "setting_evidence": [
+      "world war ii",
+      "1930s"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 279,
+    "source_keywords": [
+      "italy",
+      "composer",
+      "opera",
+      "talent",
+      "musician",
+      "marriage crisis",
+      "god",
+      "murder",
+      "vienna austria",
+      "envy",
+      "18th century"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.27045631408691406,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.24103549122810364,
+    "setting_evidence": [
+      "18th century"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 9473,
+    "source_keywords": [
+      "gay",
+      "mount rushmore national memorial",
+      "swear word",
+      "mephisto",
+      "hell",
+      "world supremacy",
+      "elementary school",
+      "saddam hussein",
+      "blood splatter",
+      "atheist",
+      "sequel",
+      "surrealism",
+      "friends who hate each other",
+      "satan",
+      "based on tv series",
+      "cartoon sex",
+      "child swearing",
+      "visions of hell",
+      "u.s. canada war",
+      "shot to death",
+      "adult animation",
+      "south park colorado"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2453327178955078,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.23484280705451965,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 3933,
+    "source_keywords": [
+      "shyness",
+      "england",
+      "cheating",
+      "old town",
+      "grave",
+      "skeleton",
+      "musical",
+      "marriage",
+      "wedding ring",
+      "stop motion",
+      "animation",
+      "money",
+      "wedding",
+      "corpse",
+      "wedding ceremony",
+      "parents",
+      "dark fantasy",
+      "european",
+      "ring",
+      "piano"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.38474851846694946,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.29537349939346313,
+    "setting_evidence": [
+      "england"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 114150,
+    "source_keywords": [
+      "competition",
+      "roommate",
+      "college",
+      "female friendship",
+      "music",
+      "hazing",
+      "male female relationship",
+      "audition",
+      "group of friends",
+      "dorm room",
+      "bickering",
+      "dj",
+      "singing competition",
+      "film score",
+      "female musician",
+      "singing contest",
+      "young adult",
+      "acapella"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.26550862193107605,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.28644540905952454,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 4174,
+    "source_keywords": [
+      "amnesia",
+      "insane asylum",
+      "suspense"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.28143683075904846,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.38940078020095825,
+    "setting_evidence": [
+      "Anthony Edwardes arrives at a Vermont mental hospital to replace the outgoing hospital director, Dr."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 11219,
+    "source_keywords": [
+      "small town",
+      "chase",
+      "wife",
+      "leave",
+      "murder",
+      "suspense",
+      "female corpse"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.38443660736083984,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.34156739711761475,
+    "setting_evidence": [
+      "small town"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 152,
+    "source_keywords": [
+      "artificial intelligence",
+      "uss enterprise",
+      "starfleet",
+      "san francisco",
+      "self sacrifice",
+      "spacecraft",
+      "klingon",
+      "vulcan",
+      "space opera"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.218692809343338,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.17453143000602722,
+    "setting_evidence": [
+      "san francisco",
+      "spacecraft"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 1091,
+    "source_keywords": [
+      "ice",
+      "space marine",
+      "paranoia",
+      "snow storm",
+      "norwegian",
+      "research station",
+      "remake",
+      "alien",
+      "antarctica",
+      "shape shifting alien",
+      "sled dogs"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.35022956132888794,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2752099633216858,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 807,
+    "source_keywords": [
+      "self-fulfilling prophecy",
+      "detective",
+      "s.w.a.t.",
+      "drug dealer",
+      "evisceration",
+      "lust and impulsiveness",
+      "rage and hate",
+      "pride and vanity",
+      "immoderateness",
+      "insomnia",
+      "investigation",
+      "pension",
+      "police",
+      "serial killer"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3168324828147888,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.375663697719574,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 10528,
+    "source_keywords": [
+      "detective",
+      "scotland yard",
+      "coffin",
+      "black magic",
+      "arrest",
+      "partner",
+      "sherlock holmes",
+      "murder",
+      "steampunk",
+      "pentagram",
+      "clue"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.31410664319992065,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.39864784479141235,
+    "setting_evidence": [
+      "scotland yard"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 621,
+    "source_keywords": [
+      "flying car",
+      "street gang",
+      "running",
+      "graduation",
+      "musical",
+      "rivalry",
+      "gossip",
+      "makeover",
+      "based on stage musical",
+      "automobile racing",
+      "nostalgic",
+      "greaser",
+      "wolf whistle",
+      "school dance",
+      "animated credits",
+      "pep rally",
+      "wrong side of the tracks",
+      "mooning",
+      "school principal"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1826232671737671,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.27907949686050415,
+    "setting_evidence": [
+      "But when they unexpectedly discover they're now in the same high school, will they be able to rekindle their romance despite their eccentric friends?"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 744,
+    "source_keywords": [
+      "lovesickness",
+      "loss of lover",
+      "fighter pilot",
+      "self-discovery",
+      "pilot",
+      "ejection seat",
+      "dying and death",
+      "officer",
+      "training camp",
+      "air force",
+      "airplane",
+      "dangerous",
+      "battle assignment",
+      "u.s. navy",
+      "hostility",
+      "secret love",
+      "cowardliness",
+      "pilot school"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.17460347712039948,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.22206339240074158,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 38,
+    "source_keywords": [
+      "deja vu",
+      "regret",
+      "jealousy",
+      "amnesia",
+      "dream",
+      "operation",
+      "relationship problems",
+      "love",
+      "memory",
+      "brainwashing",
+      "relationship",
+      "heartbreak",
+      "nonlinear timeline",
+      "love story",
+      "bittersweet"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.34766852855682373,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.4434701204299927,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 82693,
+    "source_keywords": [
+      "dancing",
+      "philadelphia",
+      "running",
+      "based on novel",
+      "depression",
+      "letter",
+      "friendship",
+      "neighbor",
+      "mental illness",
+      "ex-wife",
+      "institutionalization",
+      "bipolar",
+      "philadelphia eagles"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3434433341026306,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.4502028822898865,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 10947,
+    "source_keywords": [
+      "becoming an adult",
+      "musical",
+      "music",
+      "high school",
+      "school performance",
+      "high school sports",
+      "jock",
+      "teenager",
+      "clique",
+      "theater",
+      "peer pressure",
+      "teenage romance"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1489252746105194,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2456774115562439,
+    "setting_evidence": [
+      "high school",
+      "high school sports"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 205321,
+    "source_keywords": [
+      "california",
+      "helicopter",
+      "beach",
+      "tornado",
+      "hurricane",
+      "attack",
+      "blood",
+      "chainsaw",
+      "storm",
+      "explosion",
+      "danger",
+      "shark",
+      "tv movie",
+      "flood"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.25572898983955383,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.211813285946846,
+    "setting_evidence": [
+      "A freak hurricane hits Los Angeles, causing man-eating sharks to be scooped up in tornadoes and flooding the city with shark-infested seawater."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 218,
+    "source_keywords": [
+      "saving the world",
+      "artificial intelligence",
+      "rebel",
+      "cyborg",
+      "shotgun",
+      "killer robot",
+      "sun glasses",
+      "dystopia",
+      "car chase",
+      "laser gun",
+      "urban setting",
+      "future war"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.09735628217458725,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.17494788765907288,
+    "setting_evidence": [
+      "dystopia",
+      "future war"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 28,
+    "source_keywords": [
+      "guerrilla",
+      "river",
+      "vietnam",
+      "vietcong",
+      "cambodia",
+      "army",
+      "insanity",
+      "tribe",
+      "green beret",
+      "jungle",
+      "apocalypse",
+      "death",
+      "napalm"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2381255030632019,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3645210266113281,
+    "setting_evidence": [
+      "vietnam",
+      "jungle"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 16869,
+    "source_keywords": [
+      "paris",
+      "guerrilla",
+      "cinema",
+      "self sacrifice",
+      "dynamite",
+      "mexican standoff",
+      "world war ii",
+      "jew persecution",
+      "jew",
+      "nazis",
+      "masochism",
+      "sadism",
+      "scalp",
+      "winston churchill",
+      "knife in hand",
+      "anti semitism",
+      "gore",
+      "swastika",
+      "blood bath",
+      "german occupation of france",
+      "violence",
+      "gun violence"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2963906228542328,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.38318008184432983,
+    "setting_evidence": [
+      "paris",
+      "world war ii",
+      "german occupation of france"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 288,
+    "source_keywords": [
+      "gunslinger",
+      "showdown",
+      "fistfight",
+      "morality",
+      "u.s. marshal",
+      "battle",
+      "justice",
+      "one against many",
+      "quick draw",
+      "brawl",
+      "street shootout"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.336963415145874,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.29643723368644714,
+    "setting_evidence": [
+      "High Noon is about a recently freed leader of a gang of bandits in the desert who is looking to get revenge on the Sheriff who put him in jail."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 429,
+    "source_keywords": [
+      "bounty hunter",
+      "refugee",
+      "gold",
+      "anti hero",
+      "gallows",
+      "hitman",
+      "army",
+      "outlaw",
+      "shootout",
+      "moral ambiguity",
+      "spaghetti western"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.19802236557006836,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3481917381286621,
+    "setting_evidence": [
+      "While the Civil War rages between the Union and the Confederacy, three men \u2013 a quiet loner, a ruthless hit man and a Mexican bandit \u2013 comb the American Southwest in search of a strongbox containing $200,000 in stolen gold."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 11072,
+    "source_keywords": [
+      "gun",
+      "saloon",
+      "governor",
+      "marching band",
+      "comedy",
+      "western",
+      "spoof",
+      "interrupted hanging",
+      "railroad",
+      "cowboy",
+      "western town",
+      "western spoof",
+      "ceremony",
+      "frontier town",
+      "looking at the camera",
+      "saloon girl",
+      "movie reality crossover",
+      "nietzsche",
+      "coot",
+      "self-referential",
+      "female singer",
+      "anarchic comedy"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.282051146030426,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.28284239768981934,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 11967,
+    "source_keywords": [
+      "corruption",
+      "sheriff",
+      "deputy sheriff",
+      "ranch",
+      "billy the kid",
+      "outlaw",
+      "neighbor"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.25072866678237915,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.32450053095817566,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 33,
+    "source_keywords": [
+      "prostitute",
+      "sheriff",
+      "bounty",
+      "regret",
+      "right and justice",
+      "revenge",
+      "mutilation",
+      "one last job",
+      "reputation",
+      "englishman"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1999090313911438,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.23219111561775208,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 5176,
+    "source_keywords": [
+      "saloon",
+      "hero",
+      "liberation of prisoners",
+      "transport of prisoners",
+      "wilderness",
+      "dying and death",
+      "race against time",
+      "railway car",
+      "stetson",
+      "rivalry",
+      "gang",
+      "gunfight",
+      "crime",
+      "family",
+      "psychological",
+      "dishonesty",
+      "heroic mission",
+      "righting the wronged",
+      "chases and races",
+      "parents and children",
+      "mind and soul"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.27266061305999756,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.34250742197036743,
+    "setting_evidence": [
+      "In Arizona in the late 1800's, infamous outlaw Ben Wade and his vicious gang of thieves and murderers have plagued the Southern Railroad."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 68718,
+    "source_keywords": [
+      "bounty hunter",
+      "hero",
+      "plantation",
+      "society",
+      "friendship",
+      "friends",
+      "revenge",
+      "rivalry",
+      "rescue",
+      "shootout",
+      "racism",
+      "danger",
+      "dentist",
+      "django",
+      "dual role",
+      "aftercreditsstinger",
+      "odd couple",
+      "black slave",
+      "deadly",
+      "chases and races",
+      "19th century"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2743362784385681,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.39535167813301086,
+    "setting_evidence": [
+      "19th century"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 646,
+    "source_keywords": [
+      "london england",
+      "england",
+      "assassination",
+      "spy",
+      "casino",
+      "exotic island",
+      "card game",
+      "space marine",
+      "intelligence",
+      "jamaica",
+      "secret base",
+      "secret mission",
+      "baccarat",
+      "secret organization",
+      "secret intelligence service",
+      "nuclear radiation",
+      "villain",
+      "secret agent",
+      "atomic reactor"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.25821781158447266,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.24546080827713013,
+    "setting_evidence": [
+      "london england",
+      "england",
+      "exotic island"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 1892,
+    "source_keywords": [
+      "rebel",
+      "brother sister relationship",
+      "emperor",
+      "space battle",
+      "matter of life and death",
+      "spaceship",
+      "death star",
+      "jabba the hutt",
+      "ewoks",
+      "jedi",
+      "space opera"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.09796972572803497,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.19017678499221802,
+    "setting_evidence": [
+      "spaceship"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 1893,
+    "source_keywords": [
+      "prophecy",
+      "senate",
+      "queen",
+      "taskmaster",
+      "galaxy",
+      "apprentice",
+      "taxes",
+      "space opera"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.24269983172416687,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.22469684481620789,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 24428,
+    "source_keywords": [
+      "new york",
+      "shield",
+      "marvel comic",
+      "superhero",
+      "based on comic book",
+      "alien invasion",
+      "superhero team",
+      "aftercreditsstinger",
+      "duringcreditsstinger",
+      "marvel cinematic universe"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.291764497756958,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.32227689027786255,
+    "setting_evidence": [
+      "new york"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 578,
+    "source_keywords": [
+      "fishing",
+      "atlantic ocean",
+      "bathing",
+      "shipwreck",
+      "police chief",
+      "ferry boat",
+      "dying and death",
+      "dolly zoom",
+      "shark",
+      "great white shark",
+      "animal horror"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3132613003253937,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.24327930808067322,
+    "setting_evidence": [
+      "atlantic ocean"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 1726,
+    "source_keywords": [
+      "middle east",
+      "arms dealer",
+      "malibu",
+      "marvel comic",
+      "superhero",
+      "based on comic book",
+      "tony stark",
+      "iron man",
+      "aftercreditsstinger",
+      "marvel cinematic universe",
+      "counter terrorism",
+      "agent coulson"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.20161011815071106,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.23491737246513367,
+    "setting_evidence": [
+      "middle east"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 10895,
+    "source_keywords": [
+      "italy",
+      "lie",
+      "magic",
+      "fairy",
+      "pinocchio",
+      "carnival",
+      "wish",
+      "boy",
+      "nose",
+      "puppet",
+      "animation",
+      "pool",
+      "conscience",
+      "jackass",
+      "figaro",
+      "sneezing",
+      "toy comes to life"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.24862444400787354,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.22568956017494202,
+    "setting_evidence": [
+      "From Stromboli's circus to Pleasure Island, Pinocchio is tested by many temptations, but slowly learns how to navigate right from wrong."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 12144,
+    "source_keywords": [
+      "vulkan",
+      "loss of mother",
+      "tyrannosaurus rex",
+      "earthquake",
+      "primitive time",
+      "dinosaur"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2513171434402466,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.24737359583377838,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 10681,
+    "source_keywords": [
+      "romantic comedy"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.25879690051078796,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.19918081164360046,
+    "setting_evidence": [
+      "WALL\u00b7E is the last robot left on an Earth that has been overrun with garbage and all humans have fled to outer space."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 20352,
+    "source_keywords": [
+      "adoptive father",
+      "orphanage",
+      "life's dream",
+      "rivalry",
+      "stealing",
+      "ballet",
+      "little girl",
+      "orphan",
+      "father daughter relationship",
+      "tomboy",
+      "mother son relationship",
+      "intelligent",
+      "kids",
+      "evil doctor",
+      "duringcreditsstinger",
+      "minions",
+      "supervillain",
+      "3d",
+      "despicable",
+      "cattivissimo"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2607261836528778,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.28922420740127563,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 3083,
+    "source_keywords": [
+      "corruption",
+      "washington d.c.",
+      "senate",
+      "senator",
+      "governor",
+      "politician",
+      "camp",
+      "conservative",
+      "usa politics",
+      "political drama"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1356063336133957,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2492886185646057,
+    "setting_evidence": [
+      "washington d.c."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 3034,
+    "source_keywords": [
+      "experiment",
+      "castle",
+      "assistant",
+      "bride",
+      "frankenstein",
+      "laboratory",
+      "mad scientist",
+      "mobster",
+      "spoof",
+      "horror spoof",
+      "scientist",
+      "frankenstein's monster"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.1838243305683136,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.24309900403022766,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 165,
+    "source_keywords": [
+      "skateboarding",
+      "flying car",
+      "car race",
+      "delorean",
+      "lightning",
+      "almanac",
+      "inventor",
+      "time travel",
+      "sequel",
+      "diner",
+      "alternate history",
+      "teenager",
+      "electric guitar",
+      "walking cane",
+      "high school dance",
+      "hoverboard",
+      "video phone"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.13060776889324188,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.21301409602165222,
+    "setting_evidence": [
+      "high school dance"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 18785,
+    "source_keywords": [
+      "underwear",
+      "tiger",
+      "stag night",
+      "hangover",
+      "lost weekend",
+      "bag over head",
+      "chapel",
+      "hit with tire iron",
+      "memory loss",
+      "las vegas",
+      "duringcreditsstinger",
+      "elevator"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2621513605117798,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.28224363923072815,
+    "setting_evidence": [
+      "las vegas"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 106646,
+    "source_keywords": [
+      "corruption",
+      "sex",
+      "sexuality",
+      "bank",
+      "humor",
+      "biography",
+      "wall street",
+      "marriage crisis",
+      "rise and fall",
+      "stockbroker",
+      "drug",
+      "stock broker"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.18641740083694458,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2895701825618744,
+    "setting_evidence": [
+      "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 642,
+    "source_keywords": [
+      "wyoming",
+      "historical figure",
+      "loot sharing"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.13096849620342255,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.23842069506645203,
+    "setting_evidence": [
+      "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 240,
+    "source_keywords": [
+      "italo-american",
+      "cuba",
+      "vororte",
+      "melancholy",
+      "praise",
+      "revenge",
+      "mafia",
+      "lawyer",
+      "blood",
+      "corrupt politician",
+      "bloody body of child",
+      "man punches woman"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.18900281190872192,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.27548497915267944,
+    "setting_evidence": [
+      "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 235,
+    "source_keywords": [
+      "based on novel",
+      "friendship",
+      "coming of age",
+      "railroad track",
+      "story within the story",
+      "\u00a0flipping coin",
+      "campfire story",
+      "reference to superman",
+      "normandy beach",
+      "child",
+      "1950s",
+      "boys"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.41286706924438477,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.448300302028656,
+    "setting_evidence": [
+      "1950s"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 278,
+    "source_keywords": [
+      "prison",
+      "corruption",
+      "police brutality",
+      "prison cell",
+      "delinquent",
+      "parole board",
+      "escape from prison",
+      "wrongful imprisonment",
+      "framed for murder",
+      "1940s"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.21358561515808105,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.21502366662025452,
+    "setting_evidence": [
+      "prison",
+      "prison cell",
+      "escape from prison",
+      "1940s"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 272,
+    "source_keywords": [
+      "himalaya",
+      "martial arts",
+      "dc comics",
+      "crime fighter",
+      "secret identity",
+      "undercover",
+      "hero",
+      "loss of father",
+      "society",
+      "gotham city",
+      "vigilante",
+      "superhero",
+      "based on comic book",
+      "rivalry",
+      "tragic hero",
+      "ninja",
+      "good vs evil",
+      "crime",
+      "super powers",
+      "haunted by the past",
+      "evil doctor",
+      "escapade",
+      "master villain",
+      "fighting crime",
+      "unfulfillment",
+      "love and romance",
+      "unfulfilled love"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3184061050415039,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3860380947589874,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 297761,
+    "source_keywords": [
+      "dc comics",
+      "shared universe",
+      "anti hero",
+      "secret mission",
+      "villain",
+      "superhero",
+      "supervillain",
+      "dc extended universe"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.22306214272975922,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.30707818269729614,
+    "setting_evidence": [
+      "From DC Comics comes the Suicide Squad, an antihero team of incarcerated supervillains who act as deniable assets for the United States government, undertaking high-risk black ops missions in exchange for commuted prison sentences."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 1430,
+    "source_keywords": [
+      "usa",
+      "canada",
+      "gun",
+      "homicide",
+      "to shoot dead",
+      "checks and balances",
+      "columbine",
+      "oklahoma city bombing",
+      "gun violence",
+      "person running amok"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.20934966206550598,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.32199499011039734,
+    "setting_evidence": [
+      "From a look at the Columbine High School security camera tapes to the home of Oscar-winning NRA President Charlton Heston, from a young man who makes homemade napalm with The Anarchist's Cookbook to the murder of a six-year-old girl by another six-year-old, Bowling for Columbine is a journey through America, through our past, hoping to discover why our pursuit of happiness is so riddled with violence."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 44639,
+    "source_keywords": [
+      "corruption",
+      "capitalism",
+      "globalization",
+      "bank",
+      "banker",
+      "fraud",
+      "wall street",
+      "finances",
+      "global economy",
+      "banking",
+      "crisis",
+      "money",
+      "economics",
+      "financial crisis",
+      "stock market",
+      "corporation"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2749553918838501,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.29828667640686035,
+    "setting_evidence": [
+      "A film that exposes the shocking truth behind the economic crisis of 2008."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 11176,
+    "source_keywords": [
+      "chicken",
+      "musical",
+      "frog",
+      "puppet",
+      "fame",
+      "hollywood",
+      "gonzo",
+      "muppet",
+      "kermit",
+      "fozzie bear",
+      "kermit the frog",
+      "floyd",
+      "dr teeth",
+      "miss piggy",
+      "studebaker",
+      "movie star",
+      "aftercreditsstinger"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.10623373836278915,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.14487633109092712,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 1924,
+    "source_keywords": [
+      "saving the world",
+      "journalist",
+      "dc comics",
+      "crime fighter",
+      "nuclear missile",
+      "galaxy",
+      "superhero",
+      "based on comic book",
+      "criminal",
+      "sabotage",
+      "north pole",
+      "midwest",
+      "kryptonite",
+      "super powers",
+      "superhuman strength",
+      "aftercreditsstinger",
+      "save the day"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.20042471587657928,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.38089489936828613,
+    "setting_evidence": [
+      "Mild-mannered Clark Kent works as a reporter at the Daily Planet alongside his crush, Lois Lane \u2212 who's in love with Superman."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 268,
+    "source_keywords": [
+      "double life",
+      "dc comics",
+      "dual identity",
+      "chemical",
+      "crime fighter",
+      "fictional place",
+      "gotham city",
+      "superhero",
+      "super powers"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.22079479694366455,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.29448941349983215,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 18,
+    "source_keywords": [
+      "clone",
+      "taxi",
+      "cyborg",
+      "egypt",
+      "future",
+      "stowaway",
+      "space travel",
+      "race against time",
+      "arms dealer",
+      "love",
+      "alien",
+      "priest",
+      "end of the world",
+      "good vs evil",
+      "shootout",
+      "police chase",
+      "cab driver",
+      "new york city",
+      "space opera",
+      "military",
+      "opera singer",
+      "resort hotel",
+      "ancient astronaut",
+      "archeologist",
+      "ancient evil",
+      "cruise liner"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2565463185310364,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.24683073163032532,
+    "setting_evidence": [
+      "future",
+      "space travel",
+      "new york city",
+      "ancient astronaut",
+      "ancient evil"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 49051,
+    "source_keywords": [
+      "riddle",
+      "elves",
+      "dwarves",
+      "orcs",
+      "middle-earth (tolkien)",
+      "hobbit",
+      "mountains",
+      "wizard",
+      "journey",
+      "ring",
+      "goblin",
+      "courage",
+      "giant",
+      "tunnel",
+      "underground lake",
+      "buried treasure",
+      "climbing a tree",
+      "invisibility",
+      "ancient",
+      "gnomes"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.24202626943588257,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3003218472003937,
+    "setting_evidence": [
+      "ancient"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 5925,
+    "source_keywords": [
+      "based on novel",
+      "optimism",
+      "switzerland",
+      "baseball",
+      "famous score",
+      "prisoner",
+      "shower",
+      "world war ii",
+      "prisoners of war",
+      "claustrophobia",
+      "nazis",
+      "machinegun",
+      "attempt to escape",
+      "uniform",
+      "freedom",
+      "based on true story",
+      "prison guard",
+      "escape",
+      "swastika",
+      "barbed wire",
+      "solitary confinement",
+      "motorcycle",
+      "motorcycle jump",
+      "alps"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3169499933719635,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.43595653772354126,
+    "setting_evidence": [
+      "world war ii",
+      "prison guard"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 5902,
+    "source_keywords": [
+      "netherlands",
+      "world war ii",
+      "panzer",
+      "british soldier"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.24242544174194336,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3030449151992798,
+    "setting_evidence": [
+      "world war ii"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 424,
+    "source_keywords": [
+      "factory",
+      "concentration camp",
+      "hero",
+      "holocaust",
+      "world war ii",
+      "nazis",
+      "defense industry",
+      "biography",
+      "the holocaust"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.20548440515995026,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.44025424122810364,
+    "setting_evidence": [
+      "world war ii"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 616,
+    "source_keywords": [
+      "japan",
+      "war crimes",
+      "sense of guilt",
+      "swordplay",
+      "general",
+      "samurai",
+      "war veteran",
+      "katana",
+      "sword",
+      "arms deal",
+      "homeland",
+      "emperor",
+      "language barrier",
+      "self-discovery",
+      "mountain village",
+      "foreign legion",
+      "mercenary",
+      "campaign",
+      "commercial agreement",
+      "insurgence",
+      "leader",
+      "war strategy",
+      "gettysburg",
+      "loss of husband",
+      "slaughter",
+      "soldier",
+      "alcoholic",
+      "u.s. soldier",
+      "japanese army",
+      "19th century",
+      "war trauma"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.21130502223968506,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.34572476148605347,
+    "setting_evidence": [
+      "japan",
+      "mountain village",
+      "19th century"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 76203,
+    "source_keywords": [
+      "whip",
+      "kidnapping",
+      "slavery",
+      "plantation",
+      "night shift",
+      "violin player",
+      "physical abuse",
+      "cotton",
+      "slave owner",
+      "19th century",
+      "sold into slavery",
+      "abolitionist"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.18001195788383484,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.275091290473938,
+    "setting_evidence": [
+      "19th century"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 805,
+    "source_keywords": [
+      "anti-christ",
+      "contemporary setting",
+      "laundry",
+      "occult",
+      "demonic possession",
+      "satanic cult",
+      "lucky charm",
+      "woman in jeopardy",
+      "eating disorder",
+      "catholic priest"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.3955537676811218,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.37986546754837036,
+    "setting_evidence": [
+      "A young couple moves into an infamous New York apartment building to start a family."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 679,
+    "source_keywords": [
+      "android",
+      "extraterrestrial technology",
+      "space marine",
+      "spaceman",
+      "cryogenics",
+      "vacuum",
+      "space colony",
+      "warrior woman",
+      "settler",
+      "space travel",
+      "colony",
+      "alien",
+      "xenomorph"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.307786226272583,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.1950966715812683,
+    "setting_evidence": [
+      "space travel"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 8077,
+    "source_keywords": [
+      "prison",
+      "android",
+      "spacecraft",
+      "space marine",
+      "imprisonment",
+      "space colony",
+      "space travel",
+      "rottweiler",
+      "dystopia",
+      "sequel",
+      "alien",
+      "redemption",
+      "outer space",
+      "planet",
+      "shaved head",
+      "crash landing",
+      "impregnation",
+      "penal colony",
+      "furnace",
+      "suspended animation",
+      "xenomorph"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2753339409828186,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.19218236207962036,
+    "setting_evidence": [
+      "prison",
+      "spacecraft",
+      "space travel",
+      "dystopia",
+      "outer space",
+      "planet"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 19908,
+    "source_keywords": [
+      "washington d.c.",
+      "sister sister relationship",
+      "post-apocalyptic",
+      "road trip",
+      "blood splatter",
+      "parody",
+      "survival",
+      "zombie",
+      "violence",
+      "survival horror",
+      "amusement park",
+      "twinkie",
+      "body count",
+      "zombification",
+      "disposing of a dead body",
+      "bitten on the arm",
+      "loner",
+      "aftercreditsstinger",
+      "zombie apocalypse",
+      "fear of clowns"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.32495439052581787,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3059099614620209,
+    "setting_evidence": [
+      "washington d.c."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 60304,
+    "source_keywords": [
+      "witch",
+      "black magic",
+      "steampunk",
+      "good vs evil",
+      "troll",
+      "extreme violence",
+      "violence",
+      "witchcraft",
+      "evil",
+      "witch hunt",
+      "witch hunter",
+      "evil witch",
+      "duringcreditsstinger",
+      "hansel and gretel",
+      "guns",
+      "3d"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2718795835971832,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.24406814575195312,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 1725,
+    "source_keywords": [
+      "slum",
+      "street gang",
+      "love at first sight",
+      "showdown",
+      "puerto rican",
+      "immigrant",
+      "highway",
+      "forbidden love",
+      "musical",
+      "rivalry",
+      "feud",
+      "interracial relationship",
+      "sondheim",
+      "attempted rape",
+      "policeman",
+      "based on stage musical",
+      "obsessive love",
+      "lifting female in air",
+      "young love",
+      "modern day adaptation",
+      "shakespeare in modern dress"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.29270434379577637,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3472391366958618,
+    "setting_evidence": [
+      "In the slums of the upper West Side of Manhattan, New York, a gang of Polish-American teenagers called the Jets compete with a rival gang of recently immigrated Puerto Ricans, the Sharks, to \"own\" the neighborhood streets."
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 525,
+    "source_keywords": [
+      "dancing",
+      "prison",
+      "chicago",
+      "country music",
+      "nun",
+      "jazz",
+      "car journey",
+      "blues",
+      "nazis",
+      "music",
+      "concert",
+      "music instrument",
+      "children's home",
+      "shopping mall",
+      "orphanage",
+      "winnebago",
+      "church",
+      "sunglasses",
+      "parole",
+      "car chase",
+      "music band",
+      "loudspeaker",
+      "saturday night live",
+      "wrigley field",
+      "holiday inn"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.16935577988624573,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.16600850224494934,
+    "setting_evidence": [
+      "prison",
+      "chicago"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 9837,
+    "source_keywords": [
+      "moses",
+      "egypt",
+      "pyramid",
+      "exodus",
+      "kingdom",
+      "governance",
+      "ancient egypt",
+      "hebrew",
+      "pharaoh",
+      "woman director"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.23344191908836365,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.3360254764556885,
+    "setting_evidence": [
+      "ancient egypt"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 1584,
+    "source_keywords": [
+      "rock and roll",
+      "rock",
+      "high school",
+      "music band"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.10346250236034393,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2188532054424286,
+    "setting_evidence": [
+      "high school"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 254470,
+    "source_keywords": [
+      "music",
+      "sequel",
+      "singer",
+      "male female relationship",
+      "audition",
+      "group of friends",
+      "duringcreditsstinger",
+      "singing competition",
+      "female musician",
+      "singing contest",
+      "woman director",
+      "acapella"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.18183445930480957,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.202699676156044,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 592,
+    "source_keywords": [
+      "san francisco",
+      "paranoia",
+      "audio tape",
+      "wiretap",
+      "shadowing"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.143643319606781,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.31631606817245483,
+    "setting_evidence": [
+      "san francisco"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 837,
+    "source_keywords": [
+      "suicide",
+      "tv show",
+      "hallucination",
+      "tv station",
+      "radio presenter",
+      "toronto",
+      "dystopia",
+      "brainwashing",
+      "pittsburgh"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.24567162990570068,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.2917657792568207,
+    "setting_evidence": [
+      "dystopia"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 745,
+    "source_keywords": [
+      "child abuse",
+      "sense of guilt",
+      "loss of child",
+      "confidence",
+      "psychology",
+      "dying and death",
+      "marriage crisis",
+      "afterlife",
+      "single",
+      "paranormal phenomena",
+      "cowardliness",
+      "child",
+      "spiritism"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.445621132850647,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.40229034423828125,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 675,
+    "source_keywords": [
+      "prophecy",
+      "witch",
+      "loss of lover",
+      "magic",
+      "cutting the cord",
+      "child hero",
+      "dying and death",
+      "broom",
+      "sorcerer's apprentice",
+      "school of witchcraft",
+      "black magic",
+      "death of a friend",
+      "sorcery",
+      "occultism"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.26207250356674194,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.22256827354431152,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 11324,
+    "source_keywords": [
+      "based on novel",
+      "island",
+      "hurricane",
+      "investigation",
+      "psychiatric hospital",
+      "u.s. marshal",
+      "conspiracy theory",
+      "1950s"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.29878032207489014,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.43406569957733154,
+    "setting_evidence": [
+      "island",
+      "psychiatric hospital",
+      "1950s"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 284,
+    "source_keywords": [
+      "new york",
+      "new year's eve",
+      "lovesickness",
+      "age difference",
+      "suicide attempt",
+      "office",
+      "flat",
+      "spaghetti",
+      "christmas party",
+      "winter",
+      "clerk",
+      "tennis racket",
+      "romantic comedy",
+      "extramarital affair"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.25404441356658936,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.23990416526794434,
+    "setting_evidence": [
+      "new york"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 3175,
+    "source_keywords": [
+      "palace",
+      "british army",
+      "fencing",
+      "epic",
+      "debt",
+      "ireland",
+      "british soldier",
+      "seven years war",
+      "nobility",
+      "prussia"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.2045840322971344,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.24668055772781372,
+    "setting_evidence": [
+      "ireland"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 2493,
+    "source_keywords": [
+      "swashbuckler",
+      "evil prince",
+      "reference to socrates",
+      "reference to plato",
+      "screwball",
+      "impersonation"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.28997373580932617,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.31638461351394653,
+    "setting_evidence": [],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 597,
+    "source_keywords": [
+      "shipwreck",
+      "iceberg",
+      "ship",
+      "panic",
+      "titanic",
+      "ocean liner",
+      "epic",
+      "rich woman - poor man",
+      "love",
+      "disaster",
+      "tragic love",
+      "class differences",
+      "imax",
+      "star crossed lovers",
+      "steerage",
+      "salvage",
+      "rich snob",
+      "3d",
+      "1910s"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.19355031847953796,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.19473126530647278,
+    "setting_evidence": [
+      "ocean liner",
+      "1910s"
+    ],
+    "human_reviewed": false
+  },
+  {
+    "tmdb_id": 8966,
+    "source_keywords": [
+      "soulmates",
+      "vampire",
+      "forbidden love",
+      "immortality",
+      "trust",
+      "desire",
+      "duringcreditsstinger",
+      "woman director",
+      "interspecies romance",
+      "based on young adult novel",
+      "fang vamp"
+    ],
+    "mood_method": "nearest fixed English description, cosine similarity",
+    "mood_similarity": 0.17657671868801117,
+    "style_method": "nearest fixed English description, cosine similarity",
+    "style_similarity": 0.27356263995170593,
+    "setting_evidence": [
+      "When Bella Swan moves to a small town in the Pacific Northwest to live with her father, she starts school and meets the reclusive Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire."
+    ],
+    "human_reviewed": false
+  }
+]

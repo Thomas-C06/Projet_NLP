@@ -1,0 +1,14 @@
+{
+  "size": 150,
+  "source": "https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata",
+  "download": "https://www.kaggle.com/api/v1/datasets/download/tmdb/tmdb-movie-metadata",
+  "archive_sha256": "0342a9748128f44e6a58e96af19d918478af73a8976b142aa4e7e0aa3c50ef1b",
+  "corpus_fingerprint": "0ea393bc18a8d2caabcdc0ed066fb02975223191288f55ea244ef1b43e69371c",
+  "snapshot_period": "TMDB 5000 snapshot, through 2016",
+  "language": "en",
+  "annotation_version": "source-semantic-v1",
+  "annotation_method": "source keywords, extractive setting cues and estimated fixed semantic labels",
+  "human_cross_review": false,
+  "missing_values": "null when no source cue or sufficient label similarity is available",
+  "license": "TMDB terms, non-commercial educational use with attribution; not CC0"
+}

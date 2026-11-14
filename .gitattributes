@@ -1,0 +1,9 @@
+# Keep text files consistent between operating systems.
+* text=auto eol=lf
+
+# Keep binary documents unchanged.
+*.pdf binary
+
+# Windows command files use CRLF endings.
+*.bat text eol=crlf
+*.cmd text eol=crlf

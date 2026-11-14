@@ -1,0 +1,1098 @@
+{
+  "catalog_size": 150,
+  "corpus_fingerprint": "0ea393bc18a8d2caabcdc0ed066fb02975223191288f55ea244ef1b43e69371c",
+  "judgment_type": "technical behaviour only; no human relevance scores",
+  "summary": {
+    "tfidf": {
+      "queries": 30,
+      "average_warm_latency_ms": 235.16,
+      "strict_constraints_respected": true
+    },
+    "sbert_global": {
+      "queries": 30,
+      "average_warm_latency_ms": 178.48,
+      "strict_constraints_respected": true
+    },
+    "sbert_criteria": {
+      "queries": 30,
+      "average_warm_latency_ms": 190.57,
+      "strict_constraints_respected": true
+    }
+  },
+  "checks": [
+    {
+      "query_id": "v01",
+      "method": "tfidf",
+      "latency_ms": 190.87,
+      "returned": 3,
+      "top_titles": [
+        "Her",
+        "World War Z",
+        "2001: A Space Odyssey"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v02",
+      "method": "tfidf",
+      "latency_ms": 183.68,
+      "returned": 3,
+      "top_titles": [
+        "High Noon",
+        "Toy Story",
+        "Pitch Perfect 2"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v03",
+      "method": "tfidf",
+      "latency_ms": 210.66,
+      "returned": 3,
+      "top_titles": [
+        "Sherlock Holmes",
+        "Se7en",
+        "Gone with the Wind"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v04",
+      "method": "tfidf",
+      "latency_ms": 189.47,
+      "returned": 3,
+      "top_titles": [
+        "Spirited Away",
+        "Fantasia",
+        "Willy Wonka & the Chocolate Factory"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v05",
+      "method": "tfidf",
+      "latency_ms": 161.82,
+      "returned": 3,
+      "top_titles": [
+        "12 Angry Men",
+        "Zombieland",
+        "The Last Samurai"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v06",
+      "method": "tfidf",
+      "latency_ms": 168.39,
+      "returned": 3,
+      "top_titles": [
+        "Star Wars: Episode I - The Phantom Menace",
+        "Interstellar",
+        "2001: A Space Odyssey"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v07",
+      "method": "tfidf",
+      "latency_ms": 162.08,
+      "returned": 3,
+      "top_titles": [
+        "Sharknado",
+        "Corpse Bride",
+        "Grease"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v08",
+      "method": "tfidf",
+      "latency_ms": 164.75,
+      "returned": 3,
+      "top_titles": [
+        "Inside Job",
+        "The Godfather",
+        "Stand by Me"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v09",
+      "method": "tfidf",
+      "latency_ms": 158.5,
+      "returned": 3,
+      "top_titles": [
+        "The Land Before Time",
+        "The Wolf of Wall Street",
+        "The Lord of the Rings: The Fellowship of the Ring"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v10",
+      "method": "tfidf",
+      "latency_ms": 162.5,
+      "returned": 3,
+      "top_titles": [
+        "Super Size Me",
+        "Eternal Sunshine of the Spotless Mind",
+        "Stand by Me"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t01",
+      "method": "tfidf",
+      "latency_ms": 190.1,
+      "returned": 3,
+      "top_titles": [
+        "Her",
+        "2001: A Space Odyssey",
+        "Fight Club"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t02",
+      "method": "tfidf",
+      "latency_ms": 198.73,
+      "returned": 3,
+      "top_titles": [
+        "WALL\u00b7E",
+        "Aliens",
+        "The Blues Brothers"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t03",
+      "method": "tfidf",
+      "latency_ms": 145.94,
+      "returned": 3,
+      "top_titles": [
+        "12 Angry Men",
+        "Zombieland",
+        "Stand by Me"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t04",
+      "method": "tfidf",
+      "latency_ms": 164.54,
+      "returned": 3,
+      "top_titles": [
+        "The Godfather",
+        "The Godfather: Part II",
+        "Stand by Me"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t05",
+      "method": "tfidf",
+      "latency_ms": 150.43,
+      "returned": 3,
+      "top_titles": [
+        "Inside Out",
+        "The Prince of Egypt",
+        "School of Rock"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t06",
+      "method": "tfidf",
+      "latency_ms": 169.12,
+      "returned": 3,
+      "top_titles": [
+        "Inside Job",
+        "Bambi",
+        "The Godfather"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t07",
+      "method": "tfidf",
+      "latency_ms": 428.5,
+      "returned": 3,
+      "top_titles": [
+        "Super Size Me",
+        "High Noon",
+        "Young Guns"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t08",
+      "method": "tfidf",
+      "latency_ms": 1512.73,
+      "returned": 3,
+      "top_titles": [
+        "The Last Samurai",
+        "The Matrix",
+        "Blazing Saddles"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t09",
+      "method": "tfidf",
+      "latency_ms": 410.75,
+      "returned": 3,
+      "top_titles": [
+        "Pitch Perfect",
+        "Harry Potter and the Order of the Phoenix",
+        "The Hobbit: An Unexpected Journey"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t10",
+      "method": "tfidf",
+      "latency_ms": 151.82,
+      "returned": 3,
+      "top_titles": [
+        "Young Frankenstein",
+        "Inside Job",
+        "The Matrix"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t11",
+      "method": "tfidf",
+      "latency_ms": 144.39,
+      "returned": 3,
+      "top_titles": [
+        "Zombieland",
+        "12 Angry Men",
+        "WALL\u00b7E"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t12",
+      "method": "tfidf",
+      "latency_ms": 171.8,
+      "returned": 3,
+      "top_titles": [
+        "Se7en",
+        "Lawrence of Arabia",
+        "Star Wars"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t13",
+      "method": "tfidf",
+      "latency_ms": 208.19,
+      "returned": 3,
+      "top_titles": [
+        "High Noon",
+        "Patton",
+        "The Sound of Music"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t14",
+      "method": "tfidf",
+      "latency_ms": 198.51,
+      "returned": 3,
+      "top_titles": [
+        "Her",
+        "World War Z",
+        "Inception"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t15",
+      "method": "tfidf",
+      "latency_ms": 152.71,
+      "returned": 3,
+      "top_titles": [
+        "Bowling for Columbine",
+        "The Sixth Sense",
+        "Pitch Perfect"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t16",
+      "method": "tfidf",
+      "latency_ms": 192.85,
+      "returned": 3,
+      "top_titles": [
+        "Up",
+        "World War Z",
+        "Stand by Me"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t17",
+      "method": "tfidf",
+      "latency_ms": 200.24,
+      "returned": 1,
+      "top_titles": [
+        "A Charlie Brown Christmas"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t18",
+      "method": "tfidf",
+      "latency_ms": 187.7,
+      "returned": 3,
+      "top_titles": [
+        "The Shining",
+        "Amadeus",
+        "Fight Club"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t19",
+      "method": "tfidf",
+      "latency_ms": 170.05,
+      "returned": 3,
+      "top_titles": [
+        "Inside Out",
+        "Toy Story",
+        "Up"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t20",
+      "method": "tfidf",
+      "latency_ms": 152.88,
+      "returned": 3,
+      "top_titles": [
+        "High School Musical",
+        "Harry Potter and the Philosopher's Stone",
+        "South Park: Bigger, Longer & Uncut"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v01",
+      "method": "sbert_global",
+      "latency_ms": 190.23,
+      "returned": 3,
+      "top_titles": [
+        "Her",
+        "Ex Machina",
+        "Young Frankenstein"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v02",
+      "method": "sbert_global",
+      "latency_ms": 185.17,
+      "returned": 3,
+      "top_titles": [
+        "The Hangover",
+        "Back to the Future Part II",
+        "Stand by Me"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v03",
+      "method": "sbert_global",
+      "latency_ms": 188.84,
+      "returned": 3,
+      "top_titles": [
+        "Se7en",
+        "Sherlock Holmes",
+        "The Conversation"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v04",
+      "method": "sbert_global",
+      "latency_ms": 177.22,
+      "returned": 3,
+      "top_titles": [
+        "Spirited Away",
+        "Jurassic Park",
+        "Up"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v05",
+      "method": "sbert_global",
+      "latency_ms": 179.75,
+      "returned": 3,
+      "top_titles": [
+        "Silver Linings Playbook",
+        "Gone with the Wind",
+        "The Best Years of Our Lives"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v06",
+      "method": "sbert_global",
+      "latency_ms": 183.11,
+      "returned": 3,
+      "top_titles": [
+        "Interstellar",
+        "Aliens",
+        "2001: A Space Odyssey"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v07",
+      "method": "sbert_global",
+      "latency_ms": 176.82,
+      "returned": 3,
+      "top_titles": [
+        "Am\u00e9lie",
+        "Her",
+        "Some Like It Hot"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v08",
+      "method": "sbert_global",
+      "latency_ms": 174.41,
+      "returned": 3,
+      "top_titles": [
+        "The Prince of Egypt",
+        "12 Years a Slave",
+        "The Best Years of Our Lives"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v09",
+      "method": "sbert_global",
+      "latency_ms": 199.12,
+      "returned": 3,
+      "top_titles": [
+        "Interstellar",
+        "Spirited Away",
+        "Ex Machina"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v10",
+      "method": "sbert_global",
+      "latency_ms": 184.54,
+      "returned": 3,
+      "top_titles": [
+        "Stand by Me",
+        "Silver Linings Playbook",
+        "Spirited Away"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t01",
+      "method": "sbert_global",
+      "latency_ms": 173.4,
+      "returned": 3,
+      "top_titles": [
+        "Her",
+        "The Matrix",
+        "Ex Machina"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t02",
+      "method": "sbert_global",
+      "latency_ms": 203.93,
+      "returned": 3,
+      "top_titles": [
+        "The Sixth Sense",
+        "Alien",
+        "Aliens"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t03",
+      "method": "sbert_global",
+      "latency_ms": 174.88,
+      "returned": 3,
+      "top_titles": [
+        "Stand by Me",
+        "Silver Linings Playbook",
+        "The Best Years of Our Lives"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t04",
+      "method": "sbert_global",
+      "latency_ms": 177.08,
+      "returned": 3,
+      "top_titles": [
+        "The Dark Knight Rises",
+        "Se7en",
+        "Django Unchained"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t05",
+      "method": "sbert_global",
+      "latency_ms": 165.27,
+      "returned": 3,
+      "top_titles": [
+        "Bambi",
+        "Inside Out",
+        "Stand by Me"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t06",
+      "method": "sbert_global",
+      "latency_ms": 174.56,
+      "returned": 3,
+      "top_titles": [
+        "The Sixth Sense",
+        "The Best Years of Our Lives",
+        "Gone with the Wind"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t07",
+      "method": "sbert_global",
+      "latency_ms": 174.39,
+      "returned": 3,
+      "top_titles": [
+        "The Trouble with Harry",
+        "Corpse Bride",
+        "World War Z"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t08",
+      "method": "sbert_global",
+      "latency_ms": 178.9,
+      "returned": 3,
+      "top_titles": [
+        "The Trouble with Harry",
+        "Corpse Bride",
+        "Spirited Away"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t09",
+      "method": "sbert_global",
+      "latency_ms": 172.56,
+      "returned": 3,
+      "top_titles": [
+        "The Wizard of Oz",
+        "Spirited Away",
+        "The Hobbit: An Unexpected Journey"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t10",
+      "method": "sbert_global",
+      "latency_ms": 176.04,
+      "returned": 3,
+      "top_titles": [
+        "Se7en",
+        "Inside Job",
+        "The Sixth Sense"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t11",
+      "method": "sbert_global",
+      "latency_ms": 169.03,
+      "returned": 3,
+      "top_titles": [
+        "The Hangover",
+        "Grease",
+        "The Princess Bride"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t12",
+      "method": "sbert_global",
+      "latency_ms": 173.67,
+      "returned": 3,
+      "top_titles": [
+        "The Best Years of Our Lives",
+        "Inglourious Basterds",
+        "Gone with the Wind"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t13",
+      "method": "sbert_global",
+      "latency_ms": 169.9,
+      "returned": 3,
+      "top_titles": [
+        "Gone with the Wind",
+        "Schindler's List",
+        "12 Years a Slave"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t14",
+      "method": "sbert_global",
+      "latency_ms": 177.33,
+      "returned": 3,
+      "top_titles": [
+        "Inception",
+        "2001: A Space Odyssey",
+        "Her"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t15",
+      "method": "sbert_global",
+      "latency_ms": 175.82,
+      "returned": 3,
+      "top_titles": [
+        "The Sixth Sense",
+        "South Park: Bigger, Longer & Uncut",
+        "Inside Job"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t16",
+      "method": "sbert_global",
+      "latency_ms": 176.75,
+      "returned": 3,
+      "top_titles": [
+        "Stand by Me",
+        "The Best Years of Our Lives",
+        "Her"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t17",
+      "method": "sbert_global",
+      "latency_ms": 171.53,
+      "returned": 1,
+      "top_titles": [
+        "A Charlie Brown Christmas"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t18",
+      "method": "sbert_global",
+      "latency_ms": 180.71,
+      "returned": 3,
+      "top_titles": [
+        "The Shining",
+        "The Sixth Sense",
+        "World War Z"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t19",
+      "method": "sbert_global",
+      "latency_ms": 176.34,
+      "returned": 3,
+      "top_titles": [
+        "The Hangover",
+        "Stand by Me",
+        "The Prince of Egypt"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t20",
+      "method": "sbert_global",
+      "latency_ms": 173.21,
+      "returned": 3,
+      "top_titles": [
+        "12 Years a Slave",
+        "Django Unchained",
+        "Gone with the Wind"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v01",
+      "method": "sbert_criteria",
+      "latency_ms": 195.38,
+      "returned": 3,
+      "top_titles": [
+        "Ex Machina",
+        "Metropolis",
+        "Her"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v02",
+      "method": "sbert_criteria",
+      "latency_ms": 173.7,
+      "returned": 3,
+      "top_titles": [
+        "The Hangover",
+        "High Noon",
+        "Corpse Bride"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v03",
+      "method": "sbert_criteria",
+      "latency_ms": 187.14,
+      "returned": 3,
+      "top_titles": [
+        "Se7en",
+        "12 Angry Men",
+        "The Shawshank Redemption"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v04",
+      "method": "sbert_criteria",
+      "latency_ms": 193.12,
+      "returned": 3,
+      "top_titles": [
+        "Spirited Away",
+        "The Wizard of Oz",
+        "Jurassic Park"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v05",
+      "method": "sbert_criteria",
+      "latency_ms": 190.85,
+      "returned": 3,
+      "top_titles": [
+        "Bambi",
+        "Gone with the Wind",
+        "Fight Club"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v06",
+      "method": "sbert_criteria",
+      "latency_ms": 183.8,
+      "returned": 3,
+      "top_titles": [
+        "Interstellar",
+        "2001: A Space Odyssey",
+        "Aliens"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v07",
+      "method": "sbert_criteria",
+      "latency_ms": 180.0,
+      "returned": 3,
+      "top_titles": [
+        "Am\u00e9lie",
+        "Her",
+        "Some Like It Hot"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v08",
+      "method": "sbert_criteria",
+      "latency_ms": 185.16,
+      "returned": 3,
+      "top_titles": [
+        "The Prince of Egypt",
+        "Batman Begins",
+        "Inside Job"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v09",
+      "method": "sbert_criteria",
+      "latency_ms": 180.1,
+      "returned": 3,
+      "top_titles": [
+        "Ex Machina",
+        "Interstellar",
+        "Fight Club"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "v10",
+      "method": "sbert_criteria",
+      "latency_ms": 191.88,
+      "returned": 3,
+      "top_titles": [
+        "The Green Mile",
+        "Young Frankenstein",
+        "Spellbound"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t01",
+      "method": "sbert_criteria",
+      "latency_ms": 178.28,
+      "returned": 3,
+      "top_titles": [
+        "Her",
+        "Ex Machina",
+        "Metropolis"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t02",
+      "method": "sbert_criteria",
+      "latency_ms": 188.97,
+      "returned": 3,
+      "top_titles": [
+        "Metropolis",
+        "The Imitation Game",
+        "The Sixth Sense"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t03",
+      "method": "sbert_criteria",
+      "latency_ms": 196.96,
+      "returned": 3,
+      "top_titles": [
+        "Her",
+        "Bambi",
+        "Toy Story"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t04",
+      "method": "sbert_criteria",
+      "latency_ms": 257.41,
+      "returned": 3,
+      "top_titles": [
+        "Se7en",
+        "The Dark Knight Rises",
+        "Django Unchained"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t05",
+      "method": "sbert_criteria",
+      "latency_ms": 204.93,
+      "returned": 3,
+      "top_titles": [
+        "Bambi",
+        "Inside Out",
+        "Stand by Me"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t06",
+      "method": "sbert_criteria",
+      "latency_ms": 216.66,
+      "returned": 3,
+      "top_titles": [
+        "The Sixth Sense",
+        "Gone with the Wind",
+        "Bambi"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t07",
+      "method": "sbert_criteria",
+      "latency_ms": 192.36,
+      "returned": 3,
+      "top_titles": [
+        "Corpse Bride",
+        "High Noon",
+        "World War Z"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t08",
+      "method": "sbert_criteria",
+      "latency_ms": 218.02,
+      "returned": 3,
+      "top_titles": [
+        "The Trouble with Harry",
+        "Corpse Bride",
+        "The Wizard of Oz"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t09",
+      "method": "sbert_criteria",
+      "latency_ms": 188.24,
+      "returned": 3,
+      "top_titles": [
+        "Bambi",
+        "The Wizard of Oz",
+        "The Princess Bride"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t10",
+      "method": "sbert_criteria",
+      "latency_ms": 182.4,
+      "returned": 3,
+      "top_titles": [
+        "Se7en",
+        "Inside Job",
+        "The Imitation Game"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t11",
+      "method": "sbert_criteria",
+      "latency_ms": 187.35,
+      "returned": 3,
+      "top_titles": [
+        "The Hangover",
+        "Grease",
+        "Singin' in the Rain"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t12",
+      "method": "sbert_criteria",
+      "latency_ms": 183.26,
+      "returned": 3,
+      "top_titles": [
+        "Corpse Bride",
+        "Inglourious Basterds",
+        "Fight Club"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t13",
+      "method": "sbert_criteria",
+      "latency_ms": 192.61,
+      "returned": 3,
+      "top_titles": [
+        "Gone with the Wind",
+        "Schindler's List",
+        "Lawrence of Arabia"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t14",
+      "method": "sbert_criteria",
+      "latency_ms": 185.14,
+      "returned": 3,
+      "top_titles": [
+        "Her",
+        "Fight Club",
+        "Young Frankenstein"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t15",
+      "method": "sbert_criteria",
+      "latency_ms": 171.74,
+      "returned": 3,
+      "top_titles": [
+        "Inside Job",
+        "High Noon",
+        "The Sixth Sense"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t16",
+      "method": "sbert_criteria",
+      "latency_ms": 182.65,
+      "returned": 3,
+      "top_titles": [
+        "Her",
+        "Pulp Fiction",
+        "Stand by Me"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t17",
+      "method": "sbert_criteria",
+      "latency_ms": 181.13,
+      "returned": 1,
+      "top_titles": [
+        "A Charlie Brown Christmas"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t18",
+      "method": "sbert_criteria",
+      "latency_ms": 184.16,
+      "returned": 3,
+      "top_titles": [
+        "Bambi",
+        "The Sixth Sense",
+        "The Green Mile"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t19",
+      "method": "sbert_criteria",
+      "latency_ms": 179.53,
+      "returned": 3,
+      "top_titles": [
+        "Stand by Me",
+        "Bambi",
+        "The Hangover"
+      ],
+      "strict_constraints_respected": true
+    },
+    {
+      "query_id": "t20",
+      "method": "sbert_criteria",
+      "latency_ms": 184.15,
+      "returned": 3,
+      "top_titles": [
+        "Gone with the Wind",
+        "Fight Club",
+        "The Green Mile"
+      ],
+      "strict_constraints_respected": true
+    }
+  ]
+}
