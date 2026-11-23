@@ -6,6 +6,7 @@ from pathlib import Path
 
 from pydantic import TypeAdapter
 
+from backend.config import RELEASE_PERIODS
 from backend.schemas import Movie
 
 
@@ -45,6 +46,12 @@ def eligible(movie: Movie, profile) -> bool:
         return False
     if profile.max_runtime is not None:
         if movie.runtime_minutes is None or movie.runtime_minutes > profile.max_runtime:
+            return False
+    # An unknown release year cannot prove that a film belongs to the chosen period.
+    low, high = RELEASE_PERIODS[getattr(profile, "release_period", "any")]
+    if low is not None or high is not None:
+        year = movie.release_year
+        if year is None or (low is not None and year < low) or (high is not None and year > high):
             return False
     # With a strict theme exclusion, unknown annotations cannot prove compliance.
     if profile.excluded_themes:

@@ -30,3 +30,45 @@ def test_invalid_corpus_returns_service_error(monkeypatch):
         raise ValueError("Invalid JSON")
     monkeypatch.setattr(api, "get_engine", broken)
     assert TestClient(api.app).get("/api/health").status_code == 503
+
+
+def test_responses_are_saved_only_with_consent(movies, encoder, monkeypatch, tmp_path):
+    import json
+
+    monkeypatch.setattr(api, "get_engine", lambda: Recommender(movies, encoder))
+    monkeypatch.setattr(api, "RESPONSES_PATH", tmp_path / "responses.jsonl")
+    client = TestClient(api.app)
+    body = {"description": "I want a warm friendship story."}
+    assert client.post("/api/recommend", json=body).json()["saved"] is False
+    assert not (tmp_path / "responses.jsonl").exists()
+    response = client.post("/api/recommend", json={**body, "save_response": True})
+    assert response.json()["saved"] is True
+    lines = (tmp_path / "responses.jsonl").read_text(encoding="utf-8").splitlines()
+    record = json.loads(lines[0])
+    assert len(lines) == 1
+    assert record["answers"]["description"] == body["description"]
+    assert "save_response" not in record["answers"]
+    assert len(record["recommendations"]) == 3
+
+
+def test_critic_is_optional_and_grounded(movies, encoder, monkeypatch):
+    from backend import critic
+
+    monkeypatch.setattr(api, "get_engine", lambda: Recommender(movies, encoder))
+    captured = {}
+
+    def fake_pitch(summary, movie, matches):
+        captured.update(summary=summary, title=movie.title, matches=matches)
+        return "A warm pick."
+    monkeypatch.setattr(critic, "pitch", fake_pitch)
+    client = TestClient(api.app)
+    body = {"tmdb_id": 1, "profile_summary": "You are looking for: friendship.", "main_contributions": ["Story"]}
+    response = client.post("/api/critic", json=body)
+    assert response.json()["text"] == "A warm pick."
+    assert captured == {"summary": body["profile_summary"], "title": "Test Friendship", "matches": ["Story"]}
+    assert client.post("/api/critic", json={**body, "tmdb_id": 999}).status_code == 404
+
+    def offline(*_):
+        raise critic.httpx.ConnectError("offline")
+    monkeypatch.setattr(critic, "pitch", offline)
+    assert client.post("/api/critic", json=body).status_code == 503

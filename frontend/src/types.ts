@@ -17,8 +17,25 @@ export interface Preferences {
   excluded_genres: string[];
   excluded_themes: string[];
   seen_movie_ids: number[];
-  method: 'tfidf' | 'sbert_global' | 'sbert_criteria';
+  release_period: ReleasePeriod;
+  method: Method;
+  save_response: boolean;
 }
+
+export type Method = 'tfidf' | 'sbert_global' | 'sbert_criteria';
+export const methods: { value: Method; label: string; note: string }[] = [
+  { value: 'sbert_criteria', label: 'Semantic, by criterion (recommended)', note: 'Each answer is compared with the matching film attribute, then weighted by your priorities.' },
+  { value: 'sbert_global', label: 'Semantic, one overall profile', note: 'All your answers are merged and compared with each film as a whole. Priorities are not used.' },
+  { value: 'tfidf', label: 'Keywords only (TF-IDF baseline)', note: 'Shared words only, without meaning. Useful to compare with the semantic methods.' },
+];
+
+export type ReleasePeriod = 'any' | 'before-1980' | '1980-1999' | '2000-later';
+export const releasePeriods: { value: ReleasePeriod; label: string }[] = [
+  { value: 'any', label: 'Any period' },
+  { value: 'before-1980', label: 'Classics, before 1980' },
+  { value: '1980-1999', label: '1980 to 1999' },
+  { value: '2000-later', label: '2000 and later' },
+];
 
 export interface Movie {
   tmdb_id: number;
@@ -63,6 +80,7 @@ export interface Results {
   warnings: string[];
   latency_ms: number;
   corpus_fingerprint: string;
+  saved: boolean;
 }
 
 export interface Catalog {
@@ -79,4 +97,5 @@ export interface Health {
   corpus_ready: boolean;
   annotated_count: number;
   estimated_annotations?: number;
+  critic_available?: boolean;
 }

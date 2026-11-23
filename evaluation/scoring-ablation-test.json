@@ -1,0 +1,44 @@
+{
+  "split": "test",
+  "judge": "llm:qwen3:14b",
+  "method": "sbert_criteria",
+  "note": "Automatic LLM judgments, not human annotations. nDCG uses the judged pool.",
+  "configurations": [
+    {
+      "story_scope": "overview",
+      "overall_weight": 0.0,
+      "precision_at_3": 0.45,
+      "ndcg_at_3": 0.433
+    },
+    {
+      "story_scope": "overview",
+      "overall_weight": 0.25,
+      "precision_at_3": 0.4667,
+      "ndcg_at_3": 0.4485
+    },
+    {
+      "story_scope": "overview",
+      "overall_weight": 0.5,
+      "precision_at_3": 0.5167,
+      "ndcg_at_3": 0.4744
+    },
+    {
+      "story_scope": "profile",
+      "overall_weight": 0.0,
+      "precision_at_3": 0.55,
+      "ndcg_at_3": 0.5205
+    },
+    {
+      "story_scope": "profile",
+      "overall_weight": 0.25,
+      "precision_at_3": 0.5167,
+      "ndcg_at_3": 0.5153
+    },
+    {
+      "story_scope": "profile",
+      "overall_weight": 0.5,
+      "precision_at_3": 0.5167,
+      "ndcg_at_3": 0.5133
+    }
+  ]
+}

@@ -1,13 +1,15 @@
-import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { ArrowDownToLine, ArrowRight, ArrowUpRight, Check, Film, SlidersHorizontal, Sparkles } from 'lucide-react';
 import { downloadPreferences } from './api';
+import { methods } from './types';
 import type { Preferences, Results } from './types';
 import MoviePoster from './MoviePoster';
+import CriticPitch from './CriticPitch';
 
 const colours = ['#d4fa82', '#b9a4f4', '#77cec0'];
 const tooltipStyle = { background: '#1b1f1a', border: '1px solid #363d31', borderRadius: 10, color: '#f0f3e8', fontSize: 12 };
 
-export default function ResultsPanel({ results, profile }: { results: Results; profile: Preferences }) {
+export default function ResultsPanel({ results, profile, criticAvailable = false }: { results: Results; profile: Preferences; criticAvailable?: boolean }) {
   const movies = results.recommendations;
   const totals = movies.map(({ movie, affinity }) => ({ title: movie.title, affinity: Number(affinity.toFixed(1)) }));
   const criterionLabels = [...new Set(movies.flatMap(item => item.criteria.map(criterion => criterion.label)))];
@@ -17,6 +19,9 @@ export default function ResultsPanel({ results, profile }: { results: Results; p
         : Number((criteria.find(item => item.label === label)!.similarity * 100).toFixed(1)),
     ]),
   ]));
+  // A radar needs at least three axes to show a profile shape.
+  const showRadar = byCriterion.length >= 3;
+  const methodLabel = methods.find(method => method.value === results.method)?.label ?? results.method;
   const refine = () => {
     document.getElementById('discover')?.scrollIntoView?.({ behavior: 'smooth', block: 'start' });
     document.getElementById('description')?.focus({ preventScroll: true });
@@ -31,7 +36,9 @@ export default function ResultsPanel({ results, profile }: { results: Results; p
     </div>
     <div className="profile-ribbon"><span className="ribbon-icon"><Sparkles size={18} /></span><div><span>THE FEELING YOU ASKED FOR</span><p>{profile.description}</p></div>
       <span className="eligible-count">{results.eligible_count}<small>films fit your rules</small></span></div>
-    <details className="profile-details"><summary>Your full preference summary <ArrowDownToLine size={12} /></summary><p>{results.profile_summary}</p></details>
+    <details className="profile-details"><summary>Your full preference summary <ArrowDownToLine size={12} /></summary><p>{results.profile_summary}</p>
+      <p className="help">Method: {methodLabel} · {results.latency_ms.toFixed(0)} ms</p></details>
+    {results.saved && <p className="saved-note" role="status"><Check size={13} /> Your answers were saved to the local study log.</p>}
     {results.warnings.map(message => <p key={message} className="notice" role="status">{message}</p>)}
     {movies.length ? <>
       <div className="movie-grid">{movies.map(({ movie, affinity, criteria, explanation, missing_criteria, main_contributions }, index) =>
@@ -49,6 +56,7 @@ export default function ResultsPanel({ results, profile }: { results: Results; p
             <div className="match-reasons"><span>WHY IT CONNECTS</span><div>{main_contributions.length
               ? main_contributions.map(item => <span key={item}><Check size={11} />{item}</span>)
               : <span>No positive match</span>}</div></div>
+            {criticAvailable && <CriticPitch tmdbId={movie.tmdb_id} summary={results.profile_summary} matches={main_contributions} />}
             <details className="match-details"><summary>Understand this match <span>+</span></summary>
               <p className="explanation">{explanation}</p>
               {criteria.map(item => <div className="criterion-detail" key={item.criterion}>
@@ -69,7 +77,15 @@ export default function ResultsPanel({ results, profile }: { results: Results; p
               <YAxis dataKey="title" type="category" width={110} axisLine={false} tickLine={false} tick={{ fill: '#cbd2c3', fontSize: 11 }} />
               <Tooltip contentStyle={tooltipStyle} cursor={{ fill: '#ffffff04' }} /><Bar dataKey="affinity" name="Affinity" fill={colours[0]} radius={[0, 5, 5, 0]} isAnimationActive={false} />
             </BarChart></ResponsiveContainer></div></div>
-          <div className="chart-card"><h3>Affinity by criterion<span>02</span></h3><div className="chart" style={{ height: Math.max(250, byCriterion.length * 65) }}>
+          {showRadar && <div className="chart-card"><h3>Match profile<span>02</span></h3><div className="chart radar-chart">
+            <ResponsiveContainer width="100%" height="100%"><RadarChart data={byCriterion} outerRadius="72%">
+              <PolarGrid stroke="#2f3a28" /><PolarAngleAxis dataKey="criterion" tick={{ fill: '#cbd2c3', fontSize: 11 }} />
+              <PolarRadiusAxis domain={[0, 100]} tick={false} axisLine={false} />
+              <Tooltip contentStyle={tooltipStyle} />
+              {movies.map((item, index) => <Radar key={item.movie.tmdb_id} dataKey={'movie_' + item.movie.tmdb_id} name={item.movie.title}
+                stroke={colours[index]} fill={colours[index]} fillOpacity={index === 0 ? 0.22 : 0.08} strokeWidth={index === 0 ? 2 : 1.2} isAnimationActive={false} />)}
+            </RadarChart></ResponsiveContainer></div><p className="help">Semantic similarity per criterion, from 0 at the centre to 100 at the edge.</p></div>}
+          <div className={'chart-card ' + (showRadar ? 'chart-wide' : '')}><h3>Affinity by criterion<span>{showRadar ? '03' : '02'}</span></h3><div className="chart" style={{ height: Math.max(250, byCriterion.length * 65) }}>
             <ResponsiveContainer width="100%" height="100%"><BarChart data={byCriterion} layout="vertical" margin={{ right: 16 }}>
               <CartesianGrid stroke="#2b3128" strokeDasharray="3 3" horizontal={false} /><XAxis type="number" domain={[0, 100]} axisLine={false} tickLine={false} tick={{ fill: '#8e9987', fontSize: 11 }} />
               <YAxis type="category" dataKey="criterion" width={85} axisLine={false} tickLine={false} tick={{ fill: '#cbd2c3', fontSize: 10 }} />

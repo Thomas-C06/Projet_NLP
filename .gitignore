@@ -45,6 +45,7 @@ node_modules/
 dist/
 models/
 data/cache/
+data/responses/
 data/raw/
 data/private/
 evaluation/results/

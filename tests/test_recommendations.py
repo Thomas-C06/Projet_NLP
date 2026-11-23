@@ -104,3 +104,12 @@ def test_duplicate_ids_and_cache_fingerprint(movies, tmp_path):
 def test_preprocessing_keeps_negation_and_zero_vectors():
     assert clean_text("  I do not want\nviolence. ") == "I do not want violence."
     assert np.isfinite(normalise(np.zeros((2, 3)))).all()
+
+
+def test_release_period_is_a_strict_filter(movies, encoder):
+    dated = [movie.model_copy(update={"release_year": year}) for movie, year in zip(movies, (1975, 1995, None, 2010))]
+    engine = Recommender(dated, encoder)
+    result = engine.recommend(Preferences(description="A friendship story in space.", release_period="1980-1999"),
+                              validate_language=False)
+    assert [item.movie.tmdb_id for item in result.recommendations] == [2]
+    assert "between 1980 and 1999" in result.profile_summary

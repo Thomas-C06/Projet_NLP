@@ -3,7 +3,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import App from './App';
 import * as api from './api';
 
-vi.mock('./api', () => ({ getHealth: vi.fn(), getCatalog: vi.fn(), getRecommendations: vi.fn(), downloadPreferences: vi.fn() }));
+vi.mock('./api', () => ({ getHealth: vi.fn(), getCatalog: vi.fn(), getRecommendations: vi.fn(), getCriticPitch: vi.fn(), downloadPreferences: vi.fn() }));
 
 beforeEach(() => {
   vi.resetAllMocks();
@@ -27,6 +27,22 @@ describe('Questionnaire', () => {
       importance: expect.objectContaining({ themes: 5 }), method: 'sbert_criteria',
     })));
     expect(await screen.findByRole('alert')).toHaveTextContent('Example error message');
+  });
+
+  it('sends the single-choice era, the comparison method and the storage consent', async () => {
+    vi.mocked(api.getRecommendations).mockRejectedValue(new Error('Stop here'));
+    render(<App />);
+    const submit = screen.getByRole('button', { name: 'Find my films' });
+    await waitFor(() => expect(submit).toBeEnabled());
+    fireEvent.change(screen.getByLabelText(/Describe the kind/), { target: { value: 'I want a classic detective story.' } });
+    fireEvent.change(screen.getByLabelText(/Which era/), { target: { value: 'before-1980' } });
+    fireEvent.change(screen.getByLabelText(/How should we compare/), { target: { value: 'tfidf' } });
+    expect(screen.getByText(/Shared words only/)).toBeVisible();
+    fireEvent.click(screen.getByLabelText(/Save my answers/));
+    fireEvent.click(submit);
+    await waitFor(() => expect(api.getRecommendations).toHaveBeenCalledWith(expect.objectContaining({
+      release_period: 'before-1980', method: 'tfidf', save_response: true,
+    })));
   });
 
   it('asks for clarification when a genre is both preferred and excluded', async () => {

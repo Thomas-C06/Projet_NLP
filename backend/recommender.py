@@ -8,7 +8,7 @@ from langdetect import DetectorFactory, LangDetectException, detect_langs
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from backend.catalog import eligible, fingerprint, movie_texts
-from backend.config import LABELS, WEIGHTS
+from backend.config import LABELS, OVERALL_WEIGHT, PERIOD_LABELS, STORY_SCOPE, WEIGHTS
 from backend.schemas import CriterionScore, Preferences, Recommendation, RecommendationResponse
 
 DetectorFactory.seed = 0
@@ -31,6 +31,8 @@ def summarise(profile: Preferences) -> str:
             parts.append(f"{LABELS[key]}: {text}.")
     if profile.max_runtime is not None:
         parts.append(f"Maximum duration: {profile.max_runtime} minutes.")
+    if profile.release_period != "any":
+        parts.append(f"Only films {PERIOD_LABELS[profile.release_period]}.")
     if profile.excluded_genres:
         parts.append(f"Excluded genres: {', '.join(profile.excluded_genres)}.")
     if profile.excluded_themes:
@@ -41,12 +43,21 @@ def summarise(profile: Preferences) -> str:
 
 
 class Recommender:
-    def __init__(self, movies, encoder=None):
+    def __init__(self, movies, encoder=None, story_scope: str = STORY_SCOPE, overall_weight: float = OVERALL_WEIGHT):
+        if story_scope not in ("overview", "profile") or not 0 <= overall_weight < 1:
+            raise ValueError("Invalid scoring configuration.")
+        self.story_scope = story_scope
+        self.overall_weight = overall_weight
         self.movies = movies
         self.encoder = encoder
         self.fingerprint = fingerprint(movies)
         self.texts = [movie_texts(movie) for movie in movies]
         self.global_texts = [". ".join(text for text in fields.values() if text) for fields in self.texts]
+        # Text compared with each user criterion. The free description can target the whole film profile.
+        self.compared = [dict(fields) for fields in self.texts]
+        if story_scope == "profile":
+            for fields, overall in zip(self.compared, self.global_texts):
+                fields["description"] = overall
         self.vectorizer = None
         self.tfidf = None
         self.semantic_fields = None
@@ -82,7 +93,7 @@ class Recommender:
         if self.encoder is None:
             raise RuntimeError("The semantic encoder is not configured.")
         if self.semantic_fields is None:
-            flat = [fields[key] for fields in self.texts for key in WEIGHTS]
+            flat = [fields[key] for fields in self.compared for key in WEIGHTS]
             vectors = self.encoder.encode_corpus(flat)
             self.semantic_fields = vectors.reshape(len(self.movies), len(WEIGHTS), -1)
         queries = self.encoder.encode(list(active.values()))
@@ -104,13 +115,15 @@ class Recommender:
             if profile.method == "sbert_criteria":
                 similarities = self._criterion_similarities(active)
                 global_scores = None
+                if self.overall_weight:
+                    overall_scores = self._global_similarities(". ".join(active.values()), "sbert_global")
             else:
                 query = ". ".join(active.values())
                 global_scores = self._global_similarities(query, profile.method)
                 similarities = {}
             importance = profile.importance.model_dump()
             for index in candidates:
-                available = {key: text for key, text in active.items() if self.texts[index][key]}
+                available = {key: text for key, text in active.items() if self.compared[index][key]}
                 missing = [LABELS[key] for key in active if key not in available]
                 if profile.method == "sbert_criteria":
                     denominator = sum(WEIGHTS[key] * importance[key] for key in available)
@@ -119,11 +132,18 @@ class Recommender:
                     details = []
                     for key in available:
                         similarity = float(np.clip(similarities[key][index], 0, 1))
-                        weight = WEIGHTS[key] * importance[key] / denominator
+                        weight = (1 - self.overall_weight) * WEIGHTS[key] * importance[key] / denominator
                         details.append(CriterionScore(
                             criterion=key, label=LABELS[key], similarity=similarity,
                             weight=weight, contribution=100 * similarity * weight,
-                            evidence=self.texts[index][key],
+                            evidence=self.compared[index][key],
+                        ))
+                    if self.overall_weight:
+                        similarity = float(np.clip(overall_scores[index], 0, 1))
+                        details.append(CriterionScore(
+                            criterion="overall", label="Overall profile", similarity=similarity,
+                            weight=self.overall_weight, contribution=100 * similarity * self.overall_weight,
+                            evidence=self.global_texts[index],
                         ))
                     affinity = sum(item.contribution for item in details)
                 else:

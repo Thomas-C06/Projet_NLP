@@ -7,7 +7,7 @@ from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate
+from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 from backend.config import ROOT
 
@@ -31,6 +31,20 @@ def main():
             continue
         if text == "---":
             story.append(PageBreak())
+            continue
+        lines = text.splitlines()
+        if all(line.startswith("|") for line in lines):
+            # Markdown table: skip the separator row and render a simple grid.
+            rows = [[escape(cell.strip().replace("**", "")) for cell in line.strip("|").split("|")]
+                    for line in lines if not re.fullmatch(r"[|\s:-]+", line)]
+            table = Table([[Paragraph(cell, styles["ReportBody"]) for cell in row] for row in rows], hAlign="LEFT")
+            table.setStyle(TableStyle([
+                ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#e9eee2")),
+                ("GRID", (0, 0), (-1, -1), 0.4, colors.HexColor("#b8c0b0")),
+                ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+                ("TOPPADDING", (0, 0), (-1, -1), 2), ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+            ]))
+            story.extend([table, Spacer(1, 10)])
             continue
         style = "ReportTitle" if text.startswith("# ") else "ReportHeading" if text.startswith("## ") else "ReportBody"
         text = re.sub(r"^#{1,2} ", "", text)

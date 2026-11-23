@@ -38,4 +38,12 @@ nDCG@3 uses gains of `2^relevance - 1` and the ideal ordering of the shared judg
 
 The evaluator rejects incomplete judgments and a changed corpus. Regenerate the pool if the corpus, queries, ranking model or scoring configuration changes. Keep the selected weights unchanged during the final test.
 
+## Automatic LLM judgments
+
+`python -m scripts.llm_judge` fills the same pool with judgments from a local LLM (Ollama, `qwen3:14b`, temperature 0) and writes `judgments-llm.csv` with the annotator `llm:qwen3:14b` and a one-sentence reason per film. The judge sees only source metadata, never the estimated labels. Judgments are cached in `llm-judgments-cache.json` by query text, film and model, so a new configuration only judges new candidates.
+
+`python -m scripts.tune_scoring` compares scoring configurations on the validation split and writes `scoring-selection.json`. `results-llm-validation.json` and `results-llm-test.json` contain the method comparison. `scoring-ablation-test.json` reports the same configurations on the test split for transparency only; it was produced after the choice was fixed.
+
+These are automatic estimates. Report them as LLM judgments, never as human annotations.
+
 No human relevance measurements are invented. The technical results are available immediately; independent relevance measurements use the explicit judgment workflow above.

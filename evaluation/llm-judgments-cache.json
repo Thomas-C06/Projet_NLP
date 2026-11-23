@@ -1,0 +1,2430 @@
+{
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|105": {
+  "reason": "The film is set in the 1980s and involves time travel, not a rural countryside or a character-driven story about changing one's way of life.",
+  "relevance": 0
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|11072": {
+  "reason": "The film is set in a Western town and has a character-driven story, but it is a comedy and does not focus on a person changing their way of life in the countryside.",
+  "relevance": 1
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|11219": {
+  "reason": "The film has a rural setting but lacks the character-driven storytelling and focus on personal transformation requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|129": {
+  "reason": "The film is set in a fantasy world, not a rural countryside, and focuses more on magical adventure than a character-driven lifestyle change.",
+  "relevance": 1
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|13": {
+  "reason": "Forrest Gump features a character-driven story set in the countryside and explores a person's life changes, though it is not strictly rural or focused on a single location.",
+  "relevance": 2
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|14160": {
+  "reason": "The film features a character undergoing a significant life change in a rural setting, though it is animated and not strictly countryside-focused.",
+  "relevance": 2
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|1585": {
+  "reason": "It's a Wonderful Life is a character-driven story set in a rural small town, focusing on a person's transformation and impact on others.",
+  "relevance": 3
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|19": {
+  "reason": "The film is set in a futuristic metropolis, not the rural countryside, and does not focus on a person changing their way of life in that setting.",
+  "relevance": 0
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|235": {
+  "reason": "The film is set in a rural area and focuses on character-driven storytelling, but it is more centered on coming-of-age and friendship rather than a person changing their way of life in the countryside.",
+  "relevance": 2
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|3170": {
+  "reason": "The film has a rural setting and character-driven elements, but it is primarily aimed at children and lacks the thematic focus on lifestyle change.",
+  "relevance": 1
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|3933": {
+  "reason": "The film has a rural setting and character-driven elements, but it is primarily a fantasy and animation film, which may not fully align with the user's request for a realistic countryside story about lifestyle change.",
+  "relevance": 1
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|597": {
+  "reason": "The film is set on a ship and involves a disaster, not a countryside setting or a person changing their way of life.",
+  "relevance": 0
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|603": {
+  "reason": "The film is set in a dystopian future, not the rural countryside, and does not focus on a character changing their way of life in that setting.",
+  "relevance": 0
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|616": {
+  "reason": "The film features a character-driven story set in a rural setting with themes of changing one's way of life, though it is primarily a historical war drama.",
+  "relevance": 2
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|630": {
+  "reason": "The film is set in a fantasy world, not the rural countryside, and does not focus on a character changing their way of life in that setting.",
+  "relevance": 0
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|642": {
+  "reason": "The film is set in the rural countryside but focuses more on outlaw life and escape than on a character changing their way of life.",
+  "relevance": 1
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|671": {
+  "reason": "The film is set in a magical world, not a rural countryside, and does not focus on a character changing their way of life in that setting.",
+  "relevance": 0
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|680": {
+  "reason": "Pulp Fiction is a crime thriller with urban settings and does not match the rural, character-driven countryside story requested.",
+  "relevance": 0
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|694": {
+  "reason": "The film is set in a hotel in Colorado, not the countryside, and focuses on horror rather than a character-driven story about changing one's way of life.",
+  "relevance": 0
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|72190": {
+  "reason": "The film is set in a global apocalypse, not a rural countryside, and does not focus on a character changing their way of life.",
+  "relevance": 0
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|770": {
+  "reason": "The film is set in the American South during the Civil War, not in a rural countryside focusing on personal lifestyle change.",
+  "relevance": 0
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|82693": {
+  "reason": "The film is set in a city, not the rural countryside, and focuses more on mental illness and family dynamics than a person changing their way of life in the countryside.",
+  "relevance": 1
+ },
+ "qwen3:14b|09445ac024a100b0a8179be16ad7a884fac7e9e2c9c48335a521439cab0f941e|887": {
+  "reason": "The film focuses on war veterans adjusting to civilian life, not a rural countryside setting or a person changing their way of life in that context.",
+  "relevance": 1
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|11202": {
+  "reason": "Patton is a historical film that explores the ambition and personal cost of power through the life of General George S. Patton during World War II.",
+  "relevance": 3
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|19": {
+  "reason": "Metropolis touches on themes of power and class struggle, but it is more science fiction than historical.",
+  "relevance": 2
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|235": {
+  "reason": "The film does not focus on historical ambition or the personal cost of power.",
+  "relevance": 0
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|238": {
+  "reason": "The Godfather strongly matches the request with its historical setting, themes of ambition and power, and exploration of personal cost within a family and criminal organization.",
+  "relevance": 3
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|264660": {
+  "reason": "Ex Machina is a science fiction film about artificial intelligence, not a historical story about ambition and the personal cost of power.",
+  "relevance": 0
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|272": {
+  "reason": "The film touches on themes of power and personal cost but is more focused on action and crime than historical ambition.",
+  "relevance": 1
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|27205": {
+  "reason": "Inception is a science fiction thriller, not a historical story about ambition and power.",
+  "relevance": 0
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|33": {
+  "reason": "The film explores themes of regret and justice, but it is a Western rather than a historical story about ambition and power.",
+  "relevance": 2
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|389": {
+  "reason": "The film touches on themes of power and personal bias but lacks a historical setting and a clear focus on ambition.",
+  "relevance": 1
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|424": {
+  "reason": "Schindler's List deals with power and personal cost, but it is more focused on rescue and morality than ambition.",
+  "relevance": 2
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|44639": {
+  "reason": "Inside Job addresses themes of corruption and financial power but does not focus on historical ambition or personal cost of power.",
+  "relevance": 1
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|497": {
+  "reason": "The film has some thematic elements of power and personal cost, but it lacks a strong historical context and focus on ambition.",
+  "relevance": 1
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|5902": {
+  "reason": "The film deals with historical events but does not focus on themes of ambition and personal cost of power.",
+  "relevance": 1
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|603": {
+  "reason": "The Matrix is a science fiction dystopia, not a historical story about ambition and power.",
+  "relevance": 0
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|68718": {
+  "reason": "The film touches on themes of power and revenge but lacks a strong historical context and focus on personal cost of ambition.",
+  "relevance": 1
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|76203": {
+  "reason": "The film touches on personal struggle and injustice but does not strongly focus on ambition and the personal cost of power.",
+  "relevance": 1
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|770": {
+  "reason": "The film touches on themes of power and personal cost through its portrayal of war and personal relationships, but it is more focused on romance and drama than on historical ambition.",
+  "relevance": 2
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|887": {
+  "reason": "The film touches on themes of personal struggle and the cost of war, but it does not focus on ambition or the personal cost of power as central themes.",
+  "relevance": 2
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|947": {
+  "reason": "Lawrence of Arabia is a historical film that explores ambition, power, and their personal costs through the story of T.E. Lawrence.",
+  "relevance": 3
+ },
+ "qwen3:14b|0dddee4f76703b12032bed999d28d8d2d4e95828e7d0428e507d7743d94f48be|9837": {
+  "reason": "The film touches on themes of power and ambition through the rivalry between Moses and Ramses, but it is primarily a family-oriented animated film rather than a historical drama focused on personal cost.",
+  "relevance": 2
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|111": {
+  "reason": "Scarface is a crime thriller about drug trafficking, not a historical drama about ordinary people in a major conflict.",
+  "relevance": 0
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|11202": {
+  "reason": "The film focuses on a historical figure rather than ordinary people during a conflict.",
+  "relevance": 1
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|11324": {
+  "reason": "Shutter Island is a psychological thriller, not a historical drama about ordinary people in a conflict.",
+  "relevance": 0
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|11967": {
+  "reason": "The film features historical conflict and drama, but focuses more on crime and western elements than on ordinary people.",
+  "relevance": 2
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|15121": {
+  "reason": "The film is a historical drama set during World War II and features ordinary people navigating a major conflict, though it also includes musical elements that may not align fully with a pure drama preference.",
+  "relevance": 2
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|16869": {
+  "reason": "The film is set during World War II and involves conflict, but it focuses more on action and thriller elements than on ordinary people's experiences.",
+  "relevance": 1
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|238": {
+  "reason": "The film is a crime drama rather than a historical drama about ordinary people in a conflict.",
+  "relevance": 1
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|288": {
+  "reason": "While 'High Noon' is a classic film with themes of justice and conflict, it is a Western rather than a historical drama about ordinary people in a major conflict.",
+  "relevance": 1
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|3131": {
+  "reason": "Gangs of New York is a historical drama that focuses on ordinary people caught in a major conflict during the American Civil War era.",
+  "relevance": 3
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|346": {
+  "reason": "Seven Samurai is a highly relevant historical drama that depicts ordinary people (peasants) living through a major conflict (bandit attacks) with strong moral and dramatic elements.",
+  "relevance": 3
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|389": {
+  "reason": "The film is a drama that explores conflict through the interactions of ordinary people, though it is set in a courtroom rather than a historical conflict.",
+  "relevance": 2
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|424": {
+  "reason": "Schindler's List is a historical drama that focuses on ordinary people living through a major conflict, specifically the Holocaust during World War II.",
+  "relevance": 3
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|550": {
+  "reason": "While 'Fight Club' is a drama, it is not a historical drama about ordinary people living through a major conflict.",
+  "relevance": 1
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|680": {
+  "reason": "Pulp Fiction is a crime thriller with no historical context or focus on ordinary people during a major conflict.",
+  "relevance": 0
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|68718": {
+  "reason": "The film has a historical setting and includes drama, but it is more of a Western than a historical drama focused on ordinary people.",
+  "relevance": 1
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|76203": {
+  "reason": "The film is a historical drama about ordinary people living through a major conflict, specifically the institution of slavery in the pre-Civil War United States.",
+  "relevance": 3
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|770": {
+  "reason": "The film covers a historical conflict (Civil War) and features ordinary people's experiences, though it is more centered on personal drama and romance than on broader historical context.",
+  "relevance": 2
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|887": {
+  "reason": "The film is a highly relevant historical drama about ordinary people navigating the aftermath of a major conflict (World War II).",
+  "relevance": 3
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|947": {
+  "reason": "The film is a historical drama about ordinary people living through a major conflict, set during World War I.",
+  "relevance": 3
+ },
+ "qwen3:14b|26c9a37f336aeda8d75f5cd5d049a429294fcb7d21a92af5f483dd4a34f5db21|9837": {
+  "reason": "The film is a historical drama involving a major conflict, but it is animated and includes family and adventure genres which may not fully align with the user's preference for drama alone.",
+  "relevance": 2
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|105": {
+  "reason": "The film features time travel but lacks complex, connected timelines and multiple perspectives.",
+  "relevance": 1
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|10681": {
+  "reason": "WALL\u00b7E does not feature connected timelines, multiple perspectives, or nonlinear storytelling.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|12144": {
+  "reason": "The film does not feature challenging stories, nonlinear storytelling, or themes of fate and personal choices.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|129": {
+  "reason": "Spirited Away does not feature connected timelines, nonlinear storytelling, or multiple viewpoints.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|14160": {
+  "reason": "The film does not feature connected timelines, nonlinear storytelling, or multiple perspectives.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|152601": {
+  "reason": "The film lacks connected timelines and multiple perspectives, though it explores themes of loneliness and personal choices.",
+  "relevance": 1
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|157336": {
+  "reason": "Interstellar features nonlinear storytelling and explores themes of fate and personal choices, but its focus is more on science fiction and space exploration than on multiple connected timelines and perspectives.",
+  "relevance": 2
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|165": {
+  "reason": "The film features time travel and multiple timelines, but lacks the depth and complexity in storytelling expected for a challenging narrative with multiple perspectives.",
+  "relevance": 1
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|18": {
+  "reason": "The film lacks connected timelines and multiple perspectives, though it does feature a challenging story and themes of fate.",
+  "relevance": 1
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|19995": {
+  "reason": "Avatar does not feature connected timelines, nonlinear storytelling, or multiple viewpoints.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|235": {
+  "reason": "Stand by Me does not feature connected timelines, nonlinear storytelling, or themes of fate and personal choices.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|27205": {
+  "reason": "Inception features a nonlinear storytelling approach with multiple perspectives and explores themes of fate and personal choices through its complex narrative structure.",
+  "relevance": 3
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|3170": {
+  "reason": "Bambi does not feature connected timelines, nonlinear storytelling, or themes of fate and personal choices.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|424": {
+  "reason": "Schindler's List lacks nonlinear storytelling and multiple perspectives, though it deals with profound themes.",
+  "relevance": 1
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|433": {
+  "reason": "Mary Poppins does not feature connected timelines, nonlinear storytelling, or themes of fate and personal choices.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|497": {
+  "reason": "The film lacks connected timelines and multiple viewpoints, though it explores themes of fate and personal choices.",
+  "relevance": 1
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|550": {
+  "reason": "Fight Club features nonlinear storytelling and explores themes of identity and personal choices, but it does not prominently use multiple connected timelines or perspectives.",
+  "relevance": 2
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|597": {
+  "reason": "Titanic has a nonlinear storytelling element but lacks multiple connected timelines and perspectives.",
+  "relevance": 1
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|603": {
+  "reason": "The film has a strong philosophical theme but lacks multiple connected timelines and perspectives.",
+  "relevance": 1
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|680": {
+  "reason": "Pulp Fiction features nonlinear storytelling and multiple viewpoints, but it does not focus on themes of fate and personal choices as prominently as requested.",
+  "relevance": 2
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|68718": {
+  "reason": "Django Unchained is a linear story without connected timelines or multiple perspectives.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|72190": {
+  "reason": "The film includes multiple perspectives but lacks the complex, challenging storytelling with connected timelines requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|744": {
+  "reason": "Top Gun does not feature connected timelines, nonlinear storytelling, or multiple viewpoints.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|745": {
+  "reason": "The film has a nonlinear storytelling approach but lacks multiple connected timelines and perspectives.",
+  "relevance": 1
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|887": {
+  "reason": "The film does not feature connected timelines, nonlinear storytelling, or multiple perspectives.",
+  "relevance": 0
+ },
+ "qwen3:14b|365b2a16aa3d49f5f0f23f67ff19587fe6e6c0f7df85a76f695132faa06ae220|9837": {
+  "reason": "The film has a complex narrative but lacks the nonlinear storytelling and multiple perspectives requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|10681": {
+  "reason": "WALL\u00b7E is a family-friendly animated film with a positive message, but it is more of a sci-fi adventure with romantic elements than a straightforward comedy.",
+  "relevance": 2
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|10895": {
+  "reason": "Pinocchio is a family-friendly animated comedy with a linear, accessible story that aligns well with the request.",
+  "relevance": 2
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|10947": {
+  "reason": "High School Musical is a funny, positive, and easy-to-follow family comedy that aligns well with the user's request.",
+  "relevance": 3
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|11072": {
+  "reason": "Blazing Saddles is a comedy with a family-friendly tone and a linear, accessible storyline, though it may contain elements unsuitable for very young children.",
+  "relevance": 2
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|11176": {
+  "reason": "The Muppet Movie is a funny, family-friendly comedy with a linear and accessible storyline.",
+  "relevance": 3
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|11219": {
+  "reason": "The film is a dark comedy with elements of mystery and thriller, which does not align with the user's request for a positive, easy-to-follow family comedy.",
+  "relevance": 0
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|12144": {
+  "reason": "The film is a family-friendly story with positive themes, but it lacks the comedic elements the user requested.",
+  "relevance": 2
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|13187": {
+  "reason": "A Charlie Brown Christmas is a highly relevant choice as it is a positive, funny, and easy-to-follow family comedy with a linear storytelling approach.",
+  "relevance": 3
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|14160": {
+  "reason": "Up is a highly relevant choice as it is a positive, funny, and easy-to-follow family comedy with a linear storytelling approach.",
+  "relevance": 3
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|150540": {
+  "reason": "Inside Out is a highly relevant choice as it is a positive, easy-to-follow family comedy with a linear storytelling approach.",
+  "relevance": 3
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|18785": {
+  "reason": "The film is comedic but lacks the positive, family-friendly tone requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|19908": {
+  "reason": "While Zombieland includes comedy and a road trip, it is primarily a horror film with significant violence and a post-apocalyptic setting that may not align with the user's preference for a positive, easy-to-follow family story.",
+  "relevance": 1
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|20352": {
+  "reason": "Despicable Me is a funny, family-friendly animated film with a positive and easy-to-follow storyline.",
+  "relevance": 3
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|205321": {
+  "reason": "The film is horror-themed and lacks the positive, family-friendly tone requested.",
+  "relevance": 0
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|235": {
+  "reason": "The film is a dramatic coming-of-age story, not a funny family comedy.",
+  "relevance": 0
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|2493": {
+  "reason": "The Princess Bride is a highly relevant choice as it is a funny, family-friendly story with a linear and accessible narrative.",
+  "relevance": 3
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|3170": {
+  "reason": "Bambi is not primarily a comedy and lacks the humor expected in a funny family story.",
+  "relevance": 1
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|862": {
+  "reason": "Toy Story is a highly relevant choice as it is a funny, family-friendly animated comedy with a linear and accessible storyline.",
+  "relevance": 3
+ },
+ "qwen3:14b|3c1b9c2ae62da49266b6f7e3ce920e5f1544f58a8032695720f96e7710c0652e|9837": {
+  "reason": "The film is a family-oriented animated story with some comedic elements, but it is more focused on drama and adventure than pure comedy.",
+  "relevance": 2
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|105": {
+  "reason": "While 'Back to the Future' contains comedic elements, it is primarily an adventure and science fiction film, not a romantic comedy focused on two people learning to understand each other.",
+  "relevance": 1
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|10681": {
+  "reason": "While WALL\u00b7E contains elements of romance and comedy, it is not primarily a romantic comedy and lacks the lighthearted focus on two people learning to understand each other.",
+  "relevance": 1
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|11219": {
+  "reason": "The film is a dark comedy with elements of mystery and thriller, not a romantic comedy.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|114150": {
+  "reason": "Pitch Perfect covers romantic elements and comedy, but the primary focus is on female friendship and music competition rather than a central romantic relationship.",
+  "relevance": 2
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|12144": {
+  "reason": "The film is an animated adventure about dinosaurs and does not fit the romantic comedy genre or the lighthearted atmosphere requested.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|165": {
+  "reason": "The film is not a romantic comedy and does not focus on two people learning to understand each other.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|18785": {
+  "reason": "The film is a comedy but not a romantic comedy, and it does not focus on two people learning to understand each other.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|19908": {
+  "reason": "Zombieland is a horror-comedy survival film, not a romantic comedy about two people learning to understand each other.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|235": {
+  "reason": "Stand by Me is a drama about friendship and coming of age, not a romantic comedy.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|2493": {
+  "reason": "The Princess Bride is a highly relevant romantic comedy that features two characters learning to understand and love each other despite obstacles.",
+  "relevance": 3
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|254470": {
+  "reason": "The film has comedic elements and some romantic subplots, but it is primarily a musical comedy focused on a singing group rather than a romantic comedy about two people learning to understand each other.",
+  "relevance": 1
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|3170": {
+  "reason": "Bambi is not a romantic comedy and does not fit the requested genres or atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|38": {
+  "reason": "While the film contains romantic elements, it is more of a dramatic science fiction story than a lighthearted romantic comedy.",
+  "relevance": 1
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|389": {
+  "reason": "The film is a drama about a jury deliberation, not a romantic comedy.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|3933": {
+  "reason": "While 'Corpse Bride' includes romance and some comedic elements, it is more of a dark fantasy than a lighthearted romantic comedy.",
+  "relevance": 1
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|621": {
+  "reason": "Grease covers the romantic aspect and has comedic elements, but it is more of a musical than a pure romantic comedy.",
+  "relevance": 2
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|745": {
+  "reason": "The film is a psychological thriller with themes of death and the afterlife, not a romantic comedy.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|762": {
+  "reason": "The film is not a romantic comedy and does not focus on two people learning to understand each other.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|862": {
+  "reason": "Toy Story is an animated family film about toys, not a romantic comedy about human relationships.",
+  "relevance": 0
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|872": {
+  "reason": "Singin' in the Rain is a highly relevant romantic comedy that features two people learning to understand each other in a lighthearted and romantic atmosphere.",
+  "relevance": 3
+ },
+ "qwen3:14b|47f08bd305b04f99141c259927e6d8db227b69e7b6a4ca3176905b842dce187e|9837": {
+  "reason": "The film is an animated historical drama with no romantic or comedic elements.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|12144": {
+  "reason": "The film is an animated adventure about dinosaurs, not a quiet drama about family reconciliation.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|13187": {
+  "reason": "The film touches on family and reconciliation themes but is more focused on holiday spirit and comedy rather than a quiet, character-driven drama.",
+  "relevance": 1
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|150540": {
+  "reason": "Inside Out is not a quiet drama about family forgiveness but rather an animated film about emotions and personal growth.",
+  "relevance": 1
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|152601": {
+  "reason": "The film focuses on a relationship between a man and an AI, not on family forgiveness or reconciliation.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|1585": {
+  "reason": "It's a Wonderful Life addresses family and reconciliation themes, but it is more fantasy-driven and less quiet and slow-paced than requested.",
+  "relevance": 2
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|18785": {
+  "reason": "The Hangover is a comedy with no connection to quiet drama, family, or reconciliation.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|19908": {
+  "reason": "Zombieland is a horror-comedy about survival, not a quiet drama about family reconciliation.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|20352": {
+  "reason": "Despicable Me is an animated comedy, not a quiet drama about family reconciliation.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|238": {
+  "reason": "The Godfather is a crime drama focused on power and revenge, not a quiet family drama about forgiveness.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|240": {
+  "reason": "The Godfather: Part II is a crime drama focused on power and betrayal, not a quiet family drama about forgiveness.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|3170": {
+  "reason": "Bambi is an animated coming-of-age story, not a quiet drama about family forgiveness.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|38": {
+  "reason": "The film deals with emotional themes but focuses more on love and memory than family and reconciliation.",
+  "relevance": 1
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|389": {
+  "reason": "While '12 Angry Men' is a drama with character-driven elements, it does not focus on family reconciliation and is not a quiet, intimate story about forgiveness.",
+  "relevance": 1
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|550": {
+  "reason": "Fight Club is not a quiet drama about family forgiveness; it is a chaotic, violent story about rebellion and nihilism.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|595": {
+  "reason": "While the film deals with family and moral growth, it is not primarily a quiet drama about family forgiveness.",
+  "relevance": 1
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|616": {
+  "reason": "The film is an action-war drama, not a quiet, character-driven family story about forgiveness.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|745": {
+  "reason": "The film is a psychological thriller with supernatural elements, not a quiet drama about family reconciliation.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|770": {
+  "reason": "Gone with the Wind is a romantic epic set during the Civil War, not a quiet drama about family forgiveness.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|805": {
+  "reason": "Rosemary's Baby is a horror film centered on supernatural elements, not a quiet drama about family reconciliation.",
+  "relevance": 0
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|82693": {
+  "reason": "While the film deals with family and mental health, it is not a quiet drama and includes significant comedic elements.",
+  "relevance": 1
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|8587": {
+  "reason": "The film has elements of family and redemption but lacks the quiet, slow, and character-driven storytelling requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|887": {
+  "reason": "The film deals with themes of family and reconciliation through the struggles of veterans returning home, though it is not a quiet, slow-paced drama.",
+  "relevance": 2
+ },
+ "qwen3:14b|481066e462563414e60635d5a2b515bdc4a372d502c008e87bd833ffb9c3bf94|9837": {
+  "reason": "The film is an animated musical adventure, not a quiet, slow-paced drama about family reconciliation.",
+  "relevance": 0
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|10681": {
+  "reason": "WALL\u00b7E is an animated film with a gentle and comforting atmosphere that touches on themes of belonging and growing up, though it also includes elements of science fiction and romantic comedy.",
+  "relevance": 2
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|10895": {
+  "reason": "Pinocchio covers themes of growing up and belonging, but may be too dark for a purely gentle and comforting atmosphere.",
+  "relevance": 2
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|10947": {
+  "reason": "The film has a gentle and comforting atmosphere but lacks the focus on belonging and growing up that the user requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|13187": {
+  "reason": "A Charlie Brown Christmas is a gentle animated story that explores themes of belonging and growing up with a comforting atmosphere.",
+  "relevance": 3
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|150540": {
+  "reason": "Inside Out is a gentle animated story that explores themes of belonging and growing up with a comforting and emotionally resonant atmosphere.",
+  "relevance": 3
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|1584": {
+  "reason": "School of Rock is a comedy-music film, not a gentle animated story about belonging and growing up.",
+  "relevance": 0
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|20352": {
+  "reason": "The film has animation and some emotional elements, but it is more focused on comedy and villainy than gentle storytelling about belonging and growing up.",
+  "relevance": 1
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|235": {
+  "reason": "While 'Stand by Me' deals with coming of age themes, it is not an animated film and has a darker, more dramatic atmosphere than requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|3170": {
+  "reason": "Bambi is a gentle animated story that explores themes of belonging, growing up, and loss in a comforting atmosphere.",
+  "relevance": 3
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|3933": {
+  "reason": "While 'Corpse Bride' is an animated film, its themes and atmosphere are more dark and fantastical than gentle and comforting.",
+  "relevance": 1
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|408": {
+  "reason": "The film has some elements of growing up but lacks the gentle and comforting atmosphere requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|601": {
+  "reason": "E.T. the Extra-Terrestrial touches on themes of belonging and growing up, but its primary focus is on adventure and science fiction rather than gentle, comforting animation.",
+  "relevance": 2
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|630": {
+  "reason": "The film touches on themes of growing up and friendship, but its adventurous and fantastical tone may not fully align with the gentle and comforting atmosphere requested.",
+  "relevance": 2
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|745": {
+  "reason": "The film is a psychological thriller with dark themes, not a gentle animated story about belonging and growing up.",
+  "relevance": 0
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|8587": {
+  "reason": "The film has elements of growth and family but includes intense themes not aligned with a gentle and comforting atmosphere.",
+  "relevance": 1
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|862": {
+  "reason": "Toy Story addresses themes of belonging and friendship, but its tone is more comedic and includes rivalry, which may not fully align with the gentle and comforting atmosphere requested.",
+  "relevance": 2
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|9473": {
+  "reason": "The film is not gentle or comforting, and its content is far from a story about belonging and growing up.",
+  "relevance": 0
+ },
+ "qwen3:14b|636bdd0f5a7def49331d6480f4f3aac0fd686629d8729eea85fe125b9eb93f96|9837": {
+  "reason": "The film addresses themes of identity and conflict, but lacks the gentle and comforting atmosphere requested.",
+  "relevance": 2
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|10681": {
+  "reason": "WALL\u00b7E touches on themes of communication and understanding between different beings, but it is more of a family-oriented animated film with a romantic comedy element rather than a purely reflective, contemplative film.",
+  "relevance": 2
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|1091": {
+  "reason": "The film deals with alien contact but lacks the reflective and contemplative atmosphere focused on language and communication.",
+  "relevance": 1
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|129": {
+  "reason": "Spirited Away touches on themes of communication and understanding through its magical and otherworldly setting, but it is not primarily a reflective film focused on human-alien contact.",
+  "relevance": 2
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|13187": {
+  "reason": "The film does not address themes of communication with incomprehensible beings or a contemplative atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|1430": {
+  "reason": "The film does not address themes of language and communication or a contemplative atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|152601": {
+  "reason": "Her explores human interaction with an advanced AI, reflecting on communication and emotional connection in a contemplative manner.",
+  "relevance": 3
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|19": {
+  "reason": "The film touches on themes of communication and societal division, but does not focus on human contact with incomprehensible beings.",
+  "relevance": 2
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|19995": {
+  "reason": "Avatar touches on themes of communication and understanding between humans and aliens, but is more action-driven than contemplative.",
+  "relevance": 2
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|205596": {
+  "reason": "The film focuses on code-breaking during WWII and does not explore themes of communication with incomprehensible beings.",
+  "relevance": 1
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|239": {
+  "reason": "The film is a comedy with no thematic connection to language, communication, or contemplative atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|264660": {
+  "reason": "Ex Machina is highly relevant as it explores human interaction with an artificial intelligence that is difficult to understand, reflecting on language, communication, and contemplative themes.",
+  "relevance": 3
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|348": {
+  "reason": "The film deals with alien contact but lacks the reflective and contemplative atmosphere focused on language and communication.",
+  "relevance": 1
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|3933": {
+  "reason": "The film touches on themes of communication and misunderstanding but lacks the reflective and contemplative atmosphere requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|44639": {
+  "reason": "Inside Job is unrelated to the themes of language, communication, and contemplative atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|525": {
+  "reason": "The film is a comedy-musical with no thematic focus on language, communication, or contemplative atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|621": {
+  "reason": "Grease is a romantic musical with no connection to themes of language, communication, or contemplative atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|630": {
+  "reason": "The film does not explore themes of communication with incomprehensible beings or a contemplative atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|679": {
+  "reason": "The film focuses more on action and horror than on reflective themes of communication and contemplative atmosphere.",
+  "relevance": 1
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|72190": {
+  "reason": "World War Z is an action-packed zombie apocalypse film, not a reflective, contemplative exploration of communication with unknown beings.",
+  "relevance": 0
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|745": {
+  "reason": "The film touches on themes of communication with the unknown but lacks a strong focus on language and a contemplative atmosphere.",
+  "relevance": 1
+ },
+ "qwen3:14b|6c98778e96daaeaa053a36ca306a0b91f2e3a37c7554a4bb142261c55259bb27|887": {
+  "reason": "The film does not address themes of communication with non-human beings or a contemplative atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|11": {
+  "reason": "The film does not focus on an artist or explore themes of artistic ambition and sacrifice.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|14160": {
+  "reason": "The film does not focus on an artist or personal conflict from artistic ambition.",
+  "relevance": 1
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|1430": {
+  "reason": "The film does not focus on an artist or their personal life conflicts.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|15121": {
+  "reason": "The film does not focus on an artist's ambition causing personal conflict.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|152": {
+  "reason": "The film does not focus on an artist or personal conflict driven by artistic ambition.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|16869": {
+  "reason": "The film focuses on war and revenge rather than artistic ambition and personal conflict.",
+  "relevance": 1
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|19": {
+  "reason": "The film touches on class conflict but does not focus on an artist's personal life struggles or artistic ambition.",
+  "relevance": 1
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|20352": {
+  "reason": "The film is a family-oriented animated comedy with no connection to artistic ambition or intense atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|238": {
+  "reason": "The film focuses more on organized crime and family power dynamics than on artistic ambition and personal conflict.",
+  "relevance": 1
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|244786": {
+  "reason": "Whiplash perfectly captures the intense atmosphere and themes of artistic ambition and sacrifice through its portrayal of a drummer's relentless pursuit of perfection.",
+  "relevance": 3
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|279": {
+  "reason": "Amadeus explores the intense conflict between artistic ambition and personal life through Mozart's struggles and Salieri's envy.",
+  "relevance": 3
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|288": {
+  "reason": "The film does not focus on an artist or themes of artistic ambition and sacrifice.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|3933": {
+  "reason": "The film does not focus on an artist's ambition and its impact on personal life, but rather on a supernatural romance.",
+  "relevance": 1
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|44639": {
+  "reason": "Inside Job is a documentary about the 2008 financial crisis, not about an artist or personal conflict related to artistic ambition.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|550": {
+  "reason": "The film explores themes of personal conflict and inner turmoil, but the artistic ambition and sacrifice aspect is not central to its narrative.",
+  "relevance": 2
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|603": {
+  "reason": "The film focuses more on action and dystopia than on artistic ambition and personal conflict.",
+  "relevance": 1
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|630": {
+  "reason": "The film does not focus on an artist or themes of artistic ambition and sacrifice.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|642": {
+  "reason": "The film does not focus on an artist or themes of artistic ambition and sacrifice.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|680": {
+  "reason": "Pulp Fiction does not focus on an artist or explore themes of artistic ambition and sacrifice.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|68718": {
+  "reason": "The film does not focus on an artist or themes of artistic ambition and sacrifice.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|744": {
+  "reason": "The film focuses on a fighter pilot's personal struggles rather than an artist's ambition and sacrifice.",
+  "relevance": 1
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|745": {
+  "reason": "The film does not focus on an artist or their personal life conflicts related to artistic ambition.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|770": {
+  "reason": "The film focuses more on romance and war than on artistic ambition and personal conflict related to an artist.",
+  "relevance": 1
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|807": {
+  "reason": "The film does not focus on an artist or their personal life conflicts.",
+  "relevance": 0
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|887": {
+  "reason": "The film focuses on war veterans rather than an artist's personal conflicts and artistic ambition.",
+  "relevance": 1
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|947": {
+  "reason": "The film depicts an artist-like figure whose ambition and psychological struggles create personal conflict, aligning with the request's themes and atmosphere.",
+  "relevance": 2
+ },
+ "qwen3:14b|7474f5380e147f498d6989cb69caaddeb6224c62137ed914deda165062099a4f|9837": {
+  "reason": "The film does not focus on an artist or themes of artistic ambition and sacrifice.",
+  "relevance": 0
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|114150": {
+  "reason": "While the film features a group of friends, it lacks the fantasy and journey elements requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|120": {
+  "reason": "The film perfectly matches the request with its imaginative fantasy journey and themes of loyalty and friendship among a close group of companions.",
+  "relevance": 3
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|129": {
+  "reason": "Spirited Away is a highly relevant fantasy film that features a journey and a close group of companions, with strong themes of loyalty and friendship.",
+  "relevance": 3
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|152601": {
+  "reason": "The film does not feature a fantasy journey or close companionship, making it unrelated to the request.",
+  "relevance": 0
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|157336": {
+  "reason": "Interstellar has a journey and group of companions but lacks the fantasy and focus on loyalty and friendship central to the request.",
+  "relevance": 1
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|19995": {
+  "reason": "Avatar includes a journey and companionship, but the focus is more on environmental and cultural themes than on loyalty and friendship.",
+  "relevance": 2
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|235": {
+  "reason": "While 'Stand by Me' features themes of friendship, it is primarily a coming-of-age drama rather than an imaginative fantasy with a journey and close companions.",
+  "relevance": 1
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|2493": {
+  "reason": "The Princess Bride is a highly relevant fantasy film that features a journey, a close group of companions, and emphasizes themes of loyalty and friendship.",
+  "relevance": 3
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|252": {
+  "reason": "The film includes a fantasy setting and a group of companions, but the journey and themes of loyalty and friendship are not central to the story.",
+  "relevance": 2
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|254470": {
+  "reason": "The film has a group of friends but lacks the fantasy and journey elements requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|3170": {
+  "reason": "Bambi includes themes of friendship and a journey, but lacks the imaginative fantasy elements strongly emphasized in the request.",
+  "relevance": 2
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|3933": {
+  "reason": "Corpse Bride features a fantasy journey with companions, touching on themes of loyalty and friendship, though it is more centered on romance and the supernatural.",
+  "relevance": 2
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|408": {
+  "reason": "The film features a fantasy setting and a journey with companions, but the themes of loyalty and friendship are not central to the story.",
+  "relevance": 2
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|49051": {
+  "reason": "The film perfectly matches the request with its fantasy setting, journey, and themes of loyalty and friendship among companions.",
+  "relevance": 3
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|550": {
+  "reason": "Fight Club is a dark drama with themes of nihilism and violence, not an imaginative fantasy with themes of loyalty and friendship.",
+  "relevance": 0
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|630": {
+  "reason": "The Wizard of Oz strongly matches the request with its imaginative fantasy journey and themes of loyalty and friendship among a close group of companions.",
+  "relevance": 3
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|671": {
+  "reason": "Harry Potter and the Philosopher's Stone is a highly relevant fantasy film with a journey and close group of companions, emphasizing loyalty and friendship.",
+  "relevance": 3
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|675": {
+  "reason": "The film features a close group of companions on a journey, with strong themes of loyalty and friendship, fitting well within the fantasy genre.",
+  "relevance": 3
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|694": {
+  "reason": "The film is a horror thriller, not a fantasy with themes of loyalty and friendship.",
+  "relevance": 0
+ },
+ "qwen3:14b|756f17f3f4228e25c66a6a3961ce7f6607177af74dab2a9f0b133d267c1a7e63|862": {
+  "reason": "Toy Story includes themes of friendship and a close group of companions, but it is more of a comedy and family film than a traditional fantasy journey.",
+  "relevance": 2
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|105": {
+  "reason": "The film covers themes of friendship and a new start, but it is more focused on time travel and adventure than pure light comedy.",
+  "relevance": 2
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|10947": {
+  "reason": "The film covers themes of friendship and new beginnings, but it is more focused on high school and musical elements than a general new start in life.",
+  "relevance": 2
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|11072": {
+  "reason": "Blazing Saddles is a comedy with elements of friendship and new beginnings, but it is more of a satirical western than a light-hearted, optimistic story about starting over.",
+  "relevance": 1
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|11219": {
+  "reason": "The film is a dark comedy with elements of mystery and thriller, not a light comedy about friendship and new beginnings.",
+  "relevance": 0
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|14160": {
+  "reason": "Up is a highly relevant choice as it warmly portrays friendship and a new start in life through its uplifting and optimistic narrative.",
+  "relevance": 3
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|150540": {
+  "reason": "Inside Out is a highly relevant choice as it warmly and optimistically explores themes of friendship, emotional growth, and starting anew in life.",
+  "relevance": 3
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|165": {
+  "reason": "The film has comedic elements and themes of time travel, but it lacks a strong focus on friendship and a new start in life.",
+  "relevance": 1
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|18785": {
+  "reason": "The film is a comedy but focuses more on chaos and mishaps than on friendship and a new start in life.",
+  "relevance": 1
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|235": {
+  "reason": "While the film deals with friendship, it is a dramatic coming-of-age story, not a light comedy.",
+  "relevance": 1
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|254470": {
+  "reason": "Pitch Perfect 2 is a light comedy that focuses on friendship and a new start, with a warm and optimistic atmosphere.",
+  "relevance": 3
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|288": {
+  "reason": "High Noon is a Western drama with themes of justice and conflict, not a light comedy about friendship and new beginnings.",
+  "relevance": 0
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|293660": {
+  "reason": "Deadpool is a dark, violent action-comedy that does not match the warm and optimistic atmosphere or the light-hearted theme of friendship and new beginnings.",
+  "relevance": 0
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|3170": {
+  "reason": "Bambi is a dramatic and emotional coming-of-age story, not a light comedy.",
+  "relevance": 0
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|3933": {
+  "reason": "While 'Corpse Bride' has elements of fantasy and a warm atmosphere, it is not a light comedy about friendship or starting anew in life.",
+  "relevance": 1
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|60304": {
+  "reason": "The film is a dark fantasy/horror action movie, not a light comedy about friendship and a new start in life.",
+  "relevance": 0
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|621": {
+  "reason": "Grease touches on themes of friendship and new beginnings but is more centered on romance than light comedy.",
+  "relevance": 2
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|72190": {
+  "reason": "World War Z is a dystopian horror film, not a light comedy about friendship and new beginnings.",
+  "relevance": 0
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|745": {
+  "reason": "The film is a psychological thriller with dark themes, not a light comedy about friendship and a new start in life.",
+  "relevance": 0
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|837": {
+  "reason": "Videodrome is a dark, dystopian horror film, not a light comedy about friendship and new beginnings.",
+  "relevance": 0
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|862": {
+  "reason": "Toy Story covers friendship and a new start, but it is more focused on rivalry and conflict than pure light comedy and optimism.",
+  "relevance": 2
+ },
+ "qwen3:14b|8bf7d88abbe8094f620a2ec86a202c2407e5fa1b6c0364b874a1aea43e431f78|9837": {
+  "reason": "The film is a dramatic animated musical with themes of conflict and destiny, not a light comedy about friendship and new beginnings.",
+  "relevance": 0
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|13": {
+  "reason": "Forrest Gump is a drama-comedy with no science-fiction elements or themes of communication with unfamiliar intelligence.",
+  "relevance": 0
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|150540": {
+  "reason": "Inside Out is emotionally moving but does not involve an unfamiliar intelligence or science-fiction elements.",
+  "relevance": 1
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|152": {
+  "reason": "The film touches on themes of communication and human connection through its exploration of an unfamiliar intelligence, though it is more action-oriented than deeply emotional.",
+  "relevance": 2
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|152601": {
+  "reason": "Her is a highly relevant and emotionally resonant science-fiction film that explores communication, human connection, and the complexities of understanding an unfamiliar intelligence through its portrayal of a relationship between a human and an AI.",
+  "relevance": 3
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|157336": {
+  "reason": "Interstellar is a highly relevant choice as it is an emotional science-fiction story that explores communication and human connection through its themes of love, sacrifice, and understanding unfamiliar intelligence.",
+  "relevance": 3
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|19": {
+  "reason": "Metropolis touches on themes of communication and human connection through its exploration of class division and the need for mediation between different societal groups.",
+  "relevance": 2
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|264660": {
+  "reason": "Ex Machina is a highly relevant emotional science-fiction story that explores communication, human connection, and the complexities of understanding an unfamiliar intelligence.",
+  "relevance": 3
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|3034": {
+  "reason": "The film is a comedy horror spoof and does not match the emotional, thoughtful, or moving science-fiction story requested.",
+  "relevance": 0
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|348": {
+  "reason": "The film has science-fiction elements but focuses more on horror than emotional storytelling about communication and human connection.",
+  "relevance": 1
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|550": {
+  "reason": "Fight Club is a dark drama with themes of nihilism and violence, not an emotional science-fiction story about communication and human connection.",
+  "relevance": 0
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|601": {
+  "reason": "E.T. the Extra-Terrestrial is a highly relevant emotional science-fiction story that explores communication and human connection through the bond between Elliott and the alien.",
+  "relevance": 3
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|603": {
+  "reason": "The film has science fiction elements but lacks the emotional focus and themes of communication and human connection emphasized in the request.",
+  "relevance": 1
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|62": {
+  "reason": "2001: A Space Odyssey is a highly relevant and emotionally profound science-fiction story exploring communication and human connection through its depiction of human interaction with an unfamiliar intelligence.",
+  "relevance": 3
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|6479": {
+  "reason": "The film touches on themes of isolation and communication but lacks the emotional depth and focus on understanding an unfamiliar intelligence as requested.",
+  "relevance": 2
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|72190": {
+  "reason": "While 'World War Z' is a science-fiction film, it focuses more on action and survival than on emotional themes of communication and human connection.",
+  "relevance": 1
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|82693": {
+  "reason": "Silver Linings Playbook is a drama about mental illness and personal relationships, not a science-fiction story about communication with an unfamiliar intelligence.",
+  "relevance": 0
+ },
+ "qwen3:14b|901da191f4a126dc1b165fd9aaefcec62748f6ee1b27111fc4006c585cf71a4d|837": {
+  "reason": "Videodrome is a horror-themed film focused on media and body horror, not an emotional science-fiction story about communication and human connection.",
+  "relevance": 0
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|106646": {
+  "reason": "The film does not involve ordinary people cooperating to survive; it focuses on corruption and personal downfall on Wall Street.",
+  "relevance": 0
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|10681": {
+  "reason": "The film focuses more on individual robot's journey and environmental themes than on cooperation and survival among ordinary people.",
+  "relevance": 1
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|11219": {
+  "reason": "The film does not involve ordinary people cooperating to survive; it is a comedy-mystery with no survival theme.",
+  "relevance": 0
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|120": {
+  "reason": "The film strongly features ordinary people cooperating to survive, aligning with the themes of cooperation and survival.",
+  "relevance": 3
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|12144": {
+  "reason": "The film strongly matches the request with its focus on cooperation and survival among young dinosaurs.",
+  "relevance": 3
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|129": {
+  "reason": "The film has elements of adventure but does not strongly emphasize cooperation and survival as central themes.",
+  "relevance": 1
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|14160": {
+  "reason": "The film features cooperation and an adventurous journey, but survival is not a central theme.",
+  "relevance": 2
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|149": {
+  "reason": "The film features survival and conflict, but lacks a strong emphasis on cooperation among ordinary people.",
+  "relevance": 1
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|152601": {
+  "reason": "The film focuses on a romantic relationship with an AI and does not involve ordinary people cooperating to survive.",
+  "relevance": 0
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|157336": {
+  "reason": "Interstellar features a group of explorers working together to survive and save humanity, aligning with the themes of cooperation and survival.",
+  "relevance": 2
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|18": {
+  "reason": "The film features cooperation and survival themes through its plot involving a taxi driver and others working together to save humanity.",
+  "relevance": 2
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|19995": {
+  "reason": "Avatar involves cooperation and survival themes through the protagonist's interaction with the alien civilization, though it is not primarily focused on ordinary people.",
+  "relevance": 2
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|238": {
+  "reason": "The film does not involve ordinary people cooperating to survive; it focuses on organized crime and revenge.",
+  "relevance": 0
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|264660": {
+  "reason": "Ex Machina does not focus on cooperation and survival among ordinary people.",
+  "relevance": 0
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|3170": {
+  "reason": "Bambi does not feature ordinary people cooperating to survive; it is a coming-of-age story about a deer in the forest.",
+  "relevance": 0
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|329": {
+  "reason": "Jurassic Park features ordinary people working together to survive dangerous situations, aligning with the themes of cooperation and survival.",
+  "relevance": 2
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|5176": {
+  "reason": "The film features cooperation between characters and a survival theme, but it is more focused on individual heroism than group cooperation.",
+  "relevance": 2
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|550": {
+  "reason": "While 'Fight Club' involves themes of rebellion and survival, it lacks a focus on cooperation among ordinary people.",
+  "relevance": 1
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|603": {
+  "reason": "The film focuses more on individual heroism and rebellion than on cooperation among ordinary people.",
+  "relevance": 1
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|630": {
+  "reason": "The film features cooperation among characters and a survival journey, though the focus is more on fantasy and personal growth than on survival challenges.",
+  "relevance": 2
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|68718": {
+  "reason": "The film focuses more on revenge and individual heroism than on cooperation and survival among ordinary people.",
+  "relevance": 1
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|70160": {
+  "reason": "The Hunger Games strongly matches the request with its focus on cooperation and survival in a high-stakes environment.",
+  "relevance": 3
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|756": {
+  "reason": "Fantasia is an animated musical film with no connection to adventure, cooperation, or survival themes.",
+  "relevance": 0
+ },
+ "qwen3:14b|922f3250ddbec3d67409a546b82f7413fff98d6f197c9ba53280adb8fce81b7b|887": {
+  "reason": "The film focuses on personal struggles and rehabilitation rather than an adventure involving cooperation for survival.",
+  "relevance": 1
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|11219": {
+  "reason": "The film does not address themes of grief or family, and its atmosphere is comedic and suspenseful, not emotional or hopeful.",
+  "relevance": 0
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|114150": {
+  "reason": "The film does not address themes of grief or family, and its atmosphere is comedic rather than emotional and hopeful.",
+  "relevance": 0
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|13": {
+  "reason": "Forrest Gump touches on family relationships and emotional themes, but does not focus primarily on grief or the process of finding hope after loss.",
+  "relevance": 2
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|150540": {
+  "reason": "Inside Out touches on emotional themes and family dynamics, but it focuses more on personal growth and emotions rather than grief and finding a way forward as a family.",
+  "relevance": 2
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|15121": {
+  "reason": "The film does not focus on grief or family dealing with loss, but rather on a governess and her family in Austria during World War II.",
+  "relevance": 1
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|1585": {
+  "reason": "It's a Wonderful Life strongly addresses themes of grief, family, and emotional yet hopeful resolution through George's journey and the intervention of his guardian angel.",
+  "relevance": 3
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|235": {
+  "reason": "The film deals with themes of grief and friendship, but the focus is more on coming of age than on family dynamics.",
+  "relevance": 2
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|238": {
+  "reason": "The Godfather does not address themes of grief and family in an emotional and hopeful atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|3170": {
+  "reason": "Bambi touches on loss but does not strongly focus on family dealing with grief or finding hope.",
+  "relevance": 1
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|38": {
+  "reason": "The film deals with emotional themes but focuses more on love and memory than on family and grief.",
+  "relevance": 1
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|3933": {
+  "reason": "The film deals with themes of love and loss but does not focus on family or grief in a way that matches the request.",
+  "relevance": 1
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|44639": {
+  "reason": "Inside Job is unrelated to the themes of grief and family.",
+  "relevance": 0
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|550": {
+  "reason": "Fight Club does not address grief or family, and its atmosphere is not emotional or hopeful.",
+  "relevance": 0
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|601": {
+  "reason": "The film touches on emotional themes but does not strongly focus on family dealing with grief or finding hope.",
+  "relevance": 1
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|694": {
+  "reason": "The film is a horror thriller centered on madness and isolation, not a family dealing with grief and finding hope.",
+  "relevance": 0
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|72190": {
+  "reason": "World War Z focuses on a zombie apocalypse and survival, not on family dealing with grief or emotional hope.",
+  "relevance": 0
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|745": {
+  "reason": "The film deals with themes of loss and the supernatural, but does not focus on a family dealing with grief or finding hope.",
+  "relevance": 1
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|770": {
+  "reason": "The film does not focus on a family dealing with grief or finding hope, but rather on a romantic relationship during the Civil War.",
+  "relevance": 0
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|805": {
+  "reason": "The film is horror-themed and focuses on supernatural elements, not emotional family grief or hope.",
+  "relevance": 0
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|807": {
+  "reason": "Se7en is a crime thriller focused on a serial killer and does not deal with themes of grief or family.",
+  "relevance": 0
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|82693": {
+  "reason": "The film addresses themes of mental illness and family, but grief and hope are not central to its narrative.",
+  "relevance": 2
+ },
+ "qwen3:14b|933d8464ce66c9a18f4f173d0b8827ccd3bc9182b67d25c378760d3da61a5294|887": {
+  "reason": "The film strongly addresses themes of grief, family, and finding hope after hardship, aligning well with the user's request.",
+  "relevance": 3
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|10528": {
+  "reason": "The film features mystery and unexpected revelations, but the truth does not change as dynamically as described.",
+  "relevance": 2
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|11219": {
+  "reason": "The film contains suspense and mystery elements, but it is more comedic than purely suspenseful.",
+  "relevance": 2
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|11324": {
+  "reason": "Shutter Island is highly relevant due to its suspenseful storytelling and unexpected revelations that change the viewer's understanding of the truth as the story progresses.",
+  "relevance": 3
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|15121": {
+  "reason": "The film is a musical drama with no suspense or evolving truth, making it unrelated to the request.",
+  "relevance": 0
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|16290": {
+  "reason": "Jackass 3D is a comedic stunt-driven film and does not provide suspenseful storytelling or unexpected revelations.",
+  "relevance": 0
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|205596": {
+  "reason": "The film has suspense and historical context but lacks the evolving truth and mystery-driven storytelling the user requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|235": {
+  "reason": "While 'Stand by Me' contains elements of mystery, it is primarily a coming-of-age drama and does not focus on suspense or evolving truths.",
+  "relevance": 1
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|288": {
+  "reason": "High Noon is a Western with a clear moral structure, not a suspenseful mystery with evolving truths.",
+  "relevance": 0
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|3034": {
+  "reason": "Young Frankenstein is a comedy horror spoof and does not focus on suspense or evolving truth.",
+  "relevance": 0
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|389": {
+  "reason": "The film features suspense and evolving perspectives, but lacks explicit mystery and unexpected revelations central to the request.",
+  "relevance": 2
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|3933": {
+  "reason": "While 'Corpse Bride' contains mystery and some unexpected elements, it is primarily a romantic fantasy rather than a suspenseful film with evolving truths.",
+  "relevance": 1
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|44639": {
+  "reason": "Inside Job provides some revelations but lacks the suspenseful storytelling and evolving truth central to the request.",
+  "relevance": 1
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|497": {
+  "reason": "The film has elements of mystery but lacks the suspenseful, evolving truth that the user requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|592": {
+  "reason": "The film features suspense and unexpected revelations, but the truth does not change as dramatically as the user described.",
+  "relevance": 2
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|603": {
+  "reason": "The Matrix contains suspense and revelations, but its primary focus is action and science fiction rather than mystery and evolving truth.",
+  "relevance": 2
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|646": {
+  "reason": "The film contains suspense and a villain's plan, but lacks the evolving truth and mystery-driven storytelling requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|671": {
+  "reason": "The film contains some mystery elements but lacks the suspenseful, evolving truth central to the user's request.",
+  "relevance": 1
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|745": {
+  "reason": "The Sixth Sense is highly relevant due to its suspenseful storytelling and unexpected revelations that change the viewer's understanding of the narrative.",
+  "relevance": 3
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|807": {
+  "reason": "Se7en is highly relevant due to its suspenseful storytelling and continuous revelations that change the viewer's understanding of the truth as the film progresses.",
+  "relevance": 3
+ },
+ "qwen3:14b|95a988af0321509b75508709e1cc51f46a89ced8ad3bf1c0d40c5274a15b5767|9837": {
+  "reason": "The film is a family-oriented animated musical with a historical storyline, not suspenseful or focused on mystery and revelations.",
+  "relevance": 0
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|1091": {
+  "reason": "The film explores themes of identity through the alien's shape-shifting ability, aligning with the request's focus on what makes a person human.",
+  "relevance": 2
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|13": {
+  "reason": "Forrest Gump is not a science-fiction film and does not explore themes of identity and consciousness.",
+  "relevance": 0
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|152601": {
+  "reason": "Her directly addresses the themes of identity and consciousness through its exploration of human-AI relationships and the nature of humanity.",
+  "relevance": 3
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|157336": {
+  "reason": "Interstellar touches on themes of identity and consciousness through its exploration of human emotions and relationships in space, though it is not the primary focus of the film.",
+  "relevance": 2
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|18": {
+  "reason": "The film touches on science fiction elements but does not deeply explore themes of identity and consciousness.",
+  "relevance": 1
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|1893": {
+  "reason": "The film has science fiction elements but does not deeply explore themes of identity and consciousness.",
+  "relevance": 1
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|19": {
+  "reason": "Metropolis explores themes of identity, consciousness, and humanity through its depiction of a divided society and the relationship between humans and machines.",
+  "relevance": 3
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|218": {
+  "reason": "The film touches on artificial intelligence but does not deeply explore themes of identity and consciousness.",
+  "relevance": 1
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|264660": {
+  "reason": "Ex Machina directly addresses themes of identity and consciousness through its exploration of artificial intelligence and what it means to be human.",
+  "relevance": 3
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|27205": {
+  "reason": "Inception deeply explores themes of identity and consciousness through its complex narrative involving the subconscious.",
+  "relevance": 3
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|3034": {
+  "reason": "The film touches on themes of identity through its portrayal of the monster and the scientist's experiments, but it is more of a comedy and horror spoof than a serious exploration of consciousness.",
+  "relevance": 2
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|348": {
+  "reason": "The film touches on science fiction elements but does not deeply explore themes of identity and consciousness.",
+  "relevance": 1
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|38": {
+  "reason": "The film deeply explores themes of identity and consciousness through its portrayal of memory and love.",
+  "relevance": 3
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|4174": {
+  "reason": "The film deals with themes of identity but lacks a science-fiction context.",
+  "relevance": 1
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|497": {
+  "reason": "The film has limited connection to science fiction and does not directly explore themes of identity and consciousness.",
+  "relevance": 1
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|550": {
+  "reason": "Fight Club explores themes of identity and consciousness through its narrative of dual identity and nihilism, though it is primarily a drama rather than a science-fiction film.",
+  "relevance": 2
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|603": {
+  "reason": "The Matrix deeply explores themes of identity and consciousness through its portrayal of reality, artificial intelligence, and human existence.",
+  "relevance": 3
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|62": {
+  "reason": "The film deeply explores themes of identity and consciousness through its portrayal of artificial intelligence and human evolution.",
+  "relevance": 3
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|6479": {
+  "reason": "The film explores themes of identity and consciousness through its portrayal of a lone survivor in a post-apocalyptic world.",
+  "relevance": 2
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|72190": {
+  "reason": "The film touches on themes of survival and humanity but does not deeply explore identity and consciousness as requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|745": {
+  "reason": "The film touches on themes of consciousness but does not strongly explore what makes a person human as requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|97ab448e2d235d8c46071c47e6549ddb6e014583517025d38480b5da20c1bc40|9372": {
+  "reason": "The film is a documentary about fast food and health, not a science-fiction story questioning human identity or consciousness.",
+  "relevance": 0
+ },
+ "qwen3:14b|9e6b4566725f3931cd6f299baece08d1bd38ab0925f195a0f11042ceb825233e|13187": {
+  "reason": "The film provides a hopeful ending and fits the adventure genre through its journey of restoring Christmas spirit.",
+  "relevance": 2
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|10895": {
+  "reason": "Pinocchio is an animated adventure about a young person discovering a strange world with an imaginative and hopeful atmosphere.",
+  "relevance": 3
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|129": {
+  "reason": "Spirited Away is a highly relevant animated adventure that features a young protagonist discovering a strange, imaginative world filled with magic and hope.",
+  "relevance": 3
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|14160": {
+  "reason": "The film features an animated adventure with a young character guiding an older protagonist through an imaginative journey, aligning with the request.",
+  "relevance": 2
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|149": {
+  "reason": "The film has animation and an adventurous tone, but lacks the imaginative and hopeful atmosphere requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|157336": {
+  "reason": "Interstellar is a science fiction adventure but lacks the animated format and the imaginative, hopeful atmosphere requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|252": {
+  "reason": "The film features an imaginative and hopeful atmosphere with an animated adventure element, though it is not fully animated.",
+  "relevance": 2
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|264660": {
+  "reason": "Ex Machina is a science fiction drama, not an animated adventure with an imaginative and hopeful atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|3170": {
+  "reason": "Bambi covers a young protagonist discovering a new world, but lacks the imaginative and hopeful atmosphere specified.",
+  "relevance": 2
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|329": {
+  "reason": "Jurassic Park is an adventure film but lacks the animated and imaginative elements requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|433": {
+  "reason": "Mary Poppins features an animated adventure with a young protagonist discovering a magical world, though it is more focused on musical elements than pure animation.",
+  "relevance": 2
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|49051": {
+  "reason": "The film features a young protagonist on an adventurous journey to a strange world, aligning with the request, though it is not animated.",
+  "relevance": 2
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|630": {
+  "reason": "The Wizard of Oz is a highly relevant animated adventure that features a young person discovering a strange world with an imaginative and hopeful atmosphere.",
+  "relevance": 3
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|671": {
+  "reason": "The film is a highly relevant animated adventure about a young person discovering a strange, imaginative, and hopeful world.",
+  "relevance": 3
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|745": {
+  "reason": "The film is a psychological thriller, not an animated adventure, and does not match the requested atmosphere or genre.",
+  "relevance": 0
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|756": {
+  "reason": "Fantasia is an animated film with imaginative elements, but it lacks a clear narrative about a young person discovering a strange world.",
+  "relevance": 1
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|805": {
+  "reason": "The film is horror-themed and does not match the requested animated adventure with an imaginative and hopeful atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|887": {
+  "reason": "The film is a drama about war veterans, not an animated adventure about a young person discovering a strange world.",
+  "relevance": 0
+ },
+ "qwen3:14b|a2cab4bd2acfe3c7fd3641e3635dc1c454a8705a25f7feca90420e75d8d8189a|9837": {
+  "reason": "The film is an animated adventure with a hopeful and imaginative story, though it is more historically grounded than purely fantastical.",
+  "relevance": 2
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|105": {
+  "reason": "The film involves time travel and a relationship, but it does not focus on a meaningful relationship between a machine and a human.",
+  "relevance": 1
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|13": {
+  "reason": "Forrest Gump does not involve a machine and does not explore themes of technology and loneliness.",
+  "relevance": 0
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|152601": {
+  "reason": "Her perfectly matches the request with its story of a human forming a meaningful relationship with a machine, exploring themes of technology and loneliness within the science fiction genre.",
+  "relevance": 3
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|157336": {
+  "reason": "The film touches on technology and space travel but does not focus on a meaningful relationship between a machine and a human.",
+  "relevance": 1
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|18": {
+  "reason": "The film has science fiction elements but does not focus on a meaningful relationship between a machine and a human.",
+  "relevance": 1
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|19": {
+  "reason": "The film touches on themes of technology and class division, but does not focus on a meaningful relationship between a machine and a human.",
+  "relevance": 2
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|218": {
+  "reason": "The film focuses on a battle between humans and machines rather than a meaningful relationship between a machine and a human.",
+  "relevance": 1
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|235": {
+  "reason": "The film does not involve a machine and a human forming a relationship, nor does it explore technology and loneliness.",
+  "relevance": 0
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|264660": {
+  "reason": "Ex Machina strongly explores the relationship between a human and an AI, with themes of technology and loneliness, fitting the request well.",
+  "relevance": 3
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|38": {
+  "reason": "The film explores emotional themes and a relationship, but it does not focus on a machine and a human forming a meaningful relationship.",
+  "relevance": 2
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|550": {
+  "reason": "The film does not feature a meaningful relationship between a machine and a human, nor does it focus on technology and loneliness.",
+  "relevance": 0
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|601": {
+  "reason": "The film features a meaningful relationship between a human and an extraterrestrial, touching on themes of loneliness and connection, though it is not centered on technology.",
+  "relevance": 2
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|603": {
+  "reason": "The film touches on technology but lacks a focus on loneliness and a meaningful relationship between a machine and a human.",
+  "relevance": 1
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|62": {
+  "reason": "The film explores a relationship between a human and an advanced machine (HAL 9000), touching on themes of technology and loneliness, though the emotional depth of the relationship is more implied than explicitly developed.",
+  "relevance": 2
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|72190": {
+  "reason": "The film does not focus on a relationship between a machine and a human, nor does it explore themes of technology and loneliness.",
+  "relevance": 0
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|770": {
+  "reason": "The film does not involve a machine and a human forming a meaningful relationship, nor does it explore technology and loneliness.",
+  "relevance": 0
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|78": {
+  "reason": "Blade Runner explores themes of technology and humanity, but the focus is more on man vs machine conflict than a moving relationship between a machine and a human.",
+  "relevance": 2
+ },
+ "qwen3:14b|a6e5b882a0a52cdca26bd07776cfe5de859d5bbf94aa88b7c8bc23eccde4ff9f|837": {
+  "reason": "The film does not focus on a meaningful relationship between a machine and a human, nor does it explore themes of technology and loneliness.",
+  "relevance": 0
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|114150": {
+  "reason": "Pitch Perfect is a comedy-musical film about female friendship and college competition, not a dark crime story about revenge.",
+  "relevance": 0
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|155": {
+  "reason": "The Dark Knight is a highly relevant choice as it is a dark crime story that explores the consequences of revenge through its intense portrayal of chaos and moral dilemmas.",
+  "relevance": 3
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|235": {
+  "reason": "The film has a crime genre element but does not focus on revenge or its consequences.",
+  "relevance": 1
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|238": {
+  "reason": "The film covers revenge and crime, but the focus is more on family and power than solely on the consequences of revenge.",
+  "relevance": 2
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|240": {
+  "reason": "The film touches on revenge and consequences through its portrayal of the Corleone family's actions and their fallout, but it is not primarily a dark crime story focused on revenge.",
+  "relevance": 2
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|268": {
+  "reason": "The film covers revenge and crime themes but is more focused on superhero action than dark crime consequences.",
+  "relevance": 2
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|278": {
+  "reason": "The film touches on consequences but lacks a strong focus on revenge as requested.",
+  "relevance": 2
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|288": {
+  "reason": "High Noon contains themes of revenge and justice, but it is a Western rather than a Crime film.",
+  "relevance": 2
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|3131": {
+  "reason": "Gangs of New York is a highly relevant dark crime story centered on revenge and its consequences.",
+  "relevance": 3
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|33": {
+  "reason": "The film addresses revenge and its consequences, though it is set in the Western genre rather than Crime.",
+  "relevance": 2
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|49026": {
+  "reason": "The film covers revenge and consequences through Batman's actions and Bane's impact, but it is more focused on superhero and action elements than pure crime.",
+  "relevance": 2
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|60304": {
+  "reason": "The film has a dark tone and themes of revenge, but it is more fantasy than crime and lacks a strong focus on consequences.",
+  "relevance": 1
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|680": {
+  "reason": "Pulp Fiction is a crime-themed film but lacks a strong focus on revenge and its consequences.",
+  "relevance": 1
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|68718": {
+  "reason": "The film covers revenge and has crime elements, but it is primarily a Western rather than a crime story.",
+  "relevance": 2
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|745": {
+  "reason": "The film is not a dark crime story about revenge and its consequences.",
+  "relevance": 0
+ },
+ "qwen3:14b|b477ffd2dacfea7f397d898a71e69524c5852250b1b0f5283e5ff44543aff7d0|807": {
+  "reason": "Se7en is a highly relevant dark crime story that explores the consequences of revenge through its depiction of a vengeful killer and the moral decay of the characters involved.",
+  "relevance": 3
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|11324": {
+  "reason": "Shutter Island is a highly relevant choice due to its psychological depth, nonlinear storytelling, and exploration of memory and identity through an unreliable perspective.",
+  "relevance": 3
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|129": {
+  "reason": "Spirited Away is a fantasy adventure with a clear narrative and does not focus on psychological themes, memory, or identity.",
+  "relevance": 0
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|13": {
+  "reason": "Forrest Gump is a linear, heartwarming drama with a reliable perspective, not a psychological story with an unusual narrative or uncertain memories.",
+  "relevance": 0
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|14160": {
+  "reason": "The film is a family adventure with a linear narrative and does not explore psychological themes, memory, or identity.",
+  "relevance": 0
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|152601": {
+  "reason": "While 'Her' explores themes of loneliness and identity, it does not focus on memory, identity through an unusual narrative, or unreliable perspective.",
+  "relevance": 1
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|235": {
+  "reason": "The film has some thematic elements related to memory but lacks the nonlinear storytelling and unreliable perspective requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|272": {
+  "reason": "Batman Begins is an action-driven superhero film, not a psychological story with nonlinear storytelling or themes of memory and identity.",
+  "relevance": 0
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|27205": {
+  "reason": "Inception has elements of nonlinear storytelling and psychological themes, but it lacks a strong focus on memory and identity with an unreliable perspective.",
+  "relevance": 1
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|288": {
+  "reason": "High Noon is a Western with a linear narrative and does not explore themes of memory and identity or use unreliable perspectives.",
+  "relevance": 0
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|3034": {
+  "reason": "Young Frankenstein is a comedy horror spoof and does not align with the psychological, nonlinear, or memory-focused narrative requested.",
+  "relevance": 0
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|3131": {
+  "reason": "The film is a historical crime drama with a linear narrative, not a psychological story with nonlinear storytelling or themes of memory and identity.",
+  "relevance": 0
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|38": {
+  "reason": "Eternal Sunshine of the Spotless Mind is a highly relevant choice due to its nonlinear storytelling, unreliable perspective, and deep exploration of memory and identity.",
+  "relevance": 3
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|4174": {
+  "reason": "Spellbound effectively matches the request with its psychological narrative, unreliable perspective, and exploration of memory and identity through amnesia.",
+  "relevance": 3
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|497": {
+  "reason": "The film has elements of psychological depth but lacks the nonlinear storytelling and unreliable perspective requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|550": {
+  "reason": "Fight Club features nonlinear storytelling and explores themes of identity, but its focus on violence and nihilism may not fully align with the request for a psychological story centered on memory.",
+  "relevance": 2
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|630": {
+  "reason": "The film does not explore psychological themes, memory, identity, or use nonlinear storytelling or an unreliable perspective.",
+  "relevance": 0
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|680": {
+  "reason": "Pulp Fiction uses nonlinear storytelling but lacks a focus on memory and identity with an unreliable perspective.",
+  "relevance": 1
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|745": {
+  "reason": "The film touches on psychological themes and memory, but does not fully embrace nonlinear storytelling or an unreliable perspective.",
+  "relevance": 2
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|82693": {
+  "reason": "The film deals with mental illness but lacks the psychological depth, nonlinear storytelling, and unreliable perspective requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|837": {
+  "reason": "Videodrome touches on psychological and surreal elements but lacks a strong focus on memory and identity with nonlinear storytelling.",
+  "relevance": 1
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|887": {
+  "reason": "The film does not feature psychological storytelling, unusual narrative, or themes of memory and identity.",
+  "relevance": 0
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|9372": {
+  "reason": "The film is a documentary about fast food and health, not a psychological story with nonlinear storytelling or themes of memory and identity.",
+  "relevance": 0
+ },
+ "qwen3:14b|b6d8425c50a7a7d73cf471020e821fe8281fdd036bb38f56d9d530ac75392d99|9837": {
+  "reason": "The film is a family-oriented animated adventure with a linear narrative, not a psychological story with nonlinear storytelling or themes of memory and identity.",
+  "relevance": 0
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|11219": {
+  "reason": "The film is a dark comedy with a murder mystery, not a romantic story with a playful and charming atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|114150": {
+  "reason": "The film includes romantic elements and a light-hearted atmosphere, but the primary focus is on comedy and music rather than a romantic story set in a city.",
+  "relevance": 2
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|129": {
+  "reason": "Spirited Away is a fantasy adventure with no romantic elements or playful city atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|152601": {
+  "reason": "The film has a romantic theme but lacks the playful and charming atmosphere of a city setting.",
+  "relevance": 1
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|18785": {
+  "reason": "The film is a comedy with no romantic elements or charming, light atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|194": {
+  "reason": "Am\u00e9lie is a charming and light-hearted romantic comedy set in Paris, perfectly matching the user's request for a romantic story with a playful atmosphere.",
+  "relevance": 3
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|205321": {
+  "reason": "The film is a horror movie involving sharks and disasters, not a romantic story with a charming and light atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|235": {
+  "reason": "The film is a dramatic coming-of-age story, not a romantic story with a playful and charming atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|239": {
+  "reason": "The film includes romance and a playful, charming atmosphere, but the primary focus is on comedy rather than romance.",
+  "relevance": 2
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|2493": {
+  "reason": "The film contains romantic elements and a playful, whimsical atmosphere that align with the request, though it is more adventure and fantasy-driven than purely romantic.",
+  "relevance": 2
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|284": {
+  "reason": "The film has romantic elements but lacks the playful and charming atmosphere requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|3933": {
+  "reason": "While 'Corpse Bride' has romantic elements, it is dark and fantastical rather than charming and light.",
+  "relevance": 1
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|539": {
+  "reason": "The film is a horror thriller with a dark and tense atmosphere, not a romantic story set in a charming and light city.",
+  "relevance": 0
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|621": {
+  "reason": "Grease covers the romance genre and has a light, playful atmosphere, but it lacks the specific city setting mentioned in the request.",
+  "relevance": 2
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|82693": {
+  "reason": "The film has romantic elements but lacks a playful and charming atmosphere as requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|862": {
+  "reason": "Toy Story is an animated comedy about toys, not a romantic story set in a city with a charming and light atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|c5a264d85d85263b8e40b8aab841f7ba0b8ec798f42e04714edcde2aa6b6ff6a|872": {
+  "reason": "Singin' in the Rain is a romantic story set in a city (Hollywood) with a playful and charming atmosphere, fitting the user's request perfectly.",
+  "relevance": 3
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|10681": {
+  "reason": "While WALL\u00b7E takes place in outer space, it is more of a romantic comedy and family film than a science fiction journey with a strong sense of discovery.",
+  "relevance": 1
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|1091": {
+  "reason": "The film has science fiction elements but focuses more on horror and paranoia than on an exciting space journey with discovery.",
+  "relevance": 1
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|14160": {
+  "reason": "The film does not take place in outer space and is not primarily a science fiction genre.",
+  "relevance": 1
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|152": {
+  "reason": "Star Trek: The Motion Picture offers an exciting space journey with a strong sense of discovery and fits well within the science fiction genre.",
+  "relevance": 3
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|152601": {
+  "reason": "The film focuses more on romance and artificial intelligence than on space exploration or discovery.",
+  "relevance": 1
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|157336": {
+  "reason": "Interstellar is a highly relevant choice as it offers an exciting space journey with a strong sense of discovery and exploration.",
+  "relevance": 3
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|18": {
+  "reason": "The film features space travel and a sense of discovery, but the focus is more on action and adventure than pure scientific exploration.",
+  "relevance": 2
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|1893": {
+  "reason": "The film provides an exciting space journey with science fiction elements, but the sense of discovery is not a central focus.",
+  "relevance": 2
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|19995": {
+  "reason": "Avatar offers an exciting space journey with a strong sense of discovery, though it focuses more on cultural themes than pure scientific exploration.",
+  "relevance": 2
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|264660": {
+  "reason": "The film has a science fiction setting but lacks the space exploration and sense of discovery emphasized in the request.",
+  "relevance": 1
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|348": {
+  "reason": "The film provides an exciting space journey with a strong sense of discovery, though it leans more toward horror than pure science fiction exploration.",
+  "relevance": 2
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|601": {
+  "reason": "E.T. the Extra-Terrestrial offers an exciting space journey and a sense of discovery, though it is more family-oriented than purely science fiction adventure.",
+  "relevance": 2
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|62": {
+  "reason": "2001: A Space Odyssey offers an exciting space journey with a strong sense of discovery, fitting the user's request perfectly.",
+  "relevance": 3
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|679": {
+  "reason": "Aliens delivers an exciting space journey with a strong sense of discovery and fits well within the science fiction genre.",
+  "relevance": 3
+ },
+ "qwen3:14b|c7d41b4b0b3d98e09ecc6501844e5f1d7b679c57dce61cff9ab2605389978d6b|8077": {
+  "reason": "The film has a science fiction setting but focuses more on horror and dystopia than on an exciting journey through space with a sense of discovery.",
+  "relevance": 1
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|10947": {
+  "reason": "The film touches on community and teamwork, but it is more focused on individual growth and romance than on a community coming together to help someone.",
+  "relevance": 2
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|11219": {
+  "reason": "The film is a dark comedy with themes of suspicion and mystery, not warmth or community solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|114150": {
+  "reason": "The film focuses more on competition and friendship rather than community solidarity.",
+  "relevance": 1
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|117": {
+  "reason": "The film is a crime thriller focused on taking down a gangster, not a warm story about community solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|11967": {
+  "reason": "The film is about conflict and revenge, not community and solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|12144": {
+  "reason": "The film shows characters working together to overcome challenges, which aligns with the theme of community and solidarity, though it is not explicitly about helping someone in need.",
+  "relevance": 2
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|1430": {
+  "reason": "The film focuses on gun violence and fear in America, not a warm story about community solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|150540": {
+  "reason": "The film focuses on internal emotions rather than community and solidarity.",
+  "relevance": 1
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|1584": {
+  "reason": "The film has elements of community and collaboration but lacks the warmth and focus on helping someone in need that the request emphasizes.",
+  "relevance": 1
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|18785": {
+  "reason": "The film is a comedy about chaos and individual misadventures, not a warm story about community and solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|235": {
+  "reason": "The film touches on themes of friendship and community but is more focused on coming of age and personal loss rather than community solidarity.",
+  "relevance": 2
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|254470": {
+  "reason": "The film focuses on friendship and competition rather than community and solidarity in a broader sense.",
+  "relevance": 1
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|264660": {
+  "reason": "Ex Machina is a dystopian sci-fi film focused on isolation and manipulation, not a warm story about community and solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|288": {
+  "reason": "High Noon is a Western about revenge and justice, not a warm film about community solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|3170": {
+  "reason": "Bambi does not focus on community coming together to help someone, and its themes are unrelated to solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|44639": {
+  "reason": "Inside Job is a documentary about the 2008 financial crisis and does not fit the request for a warm film about community and solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|745": {
+  "reason": "The film does not match the request as it focuses on psychological thriller elements rather than community and solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|78": {
+  "reason": "Blade Runner is a dystopian sci-fi thriller with no connection to warmth, community, or solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|ccb06cd2e49b0015845f216c269e2ba3878e5b64238120a34b762fbd5d338c39|9473": {
+  "reason": "The film is a satirical comedy with violent and adult themes, not a warm story about community and solidarity.",
+  "relevance": 0
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|10528": {
+  "reason": "The film features a detective facing moral challenges and a mystery with gradual revelations, though it lacks explicit focus on justice and moral responsibility.",
+  "relevance": 2
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|1091": {
+  "reason": "The film has elements of mystery and paranoia but lacks a clear detective and moral dilemma focus.",
+  "relevance": 1
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|1893": {
+  "reason": "The film does not feature a tense investigation or moral dilemmas faced by a detective.",
+  "relevance": 0
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|27205": {
+  "reason": "Inception lacks the moral dilemmas and investigative focus central to the user's request.",
+  "relevance": 1
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|278": {
+  "reason": "The film lacks a central investigation and moral dilemmas faced by a detective, though it deals with justice and hope.",
+  "relevance": 1
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|33": {
+  "reason": "The film features moral dilemmas and justice themes, but it is a Western rather than a tense investigation mystery.",
+  "relevance": 2
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|346": {
+  "reason": "The film lacks a tense investigation and moral choices, focusing instead on action and battle.",
+  "relevance": 1
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|389": {
+  "reason": "12 Angry Men is a highly relevant choice as it features a tense investigation with moral dilemmas and gradual revelations within a mystery setting.",
+  "relevance": 3
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|4174": {
+  "reason": "The film features a mystery with moral dilemmas and suspense, but the focus is more on psychoanalysis than a detective's investigation.",
+  "relevance": 2
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|429": {
+  "reason": "The film contains moral ambiguity but lacks a central detective and a focus on justice and moral responsibility.",
+  "relevance": 1
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|44639": {
+  "reason": "Inside Job is a documentary about the financial crisis and does not feature a detective or moral dilemmas in an investigation.",
+  "relevance": 0
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|49026": {
+  "reason": "The film features a detective-like protagonist facing moral dilemmas and a complex mystery, though it is more action-oriented than purely investigative.",
+  "relevance": 2
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|497": {
+  "reason": "The film contains moral dilemmas and a supernatural element, but lacks a clear investigative plot.",
+  "relevance": 2
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|539": {
+  "reason": "The film contains moral dilemmas and a mystery, but it is more horror-driven than a tense investigation with a detective facing moral choices.",
+  "relevance": 2
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|592": {
+  "reason": "The film provides a tense investigation with moral dilemmas and gradual revelations, fitting the request well.",
+  "relevance": 3
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|62": {
+  "reason": "The film contains elements of mystery and moral responsibility but lacks a clear detective and tense investigation storyline.",
+  "relevance": 1
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|680": {
+  "reason": "Pulp Fiction lacks a central investigation and moral dilemmas, focusing instead on interconnected crime stories.",
+  "relevance": 1
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|68718": {
+  "reason": "The film has moral themes but lacks a tense investigation and gradual mystery revelations.",
+  "relevance": 1
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|770": {
+  "reason": "Gone with the Wind is a romantic drama set during the Civil War and does not feature a detective or moral dilemmas in an investigation.",
+  "relevance": 0
+ },
+ "qwen3:14b|cddcb16833907d7ef81d5c442a847dff7e7386018cf1151967bd1c8b7c66a189|807": {
+  "reason": "Se7en is a highly relevant choice as it features a tense investigation with a detective facing difficult moral choices, centered on themes of justice and moral responsibility, with a mystery that unfolds through gradual revelations.",
+  "relevance": 3
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|11219": {
+  "reason": "The film is a comedy-mystery with suspense, not a fast-paced action adventure.",
+  "relevance": 0
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|11967": {
+  "reason": "The film contains action and adventure elements, but the pacing and tension may not fully match the user's request.",
+  "relevance": 2
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|14160": {
+  "reason": "The film is a family-oriented animated adventure, not a fast-paced action film involving a dangerous escape.",
+  "relevance": 0
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|1430": {
+  "reason": "The film is a documentary about gun violence and societal issues, not a fast-paced action adventure.",
+  "relevance": 0
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|16290": {
+  "reason": "Jackass 3D is a comedy-driven stunt show, not a fast-paced action adventure with a dangerous escape.",
+  "relevance": 0
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|19908": {
+  "reason": "Zombieland fits the fast-paced action adventure and survival elements, though it includes comedy and horror genres not explicitly requested.",
+  "relevance": 2
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|205596": {
+  "reason": "The film is tense and involves a race against time, but it lacks the fast-paced action and escape elements requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|235": {
+  "reason": "Stand by Me is a drama about friendship and coming of age, not a fast-paced action adventure.",
+  "relevance": 0
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|264660": {
+  "reason": "Ex Machina is a slow-burn psychological thriller, not a fast-paced action adventure.",
+  "relevance": 0
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|288": {
+  "reason": "While 'High Noon' is tense and involves a showdown, it is a Western rather than an action adventure with a dangerous escape.",
+  "relevance": 1
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|293660": {
+  "reason": "Deadpool is a fast-paced action adventure with a dangerous escape element, though it also includes comedy which may not fully align with the user's preference for pure action.",
+  "relevance": 2
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|3170": {
+  "reason": "Bambi is a slow-paced, family-oriented drama with no action or escape elements.",
+  "relevance": 0
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|348": {
+  "reason": "While 'Alien' contains action elements, it is primarily a horror and sci-fi thriller rather than a fast-paced action adventure focused on a dangerous escape.",
+  "relevance": 1
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|3933": {
+  "reason": "Corpse Bride is a romantic fantasy animation with no action or escape elements, making it unrelated to the request.",
+  "relevance": 0
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|601": {
+  "reason": "The film has some adventure elements but lacks the fast-paced action and dangerous escape the user requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|646": {
+  "reason": "Dr. No is a fast-paced action adventure with a dangerous escape and fits well within the action genre.",
+  "relevance": 3
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|654": {
+  "reason": "The film is a drama with suspense and crime elements, not a fast-paced action adventure with a dangerous escape.",
+  "relevance": 0
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|658": {
+  "reason": "Goldfinger delivers a fast-paced, tense action adventure with a dangerous escape and fits well within the action genre.",
+  "relevance": 3
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|72190": {
+  "reason": "World War Z delivers a fast-paced, tense action adventure centered around a dangerous escape during a zombie apocalypse.",
+  "relevance": 3
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|744": {
+  "reason": "Top Gun features fast-paced action and a dangerous escape element through its intense fighter pilot training and missions.",
+  "relevance": 2
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|78": {
+  "reason": "Blade Runner features a fast-paced, tense storyline with a dangerous escape, aligning well with the action genre.",
+  "relevance": 2
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|8077": {
+  "reason": "The film contains action and tension but lacks the fast-paced escape focus requested.",
+  "relevance": 2
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|8587": {
+  "reason": "The Lion King is a family drama with a slow-burn narrative, not a fast-paced action adventure.",
+  "relevance": 0
+ },
+ "qwen3:14b|d2430b936b296b3dc941bd2d0ad9bc2dc1fee038799fba396e9961c036efb9d6|9372": {
+  "reason": "The film is a documentary about health and fast food, not an action adventure with a dangerous escape.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|10681": {
+  "reason": "WALL\u00b7E is a family-oriented animated film with romantic comedy elements, not an intense survival story in an isolated environment.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|12144": {
+  "reason": "The film is a family-oriented animated adventure and does not match the intense survival story in an isolated place with few characters.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|129": {
+  "reason": "Spirited Away is a fantasy adventure with magical elements, not an intense survival story in an isolated place.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|152601": {
+  "reason": "The film is a romantic science fiction story, not an intense survival story in an isolated place.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|157336": {
+  "reason": "Interstellar has elements of isolation and survival but focuses more on space exploration and science fiction than a pure survival story with few characters.",
+  "relevance": 1
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|18": {
+  "reason": "The film is not a survival story in an isolated place with few characters.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|235": {
+  "reason": "The film has a coming-of-age element but lacks the intense survival theme and isolated setting requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|279": {
+  "reason": "Amadeus is a historical drama about a musician, not a survival story in an isolated place.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|3170": {
+  "reason": "Bambi is a family-oriented animated film that does not match the intense survival story theme or isolated environment setting.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|348": {
+  "reason": "Alien (1979) is a highly relevant choice as it is an intense survival story set in an isolated environment with very few characters.",
+  "relevance": 3
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|497": {
+  "reason": "The film is not a survival story in an isolated place with few characters.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|550": {
+  "reason": "While 'Fight Club' contains themes of survival and some isolated settings, it is more focused on psychological and philosophical themes rather than a traditional survival story.",
+  "relevance": 1
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|578": {
+  "reason": "Jaws is a survival story in an isolated setting with few main characters, though it leans more toward horror than pure survival.",
+  "relevance": 2
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|5925": {
+  "reason": "The film has a survival theme but includes too many characters and is set in a war context rather than an isolated environment.",
+  "relevance": 1
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|601": {
+  "reason": "E.T. the Extra-Terrestrial is a family-oriented sci-fi adventure, not an intense survival story in an isolated place.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|6479": {
+  "reason": "I Am Legend is a highly relevant choice as it is an intense survival story set in an isolated, post-apocalyptic environment with very few characters.",
+  "relevance": 3
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|679": {
+  "reason": "The film features a survival story in an isolated environment, but includes more characters and genres beyond survival.",
+  "relevance": 2
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|694": {
+  "reason": "The Shining is a highly relevant choice as it features intense survival themes in an isolated hotel setting with few characters.",
+  "relevance": 3
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|72190": {
+  "reason": "While 'World War Z' features survival and an isolated environment, it lacks the intense, character-sparse focus requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|745": {
+  "reason": "The film does not match the request for an intense survival story in an isolated place with few characters.",
+  "relevance": 0
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|805": {
+  "reason": "The film has elements of tension and isolation but does not focus on survival in an isolated environment with few characters.",
+  "relevance": 1
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|8077": {
+  "reason": "Alien\u00b3 fits the survival theme and isolated setting, but includes more characters and elements beyond a minimal cast.",
+  "relevance": 2
+ },
+ "qwen3:14b|e484a8766c6a07cabe6b7f2a8d9a06c6c25b6d4d3ea73de00da437f801c36fd5|8587": {
+  "reason": "The Lion King is a family drama with a focus on themes of royalty and redemption, not an intense survival story in an isolated place.",
+  "relevance": 0
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|106646": {
+  "reason": "The film focuses more on personal excess and corruption than on the philosophical tension between freedom and social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|10947": {
+  "reason": "The film touches on peer pressure but lacks the serious exploration of freedom versus social rules required.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|13": {
+  "reason": "Forrest Gump is more of a feel-good drama than a serious exploration of freedom and social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|13187": {
+  "reason": "The film is a lighthearted holiday comedy and does not address serious themes of personal freedom and social rules.",
+  "relevance": 0
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|1430": {
+  "reason": "The film addresses social and personal issues related to violence and freedom but focuses more on gun violence than the philosophical relationship between freedom and social rules.",
+  "relevance": 2
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|152601": {
+  "reason": "The film touches on themes of loneliness and technology but does not strongly address the relationship between personal freedom and social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|19": {
+  "reason": "Metropolis explores the tension between social hierarchy and individual freedom, fitting the themes and atmosphere described.",
+  "relevance": 3
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|20352": {
+  "reason": "The film is a lighthearted animated comedy and does not address serious themes of personal freedom and social rules.",
+  "relevance": 0
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|235": {
+  "reason": "The film touches on themes of friendship and coming of age but does not strongly address the relationship between personal freedom and social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|278": {
+  "reason": "The film explores themes of freedom and institutional control, but it is more focused on hope and redemption within a prison system than on the philosophical relationship between personal freedom and social rules.",
+  "relevance": 2
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|284": {
+  "reason": "The film is more comedic than thought-provoking and does not directly address the relationship between personal freedom and social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|38": {
+  "reason": "The film explores personal emotions and relationships but does not directly address the theme of personal freedom versus social rules.",
+  "relevance": 2
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|424": {
+  "reason": "Schindler's List does not address the relationship between personal freedom and social rules.",
+  "relevance": 0
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|497": {
+  "reason": "The film touches on themes of justice and humanity but does not directly explore the relationship between personal freedom and social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|550": {
+  "reason": "Fight Club explores themes of social pressure and personal freedom through its critique of consumerism and societal norms, though it is more focused on nihilism and violence than pure philosophical reflection.",
+  "relevance": 2
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|5925": {
+  "reason": "The film touches on themes of freedom and resistance against oppressive systems, but it is more focused on action and historical events than on philosophical exploration of social rules.",
+  "relevance": 2
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|595": {
+  "reason": "The film addresses social pressure and injustice, but the focus on personal freedom is less central.",
+  "relevance": 2
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|630": {
+  "reason": "The film is a fantasy adventure with no serious exploration of personal freedom and social rules.",
+  "relevance": 0
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|671": {
+  "reason": "The film is a fantasy adventure and does not address the themes of personal freedom and social pressure in a serious, thought-provoking manner.",
+  "relevance": 0
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|675": {
+  "reason": "The film touches on themes of resistance against authority but lacks a serious exploration of personal freedom versus social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|68718": {
+  "reason": "The film touches on social issues but does not primarily focus on the relationship between personal freedom and social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|76203": {
+  "reason": "The film addresses themes of oppression and injustice but does not directly explore the relationship between personal freedom and social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|770": {
+  "reason": "The film does not address the themes of personal freedom and social rules or provide a thought-provoking atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|82693": {
+  "reason": "The film touches on mental health and personal struggles but lacks a strong focus on the relationship between personal freedom and social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|9372": {
+  "reason": "The film focuses on health and fast food, not on personal freedom and social rules.",
+  "relevance": 0
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|9473": {
+  "reason": "The film is a comedic and satirical animated movie, not a serious story about freedom and social rules.",
+  "relevance": 0
+ },
+ "qwen3:14b|f5b5d7e2fdc6e0b8c94f3c912ad602b5b91b11b48331e4b13dc2901822b0553f|9837": {
+  "reason": "The film touches on themes of leadership and conflict but lacks a serious exploration of personal freedom versus social rules.",
+  "relevance": 1
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|105": {
+  "reason": "The film features a hopeful and uplifting story with unlikely friends changing each other's lives, though humor is more central than the themes of friendship.",
+  "relevance": 2
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|11219": {
+  "reason": "The film is a dark comedy with a murder mystery, not a hopeful story about friendship.",
+  "relevance": 0
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|114150": {
+  "reason": "Pitch Perfect is a highly relevant choice as it features a funny and uplifting story about unlikely friends transforming each other through music and friendship.",
+  "relevance": 3
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|13": {
+  "reason": "Forrest Gump is a highly relevant choice as it features a hopeful and uplifting story about unlikely friendships that change each other's lives.",
+  "relevance": 3
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|150540": {
+  "reason": "Inside Out is a highly relevant choice as it features a hopeful and uplifting story about the power of friendship and emotional growth.",
+  "relevance": 3
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|152601": {
+  "reason": "The film lacks humor and has a bittersweet, rather than uplifting, atmosphere.",
+  "relevance": 1
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|18785": {
+  "reason": "The film is comedic but lacks the hopeful and uplifting atmosphere requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|19908": {
+  "reason": "While Zombieland features unlikely friends, it is primarily a horror-comedy and lacks the uplifting, hopeful atmosphere requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|235": {
+  "reason": "The film explores deep friendship and coming-of-age themes, but it is more dramatic and somber than funny and uplifting.",
+  "relevance": 2
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|254470": {
+  "reason": "Pitch Perfect 2 is a funny and uplifting story about unlikely friends changing each other's lives through their shared experiences and challenges.",
+  "relevance": 3
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|284": {
+  "reason": "The film does not match the request as it lacks humor, hope, and a story about unlikely friends changing each other's lives.",
+  "relevance": 0
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|288": {
+  "reason": "High Noon is a serious and tense western with no humor or uplifting atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|3170": {
+  "reason": "Bambi lacks the humor and explicit focus on unlikely friendship transformation that the user requested.",
+  "relevance": 1
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|389": {
+  "reason": "The film is a serious drama with no humor or uplifting atmosphere.",
+  "relevance": 0
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|550": {
+  "reason": "Fight Club is not a funny or hopeful story and does not match the uplifting atmosphere requested.",
+  "relevance": 0
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|621": {
+  "reason": "While 'Grease' features friendship and some uplifting moments, it is primarily a romantic musical and does not focus on unlikely friends changing each other's lives in a funny and hopeful way.",
+  "relevance": 1
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|630": {
+  "reason": "The film features unlikely friends changing each other's lives in an uplifting way, though humor is not a strong focus.",
+  "relevance": 2
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|68718": {
+  "reason": "Django Unchained is not a funny or hopeful story; it is a dark, violent film with themes of revenge and racism.",
+  "relevance": 0
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|82693": {
+  "reason": "Silver Linings Playbook features a hopeful and uplifting story about friendship and personal growth, though it also deals with heavier themes like mental illness.",
+  "relevance": 2
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|862": {
+  "reason": "Toy Story is a highly relevant choice as it features a funny and uplifting story about unlikely friends (Woody and Buzz) changing each other's lives through friendship.",
+  "relevance": 3
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|887": {
+  "reason": "The film deals with themes of friendship and hope but lacks humor and focuses more on drama and post-war struggles.",
+  "relevance": 1
+ },
+ "qwen3:14b|f9c8010033cd24a8e94464ab60fc2d0dfbecb94848ac9d3b04f3eebf4bf7cae0|9837": {
+  "reason": "The film features a strong bond between characters and a transformative journey, but it is not primarily a funny or uplifting story.",
+  "relevance": 2
+ }
+}

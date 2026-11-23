@@ -1,0 +1,302 @@
+{
+  "split": "validation",
+  "query_count": 10,
+  "corpus_fingerprint": "0ea393bc18a8d2caabcdc0ed066fb02975223191288f55ea244ef1b43e69371c",
+  "relevance_threshold": 2,
+  "methods": {
+    "tfidf": {
+      "precision_at_3": 0.5333333333333333,
+      "ndcg_at_3": 0.4752202732183816,
+      "constraint_compliance": 1.0,
+      "latency_ms": 42.853,
+      "returned_count": 3
+    },
+    "sbert_global": {
+      "precision_at_3": 0.5333333333333333,
+      "ndcg_at_3": 0.5271657584938215,
+      "constraint_compliance": 1.0,
+      "latency_ms": 47.757,
+      "returned_count": 3
+    },
+    "sbert_criteria": {
+      "precision_at_3": 0.5666666666666667,
+      "ndcg_at_3": 0.5802131389748002,
+      "constraint_compliance": 1.0,
+      "latency_ms": 47.669,
+      "returned_count": 3
+    }
+  },
+  "per_query": [
+    {
+      "query_id": "v01",
+      "method": "tfidf",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.7462155048864012,
+      "constraint_compliance": 1.0,
+      "latency_ms": 43.66,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v02",
+      "method": "tfidf",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.3615316105681776,
+      "constraint_compliance": 1.0,
+      "latency_ms": 42.46,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v03",
+      "method": "tfidf",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.49720136497561807,
+      "constraint_compliance": 1.0,
+      "latency_ms": 43.35,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v04",
+      "method": "tfidf",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.6121358688798993,
+      "constraint_compliance": 1.0,
+      "latency_ms": 43.0,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v05",
+      "method": "tfidf",
+      "precision_at_3": 0.0,
+      "ndcg_at_3": 0.18543279769614657,
+      "constraint_compliance": 1.0,
+      "latency_ms": 42.49,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v06",
+      "method": "tfidf",
+      "precision_at_3": 1.0,
+      "ndcg_at_3": 0.7318407279869963,
+      "constraint_compliance": 1.0,
+      "latency_ms": 42.6,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v07",
+      "method": "tfidf",
+      "precision_at_3": 0.3333333333333333,
+      "ndcg_at_3": 0.164977229774695,
+      "constraint_compliance": 1.0,
+      "latency_ms": 42.27,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v08",
+      "method": "tfidf",
+      "precision_at_3": 0.3333333333333333,
+      "ndcg_at_3": 0.4193477184142568,
+      "constraint_compliance": 1.0,
+      "latency_ms": 42.84,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v09",
+      "method": "tfidf",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.7039180890341348,
+      "constraint_compliance": 1.0,
+      "latency_ms": 42.74,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v10",
+      "method": "tfidf",
+      "precision_at_3": 0.3333333333333333,
+      "ndcg_at_3": 0.3296018199674907,
+      "constraint_compliance": 1.0,
+      "latency_ms": 43.12,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v01",
+      "method": "sbert_global",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.7653606369886218,
+      "constraint_compliance": 1.0,
+      "latency_ms": 50.04,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v02",
+      "method": "sbert_global",
+      "precision_at_3": 0.0,
+      "ndcg_at_3": 0.14285714285714288,
+      "constraint_compliance": 1.0,
+      "latency_ms": 50.29,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v03",
+      "method": "sbert_global",
+      "precision_at_3": 1.0,
+      "ndcg_at_3": 0.8308103365909342,
+      "constraint_compliance": 1.0,
+      "latency_ms": 49.76,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v04",
+      "method": "sbert_global",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.6121358688798993,
+      "constraint_compliance": 1.0,
+      "latency_ms": 49.72,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v05",
+      "method": "sbert_global",
+      "precision_at_3": 0.3333333333333333,
+      "ndcg_at_3": 0.4635819942403664,
+      "constraint_compliance": 1.0,
+      "latency_ms": 46.46,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v06",
+      "method": "sbert_global",
+      "precision_at_3": 1.0,
+      "ndcg_at_3": 1.0,
+      "constraint_compliance": 1.0,
+      "latency_ms": 46.33,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v07",
+      "method": "sbert_global",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.706919359254722,
+      "constraint_compliance": 1.0,
+      "latency_ms": 45.6,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v08",
+      "method": "sbert_global",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.3972381424089923,
+      "constraint_compliance": 1.0,
+      "latency_ms": 46.41,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v09",
+      "method": "sbert_global",
+      "precision_at_3": 0.3333333333333333,
+      "ndcg_at_3": 0.24341686986201927,
+      "constraint_compliance": 1.0,
+      "latency_ms": 46.29,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v10",
+      "method": "sbert_global",
+      "precision_at_3": 0.0,
+      "ndcg_at_3": 0.1093372338555174,
+      "constraint_compliance": 1.0,
+      "latency_ms": 46.67,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v01",
+      "method": "sbert_criteria",
+      "precision_at_3": 1.0,
+      "ndcg_at_3": 0.8659203639934981,
+      "constraint_compliance": 1.0,
+      "latency_ms": 49.3,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v02",
+      "method": "sbert_criteria",
+      "precision_at_3": 0.0,
+      "ndcg_at_3": 0.1093372338555174,
+      "constraint_compliance": 1.0,
+      "latency_ms": 46.57,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v03",
+      "method": "sbert_criteria",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.7988805459902473,
+      "constraint_compliance": 1.0,
+      "latency_ms": 47.83,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v04",
+      "method": "sbert_criteria",
+      "precision_at_3": 1.0,
+      "ndcg_at_3": 1.0,
+      "constraint_compliance": 1.0,
+      "latency_ms": 47.92,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v05",
+      "method": "sbert_criteria",
+      "precision_at_3": 0.0,
+      "ndcg_at_3": 0.18543279769614657,
+      "constraint_compliance": 1.0,
+      "latency_ms": 48.5,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v06",
+      "method": "sbert_criteria",
+      "precision_at_3": 1.0,
+      "ndcg_at_3": 1.0,
+      "constraint_compliance": 1.0,
+      "latency_ms": 47.76,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v07",
+      "method": "sbert_criteria",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.7271926019583823,
+      "constraint_compliance": 1.0,
+      "latency_ms": 47.17,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v08",
+      "method": "sbert_criteria",
+      "precision_at_3": 0.6666666666666666,
+      "ndcg_at_3": 0.5032319773743108,
+      "constraint_compliance": 1.0,
+      "latency_ms": 47.43,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v09",
+      "method": "sbert_criteria",
+      "precision_at_3": 0.3333333333333333,
+      "ndcg_at_3": 0.14285714285714288,
+      "constraint_compliance": 1.0,
+      "latency_ms": 46.37,
+      "returned_count": 3
+    },
+    {
+      "query_id": "v10",
+      "method": "sbert_criteria",
+      "precision_at_3": 0.3333333333333333,
+      "ndcg_at_3": 0.4692787260227565,
+      "constraint_compliance": 1.0,
+      "latency_ms": 47.84,
+      "returned_count": 3
+    }
+  ],
+  "limitations": "Small query set; nDCG uses the judged candidate pool, not exhaustive corpus judgments."
+}

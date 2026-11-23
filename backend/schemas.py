@@ -6,6 +6,7 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator, model_valida
 
 Criterion = Literal["description", "themes", "mood", "narrative_style", "setting", "genres"]
 Method = Literal["tfidf", "sbert_global", "sbert_criteria"]
+ReleasePeriod = Literal["any", "before-1980", "1980-1999", "2000-later"]
 
 
 class StrictModel(BaseModel):
@@ -71,7 +72,9 @@ class Preferences(StrictModel):
     excluded_genres: list[str] = Field(default_factory=list, max_length=30)
     excluded_themes: list[str] = Field(default_factory=list, max_length=100)
     seen_movie_ids: list[int] = Field(default_factory=list, max_length=1000)
+    release_period: ReleasePeriod = "any"
     method: Method = "sbert_criteria"
+    save_response: bool = False
 
     @field_validator("preferred_genres", "excluded_genres", "excluded_themes")
     @classmethod
@@ -97,6 +100,12 @@ class Preferences(StrictModel):
             "setting": self.setting,
             "genres": ", ".join(self.preferred_genres),
         }
+
+
+class CriticRequest(StrictModel):
+    tmdb_id: int = Field(gt=0)
+    profile_summary: str = Field(min_length=1, max_length=8000)
+    main_contributions: list[str] = Field(default_factory=list, max_length=10)
 
 
 class CriterionScore(StrictModel):
@@ -126,3 +135,4 @@ class RecommendationResponse(StrictModel):
     warnings: list[str]
     latency_ms: float
     corpus_fingerprint: str
+    saved: bool = False

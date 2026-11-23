@@ -1,8 +1,8 @@
 import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import { ArrowDown, ArrowUpRight, Check, Clapperboard, Compass, Heart, LoaderCircle, Orbit, ShieldCheck, Shuffle, SlidersHorizontal, Sparkles, Sun, Zap } from 'lucide-react';
 import { getCatalog, getHealth, getRecommendations } from './api';
-import { criteria, labels } from './types';
-import type { Catalog, Health, Preferences, Results } from './types';
+import { criteria, labels, methods, releasePeriods } from './types';
+import type { Catalog, Health, Method, Preferences, ReleasePeriod, Results } from './types';
 import MoviePoster from './MoviePoster';
 import CollectionDialog from './CollectionDialog';
 import { moods } from './moods';
@@ -12,7 +12,7 @@ export function initialPreferences(): Preferences {
     description: '', themes: '', mood: '', narrative_style: '', setting: '',
     preferred_genres: [], excluded_genres: [], excluded_themes: [], seen_movie_ids: [],
     importance: { description: 3, themes: 3, mood: 3, narrative_style: 3, setting: 3, genres: 3 },
-    max_runtime: null, method: 'sbert_criteria',
+    max_runtime: null, release_period: 'any', method: 'sbert_criteria', save_response: false,
   };
 }
 
@@ -186,6 +186,17 @@ export default function App() {
                 <input type="checkbox" checked={profile.preferred_genres.includes(genre)}
                   onChange={() => update('preferred_genres', toggled(profile.preferred_genres, genre))} /><span>{profile.preferred_genres.includes(genre) && <Check size={12} />}{genre}</span></label>)}</div>
             </fieldset>
+            <div className="two-columns choice-row">
+              <div><label htmlFor="release-period">Which era should the film come from?</label>
+                <select id="release-period" value={profile.release_period}
+                  onChange={event => update('release_period', event.target.value as ReleasePeriod)}>
+                  {releasePeriods.map(period => <option key={period.value} value={period.value}>{period.label}</option>)}</select>
+                <p className="help">A strict filter on the release year.</p></div>
+              <div><label htmlFor="method">How should we compare your words with the films?</label>
+                <select id="method" value={profile.method} onChange={event => update('method', event.target.value as Method)}>
+                  {methods.map(method => <option key={method.value} value={method.value}>{method.label}</option>)}</select>
+                <p className="help">{methods.find(method => method.value === profile.method)?.note}</p></div>
+            </div>
             <details className="constraints"><summary><span><SlidersHorizontal size={17} /> Set things you want to avoid</span><span className="summary-plus">+</span></summary>
               <p className="help">Your limits come first. We keep these filters even if fewer than three films remain.</p>
               <label htmlFor="max-runtime">Maximum duration in minutes</label>
@@ -218,14 +229,19 @@ export default function App() {
             <button className="primary-button search-button" type="submit" disabled={loading || !ready}>
               {loading ? <><LoaderCircle size={17} className="spinner" /> Finding your films...</> : <>Find my films <ArrowUpRight size={18} /></>}</button>
             <span className="shortcut-hint">or press <kbd>Ctrl</kbd> + <kbd>Enter</kbd></span>
-            <p className="privacy-note"><ShieldCheck size={14} /> Your answers stay in this search. Export them only if you want to.</p>
+            <label className="save-choice"><input type="checkbox" checked={profile.save_response}
+              onChange={event => update('save_response', event.target.checked)} />
+              <span>Save my answers to the local study log</span></label>
+            <p className="privacy-note"><ShieldCheck size={14} /> {profile.save_response
+              ? 'Your answers and picks will be added to a JSON file on this computer.'
+              : 'Your answers stay in this search unless you choose to save or export them.'}</p>
             {error && <p className="error" role="alert">{error}</p>}
           </aside>
         </form>
       </section>
 
       <div ref={resultsRef} className="results-anchor"><Suspense fallback={<p role="status" className="loading-message">Setting the scene...</p>}>
-        {results && submittedProfile && <ResultsPanel results={results} profile={submittedProfile} />}
+        {results && submittedProfile && <ResultsPanel results={results} profile={submittedProfile} criticAvailable={!!health?.critic_available} />}
       </Suspense></div>
 
       <section className="how-section" id="how-it-works" aria-labelledby="how-title">

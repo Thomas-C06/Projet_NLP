@@ -4,14 +4,16 @@ Movie Match is our ING5 NLP project at ECE for 2026-2027. It recommends films fr
 
 ## What is implemented
 
-- React and TypeScript questionnaire with guided text fields, genre choices and importance scales.
+- React and TypeScript questionnaire with guided text fields, genre checkboxes, single-choice era and method lists, and Likert importance scales.
 - Cinema interface with local film posters, mood shortcuts, a searchable collection and a mobile search action.
 - FastAPI backend with Pydantic validation and an English language check.
 - CPU sentence embeddings, token chunking and local corpus-vector caching.
 - Six-criterion weighted scoring, Top 3 ranking, strict filters and explicit missing-data handling.
-- Preference summary, deterministic explanations, contribution details and Recharts bar charts.
-- Voluntary JSON export without a permanent response history.
+- Preference summary, deterministic explanations, contribution details, a radar chart of the match profile and Recharts bar charts.
+- Opt-in structured storage of questionnaire answers and their Top 3 in a local JSON Lines file, plus a voluntary JSON export.
 - TMDB collection and validation commands, annotation guide, three-method evaluation and automated tests.
+- Automatic relevance judgments by a local LLM (clearly separated from human judgments) to measure Precision@3 and nDCG@3 and to select the scoring configuration.
+- Optional bonus: an "Ask the critic" button that rephrases a recommendation with a local LLM (Ollama). The ranking never depends on it.
 
 The application includes 150 real films selected from the public TMDB 5000 snapshot. It works without a personal API token. Source keywords provide the themes; setting cues are extracted from the source text. Atmosphere and narrative labels are estimates selected from fixed descriptions using the semantic encoder. Missing or weakly supported descriptions stay `null`. This is automatic annotation, not a claimed human cross-review.
 
@@ -35,7 +37,18 @@ Start the API and the built frontend from the same terminal:
 
 Open [Movie Match](http://127.0.0.1:8000) or the [API documentation](http://127.0.0.1:8000/docs). Press Ctrl+C in the terminal to stop the server. The included corpus works without a TMDB token or `.env` file.
 
-On macOS or Linux, create the environment with `python3.12 -m venv .venv`, use `.venv/bin/python` for Python commands and use `npm` in place of `npm.cmd`. Exact dependency versions are recorded in `requirements.lock` and `frontend/package-lock.json`.
+On macOS or Linux:
+
+```sh
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+npm --prefix frontend ci
+npm --prefix frontend run build
+.venv/bin/python -m scripts.prepare_model
+.venv/bin/python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+```
+
+The lock file installs the CPU build of PyTorch on Windows and Linux and the standard build on macOS. Exact dependency versions are recorded in `requirements.lock` and `frontend/package-lock.json`.
 
 ## Data and local model
 
@@ -80,7 +93,9 @@ The principal encoder is `sentence-transformers/all-MiniLM-L6-v2`. It produces n
 
 For each available active criterion, multiply its weight by its importance from 1 to 5. The affinity is 100 times the weighted mean of the non-negative cosine similarities. Criteria missing from either side are excluded from the denominator and missing film descriptions are shown. This index is not a probability of enjoyment. The initial weights still need validation using the validation queries.
 
-Duration, excluded genres, excluded annotated topics and watched films are strict filters. Unknown duration does not pass a duration limit. Contradictory genre choices are rejected. Topic exclusions use annotations and cannot cover every scene. Unsupported non-English text is rejected when confidently detected; short and mixed-language requests remain a documented limitation.
+When the user ticks "Save my answers to the local study log", the API appends the answers, the method, the Top 3 and the corpus fingerprint to `data/responses/responses.jsonl` (excluded from Git; change the path with `RESPONSES_PATH`). Nothing is stored otherwise.
+
+Release period, duration, excluded genres, excluded annotated topics and watched films are strict filters. Unknown duration does not pass a duration limit. Contradictory genre choices are rejected. Topic exclusions use annotations and cannot cover every scene. Unsupported non-English text is rejected when confidently detected; short and mixed-language requests remain a documented limitation.
 
 ## Verification and evaluation
 
@@ -101,7 +116,31 @@ The [evaluation guide](evaluation/README.md) describes the 30 queries, common ju
 .\.venv\Scripts\python.exe -m scripts.evaluate run --split test
 ```
 
-Compare TF-IDF, global SBERT and criterion SBERT. Select parameters with the 10 validation queries and keep the 20 test queries for final evaluation. Report Precision@3, nDCG@3, constraint compliance, returned counts and warm latency. No quality results should be claimed before annotation.
+Compare TF-IDF, global SBERT and criterion SBERT.
+
+Without human annotators, a local LLM can produce automatic ("silver") judgments with the same 0 to 3 scale. It requires [Ollama](https://ollama.com) and the `qwen3:14b` model. The judge only sees source metadata, never our estimated labels:
+
+```sh
+.venv/bin/python -m scripts.llm_judge
+.venv/bin/python -m scripts.tune_scoring            # validation split only
+.venv/bin/python -m scripts.evaluate run --split test --judgments evaluation/judgments-llm.csv
+```
+
+These numbers are automatic estimates and are reported separately from human relevance measurements. Parameters are selected with the 10 validation queries and the 20 test queries are kept for the final comparison.
+
+Current results with automatic LLM judgments on the 20 held-out test queries:
+
+| Method | Precision@3 | nDCG@3 |
+| --- | ---: | ---: |
+| TF-IDF (keywords) | 0.367 | 0.366 |
+| SBERT, one global vector | 0.450 | 0.485 |
+| SBERT by criterion (default) | 0.550 | 0.527 |
+
+See the evaluation section of [the documentation](docs/report.md) for the configuration selection and limits.
+
+## Optional local critic
+
+If Ollama is running with the `qwen3:8b` model (`ollama pull qwen3:8b`), each recommendation shows an "Ask the critic" button. The model rewrites the explanation in two or three sentences using only the user's summary, the synopsis and the matched criteria. Change the model with `CRITIC_MODEL` and the server with `OLLAMA_URL`. Without Ollama the button is hidden and everything else works offline.
 
 ## Repository organisation
 

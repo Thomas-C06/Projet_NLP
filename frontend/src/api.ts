@@ -19,6 +19,12 @@ export const getRecommendations = (preferences: Preferences) => request<Results>
   method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(preferences),
 });
 
+export const getCriticPitch = (tmdb_id: number, profile_summary: string, main_contributions: string[]) =>
+  request<{ text: string; model: string }>('critic', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ tmdb_id, profile_summary, main_contributions }),
+  });
+
 export function downloadPreferences(profile: Preferences): void {
   const blob = new Blob([JSON.stringify(profile, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
