@@ -44,6 +44,22 @@ The evaluator rejects incomplete judgments and a changed corpus. Regenerate the 
 
 `python -m scripts.tune_scoring` compares scoring configurations on the validation split and writes `scoring-selection.json`. `results-llm-validation.json` and `results-llm-test.json` contain the method comparison. `scoring-ablation-test.json` reports the same configurations on the test split for transparency only; it was produced after the choice was fixed.
 
+`python -m scripts.tune_scoring` (default `--grid genres`) compares the semantic genre score with exact genre coverage at weights 0.05, 0.15 and 0.25, on the validation split, and writes `scoring-selection-genres.json`. `--grid story` reproduces the first selection with the original genre scoring. After changing the defaults in `backend/config.py`, refresh the LLM results:
+
+```sh
+python -m scripts.tune_scoring
+python -m scripts.llm_judge
+python -m scripts.evaluate run --split validation --judgments evaluation/judgments-llm.csv --output evaluation/results-llm-validation.json
+python -m scripts.evaluate run --split test --judgments evaluation/judgments-llm.csv --output evaluation/results-llm-test.json
+python -m scripts.check_application
+```
+
+The judgment cache only sends new query-film pairs to the LLM.
+
 These are automatic estimates. Report them as LLM judgments, never as human annotations.
+
+## Human study
+
+`docs/human-study.md` describes the human protocol. `python -m scripts.human_study sheets` writes blind, shuffled sheets for two annotators, `merge` converts the completed sheets to `judgments-human.csv` for `scripts.evaluate`, and `agreement` measures agreement between annotators and with the LLM judge (`agreement-human-llm.json`).
 
 No human relevance measurements are invented. The technical results are available immediately; independent relevance measurements use the explicit judgment workflow above.

@@ -49,6 +49,14 @@ PERIOD_LABELS = {
 # of the affinity given to one extra "Overall profile" criterion.
 STORY_SCOPE = os.getenv("STORY_SCOPE", "profile")
 OVERALL_WEIGHT = float(os.getenv("OVERALL_WEIGHT", "0"))
+# How preferred genres are scored. "semantic" compares the genre names with the
+# encoder. "coverage" uses the exact TMDB categories: the share of the preferred
+# genres that the film has. GENRE_WEIGHT replaces the base weight of the genre
+# criterion. scripts.tune_scoring compared them on the validation queries
+# (evaluation/scoring-selection-genres.json): coverage did not improve Precision@3
+# and lowered nDCG@3, so the original semantic scoring stays the default.
+GENRE_MATCH = os.getenv("GENRE_MATCH", "semantic")
+GENRE_WEIGHT = float(os.getenv("GENRE_WEIGHT", "0.05"))
 LABELS = {
     "description": "Story",
     "themes": "Themes",
