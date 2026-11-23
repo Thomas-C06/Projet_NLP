@@ -8,7 +8,9 @@ from langdetect import DetectorFactory, LangDetectException, detect_langs
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from backend.catalog import eligible, fingerprint, movie_texts
-from backend.config import LABELS, OVERALL_WEIGHT, PERIOD_LABELS, STORY_SCOPE, WEIGHTS
+from backend.config import (
+    GENRE_MATCH, GENRE_WEIGHT, LABELS, OVERALL_WEIGHT, PERIOD_LABELS, STORY_SCOPE, WEIGHTS,
+)
 from backend.schemas import CriterionScore, Preferences, Recommendation, RecommendationResponse
 
 DetectorFactory.seed = 0
@@ -42,12 +44,24 @@ def summarise(profile: Preferences) -> str:
     return " ".join(parts)
 
 
+def genre_coverage(preferred: list[str], genres: list[str]) -> float:
+    """Share of the preferred genres found in the film's exact categories."""
+    wanted = {genre.casefold() for genre in preferred}
+    if not wanted:
+        return 0.0
+    return len(wanted & {genre.casefold() for genre in genres}) / len(wanted)
+
+
 class Recommender:
-    def __init__(self, movies, encoder=None, story_scope: str = STORY_SCOPE, overall_weight: float = OVERALL_WEIGHT):
-        if story_scope not in ("overview", "profile") or not 0 <= overall_weight < 1:
+    def __init__(self, movies, encoder=None, story_scope: str = STORY_SCOPE, overall_weight: float = OVERALL_WEIGHT,
+                 genre_match: str = GENRE_MATCH, genre_weight: float = GENRE_WEIGHT):
+        if (story_scope not in ("overview", "profile") or not 0 <= overall_weight < 1
+                or genre_match not in ("semantic", "coverage") or not 0 <= genre_weight <= 1):
             raise ValueError("Invalid scoring configuration.")
         self.story_scope = story_scope
         self.overall_weight = overall_weight
+        self.genre_match = genre_match
+        self.weights = dict(WEIGHTS, genres=genre_weight)
         self.movies = movies
         self.encoder = encoder
         self.fingerprint = fingerprint(movies)
@@ -96,10 +110,12 @@ class Recommender:
             flat = [fields[key] for fields in self.compared for key in WEIGHTS]
             vectors = self.encoder.encode_corpus(flat)
             self.semantic_fields = vectors.reshape(len(self.movies), len(WEIGHTS), -1)
-        queries = self.encoder.encode(list(active.values()))
+        semantic = {key: text for key, text in active.items()
+                    if not (key == "genres" and self.genre_match == "coverage")}
+        queries = self.encoder.encode(list(semantic.values()))
         return {
             key: self.semantic_fields[:, list(WEIGHTS).index(key), :] @ queries[index]
-            for index, key in enumerate(active)
+            for index, key in enumerate(semantic)
         }
 
     def recommend(self, profile: Preferences, top_k: int = 3, validate_language: bool = True):
@@ -114,6 +130,11 @@ class Recommender:
         if candidates:
             if profile.method == "sbert_criteria":
                 similarities = self._criterion_similarities(active)
+                if "genres" in active and self.genre_match == "coverage":
+                    # Exact categories: a "Comedy, Family" request half-matches a film that is only a comedy.
+                    similarities["genres"] = np.array([
+                        genre_coverage(profile.preferred_genres, movie.genres) for movie in self.movies
+                    ])
                 global_scores = None
                 if self.overall_weight:
                     overall_scores = self._global_similarities(". ".join(active.values()), "sbert_global")
@@ -126,13 +147,13 @@ class Recommender:
                 available = {key: text for key, text in active.items() if self.compared[index][key]}
                 missing = [LABELS[key] for key in active if key not in available]
                 if profile.method == "sbert_criteria":
-                    denominator = sum(WEIGHTS[key] * importance[key] for key in available)
+                    denominator = sum(self.weights[key] * importance[key] for key in available)
                     if not denominator:
                         continue
                     details = []
                     for key in available:
                         similarity = float(np.clip(similarities[key][index], 0, 1))
-                        weight = (1 - self.overall_weight) * WEIGHTS[key] * importance[key] / denominator
+                        weight = (1 - self.overall_weight) * self.weights[key] * importance[key] / denominator
                         details.append(CriterionScore(
                             criterion=key, label=LABELS[key], similarity=similarity,
                             weight=weight, contribution=100 * similarity * weight,

@@ -113,3 +113,53 @@ def test_release_period_is_a_strict_filter(movies, encoder):
                               validate_language=False)
     assert [item.movie.tmdb_id for item in result.recommendations] == [2]
     assert "between 1980 and 1999" in result.profile_summary
+
+
+def comedy_films():
+    from backend.schemas import Movie
+    shared = dict(overview="A friendship story.", themes=["friendship"], mood="A warm friendship.",
+                  narrative_style="Character study.", setting="A small town.", runtime_minutes=95,
+                  source="Fictional test record", annotation_version="test-v1")
+    return [
+        Movie(tmdb_id=10, title="Adult Comedy", genres=["Comedy"], **shared),
+        Movie(tmdb_id=11, title="Family Comedy", genres=["Comedy", "Family"], **shared),
+        Movie(tmdb_id=12, title="Crime Drama", genres=["Crime", "Drama"], **shared),
+    ]
+
+
+def test_genre_coverage_uses_exact_categories():
+    from backend.recommender import genre_coverage
+    assert genre_coverage(["Comedy", "Family"], ["Comedy"]) == 0.5
+    assert genre_coverage(["comedy", "family"], ["Family", "Comedy", "Music"]) == 1
+    assert genre_coverage(["Comedy"], ["Drama"]) == 0
+    assert genre_coverage([], ["Drama"]) == 0
+
+
+def test_family_request_prefers_films_with_every_requested_genre(encoder):
+    # Same texts: only the genres separate the films, as for The Hangover in a family request.
+    result = Recommender(comedy_films(), encoder, genre_match="coverage").recommend(Preferences(
+        description="I would like a friendship story.", preferred_genres=["Comedy", "Family"]
+    ))
+    assert [item.movie.title for item in result.recommendations] == ["Family Comedy", "Adult Comedy", "Crime Drama"]
+    genre_scores = {item.movie.title: next(c.similarity for c in item.criteria if c.criterion == "genres")
+                    for item in result.recommendations}
+    assert genre_scores == {"Family Comedy": 1, "Adult Comedy": 0.5, "Crime Drama": 0}
+
+
+def test_genre_weight_changes_the_genre_share(encoder):
+    profile = Preferences(description="I would like a friendship story.", preferred_genres=["Family"])
+    films = comedy_films()
+    light = Recommender(films, encoder, genre_match="coverage", genre_weight=0.05).recommend(profile)
+    strong = Recommender(films, encoder, genre_match="coverage", genre_weight=0.25).recommend(profile)
+    def share(result):
+        film = next(item for item in result.recommendations if item.movie.tmdb_id == 11)
+        return next(c.weight for c in film.criteria if c.criterion == "genres")
+    assert share(light) == pytest.approx(0.05 / 0.40)
+    assert share(strong) == pytest.approx(0.25 / 0.60)
+
+
+def test_invalid_genre_configuration_is_rejected(movies):
+    with pytest.raises(ValueError):
+        Recommender(movies, genre_match="fuzzy")
+    with pytest.raises(ValueError):
+        Recommender(movies, genre_weight=2)

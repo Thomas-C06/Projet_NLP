@@ -84,12 +84,14 @@ The principal encoder is `sentence-transformers/all-MiniLM-L6-v2`. It produces n
 
 | Criterion | Base weight |
 | --- | ---: |
-| Story and synopsis | 35% |
-| Themes | 25% |
-| Atmosphere | 15% |
-| Narrative style | 10% |
-| Setting | 10% |
-| Genres | 5% |
+| Story and synopsis | 0.35 |
+| Themes | 0.25 |
+| Atmosphere | 0.15 |
+| Narrative style | 0.10 |
+| Setting | 0.10 |
+| Genres | 0.05 |
+
+Only the ratios between weights matter. An alternative genre score, the share of the preferred genres found in the film's TMDB categories, can be enabled with `GENRE_MATCH=coverage` and `GENRE_WEIGHT`. It did not improve the validation results, so it is not the default.
 
 For each available active criterion, multiply its weight by its importance from 1 to 5. The affinity is 100 times the weighted mean of the non-negative cosine similarities. Criteria missing from either side are excluded from the denominator and missing film descriptions are shown. This index is not a probability of enjoyment. The initial weights still need validation using the validation queries.
 
