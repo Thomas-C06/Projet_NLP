@@ -4,6 +4,10 @@ This project implements an English movie recommendation application for the ING5
 
 The repository includes the interface and a corpus of 150 real films from the public TMDB 5000 snapshot. The setup instructions explain how to build the frontend and download the model once. Uvicorn then serves the interface and API locally without a personal API token. The technical checks cover application behaviour. Ranking quality was measured with automatic relevance judgments from a local language model; an independent human evaluation remains possible with the same protocol.
 
+## Deliverables
+
+The submission contains four parts. The source code is the web application (Python backend, React frontend) with comments at each processing step. The documented notebook notebooks/movie_match_walkthrough.ipynb runs the same backend modules step by step on the real corpus: dataset inspection, preprocessing, embeddings, the scoring formula computed by hand and checked against the engine, the Top 3 with explanations, the charts and the evaluation results. This PDF is the written documentation. The presentation slides support the class demonstration.
+
 ## Application architecture
 
 The frontend uses React, TypeScript, Vite and Tailwind CSS. Recharts presents the global affinity and criterion scores. The backend uses Python 3.12, FastAPI and Pydantic. The REST API separates presentation from recommendation. NumPy handles vectors, scikit-learn provides the lexical comparison, and httpx collects source metadata.
@@ -22,6 +26,8 @@ The corpus contains 150 films from the public TMDB 5000 snapshot distributed on 
 
 Themes use source keyword tags. Setting descriptions are extracted from explicit source cues. Atmosphere and narrative-focus labels are estimated by comparing source text with fixed English descriptions in the embedding space. A similarity below 0.15 leaves the label unknown. The evidence file records original tags, source setting cues and label similarities; no human cross-review is claimed. Pydantic validates all 150 records. Unknown values remain null, including 50 setting fields, 14 atmosphere fields and 4 narrative-style fields. The interface explains estimated attributes and missing-field handling.
 
+![Figure 1. Genre and decade distribution of the 150-film reference corpus.](figures/corpus.png)
+
 ---
 
 ## Semantic representation
@@ -29,6 +35,10 @@ Themes use source keyword tags. Setting descriptions are extracted from explicit
 The principal model is sentence-transformers/all-MiniLM-L6-v2. It maps English sentences and short paragraphs to 384-dimensional vectors. It is used as a pretrained encoder on CPU. No task-specific model training is performed.
 
 Cleaning only normalises whitespace. It preserves negations, punctuation and sentence context. Text longer than the supported sequence length is split into token chunks with room reserved for special tokens. Chunk vectors are averaged and normalised. The same procedure encodes user preferences and film attributes.
+
+The model was chosen because requests and film descriptions are sentences rather than isolated words. Static word embeddings such as Word2Vec, GloVe or fastText average word vectors and lose context and word order, while Sentence-BERT is trained so that paraphrases receive close vectors. In the notebook, "A film about a robot that develops feelings" and "An artificial intelligence learns to love" share no content word (TF-IDF cosine 0.00) but reach an SBERT cosine of 0.57. The model is also small enough to answer in under 50 ms on a laptop CPU, and its normalised vectors make cosine similarity a dot product. Cosine similarity compares directions rather than lengths, so a long synopsis is not favoured over a short label.
+
+![Figure 2. Cosine similarity between film texts and the fixed atmosphere descriptions used to estimate the atmosphere label.](figures/atmosphere-labels.png)
 
 The model is downloaded during preparation and stored locally. Corpus vectors are cached using text content, model files and processing settings. User text is not written to the disk cache. Model and corpus preparation are separate from recommendation, so no TMDB request or model download is needed during the demonstration.
 
@@ -42,6 +52,10 @@ Affinity(f) = 100 * sum[w(b) * i(b) * max(0, s(b,f))] / sum[w(b) * i(b)], for b 
 
 If no usable criterion remains, the film is not scored. Missing fields are reported, and weights are renormalised over available active criteria. This can make a film with fewer annotations look strong on fewer criteria; the displayed missing-field warning and final corpus completeness check are therefore important.
 
+This formula is the weighted coverage score suggested by the assignment, sum(Wi * Si) / sum(Wi), where the criteria play the role of the competency blocks, Wi is the base weight multiplied by the Likert importance and Si is the cosine similarity. The base weights follow the information value and reliability of each field: the synopsis is always present and the richest text, keyword themes are precise and present for every film, atmosphere is an estimated label, storytelling and setting are secondary or often missing, and genres are coarse and already handled by the strict genre filter.
+
+Worked example from the notebook: for the assignment request about an emotional science-fiction film on human relationships and artificial intelligence, Her obtains story 0.42, themes 0.70, atmosphere 0.30, storytelling 0.66 and genres 0.84. With the chosen importances the weighted sum is 1.817 over a total weight of 3.65, so the affinity is 49.8. The engine returns the same value.
+
 The affinity index ranges from 0 to 100. It expresses textual alignment, not a calibrated probability of enjoyment. The initial weights are design assumptions that should be checked on the validation queries.
 
 ## Filters and explanations
@@ -49,6 +63,10 @@ The affinity index ranges from 0 to 100. It expresses textual alignment, not a c
 Strict filters are applied before ranking. A duration limit excludes unknown durations. Excluded genres and already watched identifiers are removed. Topic exclusions match reviewed tags and exclude films with unknown topic annotations. They cannot guarantee that every scene avoids a topic. If fewer than three eligible films remain, the response explains this without relaxing a constraint.
 
 The result includes film metadata, the global index, criterion similarities, normalised weights, point contributions and source attribute text. The two largest positive contributions support a deterministic explanation. No positive match and missing annotations are shown explicitly. Three charts support interpretation: a bar chart of the global affinity, a radar chart of the match profile (similarity per criterion for each of the three films) and a grouped bar chart per criterion. Posters are cached separately from public TMDB pages with their image sources recorded. Both posters and typography are served locally for offline use.
+
+![Figure 3. Top 3 for the example request: global affinity, match profile per criterion (radar chart) and points contributed by each criterion.](figures/top3-scores.png)
+
+![Figure 4. Similarity map: film profiles projected in two dimensions with PCA, the user request (star) and the Top 3 (circled).](figures/semantic-map.png)
 
 The cinema interface provides mood shortcuts that guide optional preferences while preserving an existing story and strict limits. A searchable collection supports accent-insensitive title searches. The mobile action keeps search accessible while completing the questionnaire. The dark layout, poster cards, reduced-motion support and expanded scoring details keep the same recommendation logic visible to the user.
 
@@ -86,6 +104,8 @@ Comparing the story with the whole profile and no extra criterion gave the best 
 | TF-IDF (keywords) | 0.367 | 0.366 | 0.533 | 0.475 | 42 ms |
 | SBERT, one global vector | 0.450 | 0.485 | 0.533 | 0.527 | 46 ms |
 | SBERT by criterion (selected) | 0.550 | 0.527 | 0.567 | 0.580 | 47 ms |
+
+![Figure 5. Precision@3 and nDCG@3 of the three methods on the 20 held-out test queries (automatic LLM judgments).](figures/evaluation.png)
 
 All methods respected every strict constraint. On the held-out test queries the semantic methods clearly beat the keyword baseline, and the criterion-level aggregation adds about 10 points of Precision@3 over a single global embedding. For transparency, the previous configuration (story compared with the synopsis only) reached 0.450 P@3 and 0.433 nDCG@3 on the same test queries. With 20 queries one relevant film more or less changes P@3 by about 1.7 points, so the differences are indicative rather than statistically established. The per-query results are in evaluation/results-llm-test.json and the judge's one-sentence reasons are in evaluation/judgments-llm.csv for manual inspection.
 

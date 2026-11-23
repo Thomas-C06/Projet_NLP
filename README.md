@@ -17,6 +17,13 @@ Movie Match is our ING5 NLP project at ECE for 2026-2027. It recommends films fr
 
 The application includes 150 real films selected from the public TMDB 5000 snapshot. It works without a personal API token. Source keywords provide the themes; setting cues are extracted from the source text. Atmosphere and narrative labels are estimates selected from fixed descriptions using the semantic encoder. Missing or weakly supported descriptions stay `null`. This is automatic annotation, not a claimed human cross-review.
 
+## Deliverables
+
+- Web application: the source code in `backend/` and `frontend/`, launched as described below.
+- Documented notebook: [notebooks/movie_match_walkthrough.ipynb](notebooks/movie_match_walkthrough.ipynb) runs the same backend step by step on the real corpus (dataset, preprocessing, embeddings, scoring by hand, Top 3, charts, evaluation). Install the extras with `pip install -r requirements-notebook.txt`; regenerate and re-execute it with `python -m scripts.build_notebook`, which also refreshes the report figures in `docs/figures/`.
+- PDF documentation: [output/pdf/project-documentation.pdf](output/pdf/project-documentation.pdf), built from `docs/report.md` with `python -m scripts.build_report`.
+- Presentation slides and demonstration plan: see [the presentation notes](docs/demo.md).
+
 ## Setup and launch
 
 Use Python 3.12 and Node.js 24. From the project root, run these commands once in PowerShell. The model download requires internet access on the first run.
@@ -151,7 +158,8 @@ scripts/           Collection, validation, model preparation and evaluation
 data/              Reference corpus and data instructions
 evaluation/        Queries, judgment instructions and local results
 tests/             Backend and scoring tests
-docs/              Annotation guide, report source and demonstration notes
+notebooks/         Documented, executed walkthrough of the pipeline
+docs/              Annotation guide, report source, figures and demonstration notes
 output/pdf/        Generated PDF documentation
 local-notes/       Personal documents excluded from Git
 ```

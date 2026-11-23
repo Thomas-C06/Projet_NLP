@@ -7,7 +7,8 @@ from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+from reportlab.lib.utils import ImageReader
+from reportlab.platypus import Image, PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 from backend.config import ROOT
 
@@ -23,6 +24,8 @@ def main():
                               keepWithNext=True))
     styles.add(ParagraphStyle(name="ReportBody", fontName="Helvetica", fontSize=10,
                               leading=15, alignment=TA_LEFT, spaceAfter=9))
+    styles.add(ParagraphStyle(name="Caption", fontName="Helvetica-Oblique", fontSize=8.5,
+                              leading=11, textColor=colors.HexColor("#555555"), spaceBefore=3))
     story = []
     paragraphs = (ROOT / "docs/report.md").read_text(encoding="utf-8").split("\n\n")
     for paragraph in paragraphs:
@@ -31,6 +34,15 @@ def main():
             continue
         if text == "---":
             story.append(PageBreak())
+            continue
+        figure = re.fullmatch(r"!\[(.*)\]\((.+)\)", text)
+        if figure:
+            # Markdown image: scale it to the text width and add the caption below.
+            path = ROOT / "docs" / figure.group(2)
+            width, height = ImageReader(str(path)).getSize()
+            scale = min(499 / width, 300 / height)
+            story.extend([Image(str(path), width * scale, height * scale),
+                          Paragraph(escape(figure.group(1)), styles["Caption"]), Spacer(1, 6)])
             continue
         lines = text.splitlines()
         if all(line.startswith("|") for line in lines):
