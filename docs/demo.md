@@ -12,6 +12,6 @@ All group members should explain their own contribution. The presentation can fo
 8. Present the measured three-method technical checks and difficult cases. Distinguish them from any separately collected human relevance measurements.
 9. Discuss missing annotations, language detection errors, negations and limits of the test set.
 
-Before class, open the application with Start Movie Match.cmd, then disconnect the network to check recommendation. The bundled corpus and local model are already prepared. Keep the PDF documentation and technical check outputs available locally.
+Before class, follow the setup in the README to build the frontend and prepare the local model. Start the app with Uvicorn, open it at http://127.0.0.1:8000, then disconnect the network and try a recommendation. Keep the PDF documentation and technical check outputs available locally.
 
 Do not present technical unit tests as proof of recommendation relevance. Relevance requires the independent human judgments described in the evaluation guide.

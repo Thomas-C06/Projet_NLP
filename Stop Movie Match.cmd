@@ -1,4 +1,0 @@
-@echo off
-cd /d "%~dp0"
-py scripts\launch.py --stop
-if errorlevel 1 pause

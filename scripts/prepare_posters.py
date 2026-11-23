@@ -51,10 +51,6 @@ async def main():
                     (output / f"{movie_id}.jpg").write_bytes(image.content)
                     manifest[movie_id] = {"title": film["title"], "source": film["source"],
                                           "image_source": parser.images[0]}
-                    if movie_id == "152601" and len(parser.images) > 1:
-                        backdrop = await client.get(parser.images[1])
-                        if backdrop.status_code == 200:
-                            (output / "hero-backdrop.jpg").write_bytes(backdrop.content)
                     manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
                 except httpx.HTTPError as error:
                     failures.append({"id": movie_id, "error": type(error).__name__})

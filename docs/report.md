@@ -2,7 +2,7 @@
 
 This project implements an English movie recommendation application for the ING5 Natural Language Processing assignment. It matches a user's written expectations with a structured film corpus and explains the three highest-ranked recommendations.
 
-The complete application includes its local corpus, model and interface. It opens from the desktop launcher without a personal API token or manual preparation. The corpus contains 150 real films from the public TMDB 5000 snapshot. Independent human relevance measurements are separate from the technical checks and are not invented.
+The repository includes the interface and a corpus of 150 real films from the public TMDB 5000 snapshot. The setup instructions explain how to build the frontend and download the model once. Uvicorn then serves the interface and API locally without a personal API token. The technical checks cover application behaviour, and independent human relevance evaluation is pending.
 
 ## Application architecture
 

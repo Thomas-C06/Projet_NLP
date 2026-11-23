@@ -1,7 +1,6 @@
 """Local REST API. Recommendation requests are not saved on the server."""
 
 import os
-import hashlib
 from functools import lru_cache
 
 from fastapi import FastAPI, HTTPException
@@ -39,8 +38,6 @@ def health():
     return {
         "status": "ok", "catalog_size": len(engine.movies), "target_size": TARGET_SIZE,
         "application": "movie-match",
-        "server_pid": os.getpid(),
-        "instance_id": hashlib.sha256(str(ROOT).encode()).hexdigest()[:16],
         "model_available": MODEL_PATH.exists(), "weights": WEIGHTS,
         "corpus_ready": len(engine.movies) == TARGET_SIZE,
         "annotated_count": sum(all(movie.model_dump().get(key) for key in

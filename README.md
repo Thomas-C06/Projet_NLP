@@ -15,33 +15,33 @@ Movie Match is our ING5 NLP project at ECE for 2026-2027. It recommends films fr
 
 The application includes 150 real films selected from the public TMDB 5000 snapshot. It works without a personal API token. Source keywords provide the themes; setting cues are extracted from the source text. Atmosphere and narrative labels are estimates selected from fixed descriptions using the semantic encoder. Missing or weakly supported descriptions stay `null`. This is automatic annotation, not a claimed human cross-review.
 
-## Open the application
+## Setup and launch
 
-Double-click **Start Movie Match.cmd**. The launcher prepares anything missing, starts the local service and opens the interface in your browser. On this project machine, dependencies, the corpus, the model and the compiled interface are already prepared. No `.env` or API key is needed.
-
-The complete application is served at http://127.0.0.1:8000. Double-click **Stop Movie Match.cmd** to stop the service created by the launcher. The launcher keeps its log in `tmp/application.log` and does not change a service belonging to another project.
-
-## Tools
-
-Python 3.12, FastAPI, Pydantic, sentence-transformers, NumPy, pandas, scikit-learn and httpx run the backend and data commands. React, TypeScript, Vite, Tailwind CSS and Recharts run the frontend. Tests use pytest and Vitest. Node.js 24 is used for the frontend. The resolved Python versions are in `requirements.lock`; npm versions are in `frontend/package-lock.json`.
-
-## Optional manual installation on Windows
-
-Run the following from the project root. Use Python 3.12 and Node.js 24.
+Use Python 3.12 and Node.js 24. From the project root, run these commands once in PowerShell. The model download requires internet access on the first run.
 
 ```powershell
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-npm --prefix frontend ci
+npm.cmd --prefix frontend ci
+npm.cmd --prefix frontend run build
+.\.venv\Scripts\python.exe -m scripts.prepare_model
 ```
 
-On the current project machine, Python 3.12 is registered with a vendor name. If the first command cannot find it, use `py -V:Astral/CPython3.12.15 -m venv .venv`. If `.venv` already exists, keep it and run the installation commands. An `.env` file is optional; the included corpus needs no token.
+Start the API and the built frontend from the same terminal:
+
+```powershell
+.\.venv\Scripts\python.exe -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+```
+
+Open [Movie Match](http://127.0.0.1:8000) or the [API documentation](http://127.0.0.1:8000/docs). Press Ctrl+C in the terminal to stop the server. The included corpus works without a TMDB token or `.env` file.
+
+On macOS or Linux, create the environment with `python3.12 -m venv .venv`, use `.venv/bin/python` for Python commands and use `npm` in place of `npm.cmd`. Exact dependency versions are recorded in `requirements.lock` and `frontend/package-lock.json`.
 
 ## Data and local model
 
 The included corpus is `data/movies.json`. Its manifest records the public source, archive checksum, corpus fingerprint and annotation method. `data/annotation-evidence.json` records the original keywords, setting evidence and label similarities for each film. The snapshot describes films released through 2016; it is not a live catalog of new releases. Poster paths are unavailable in this snapshot and stay `null`. A separate local poster cache in `frontend/public/posters/` records its own public TMDB image sources, without changing the scoring corpus.
 
-The local model and cached vectors are already prepared on this machine and are excluded from Git. The launcher downloads the model only when missing. After preparation, ranking needs no network access. `ALLOW_MODEL_DOWNLOAD=false` prevents a search from triggering an unexpected download.
+`scripts.prepare_model` downloads the encoder and caches corpus vectors locally. After preparation, ranking works offline. The model and cached vectors are excluded from Git.
 
 To rebuild the corpus from the frozen public snapshot on another machine, first prepare the model, then run `python -m scripts.prepare_catalog`. The script keeps an existing corpus unchanged. It needs no token. The original `scripts.collect_movies` command remains available for an optional fresh TMDB collection with a personal token.
 
@@ -49,7 +49,7 @@ Run `python -m scripts.validate_corpus` to check the schema and 150-film count. 
 
 ## Development commands
 
-The launcher serves the production interface and API together. For frontend development with hot reload, use two terminals in the project root.
+For frontend development with hot reload, use two terminals in the project root.
 
 Backend:
 
@@ -60,7 +60,7 @@ Backend:
 Frontend:
 
 ```powershell
-npm --prefix frontend run dev
+npm.cmd --prefix frontend run dev
 ```
 
 Open http://localhost:5173. API documentation is at http://127.0.0.1:8000/docs. Vite proxies `/api` to the backend. Restart the backend after changing the corpus or `.env`. Posters and typography are cached locally, so the interface also works offline. Asset provenance and the font license are in `frontend/public/ASSETS.md`.
@@ -86,8 +86,8 @@ Duration, excluded genres, excluded annotated topics and watched films are stric
 
 ```powershell
 .\.venv\Scripts\python.exe -m pytest -q
-npm --prefix frontend test
-npm --prefix frontend run build
+npm.cmd --prefix frontend test
+npm.cmd --prefix frontend run build
 ```
 
 Tests use fictional fixtures only inside the test suite. They verify technical behaviour and do not measure recommendation relevance. The optional real-model integration test runs when the local model has been prepared.
